@@ -1,0 +1,17 @@
+gpu_type,instance_count,family_count,provider
+A100,2,1,AWS
+A10G,13,1,AWS
+Blackwell,6,1,AWS
+Blackwell (B200),1,1,AWS
+Blackwell Ultra (B300),1,1,AWS
+GRID K520,2,1,AWS
+Gaudi 3,1,1,AWS
+H100,3,1,AWS
+Inferentia,4,1,AWS
+Inferentia 2,4,1,AWS
+K80,3,1,AWS
+L4,23,1,AWS
+M60,4,1,AWS
+T4,11,1,AWS
+Trainium,3,1,AWS
+V100,4,1,AWS

@@ -1,0 +1,135 @@
+provider,region_code,region_name,city,country,continent
+AWS,af-south-1,Africa (Cape Town),Cape Town,South Africa,Africa
+AWS,ap-east-1,Asia Pacific (Hong Kong),Hong Kong,Hong Kong,Asia Pacific
+AWS,ap-east-2,Asia Pacific (Taipei),Taipei,Taiwan,Asia Pacific
+AWS,ap-northeast-1,Asia Pacific (Tokyo),Tokyo,Japan,Asia Pacific
+AWS,ap-northeast-2,Asia Pacific (Seoul),Seoul,South Korea,Asia Pacific
+AWS,ap-northeast-3,Asia Pacific (Osaka),Osaka,Japan,Asia Pacific
+AWS,ap-south-1,Asia Pacific (Mumbai),Mumbai,India,Asia Pacific
+AWS,ap-south-2,Asia Pacific (Hyderabad),Hyderabad,India,Asia Pacific
+AWS,ap-southeast-1,Asia Pacific (Singapore),Singapore,Singapore,Asia Pacific
+AWS,ap-southeast-2,Asia Pacific (Sydney),Sydney,Australia,Asia Pacific
+AWS,ap-southeast-3,Asia Pacific (Jakarta),Jakarta,Indonesia,Asia Pacific
+AWS,ap-southeast-4,Asia Pacific (Melbourne),Melbourne,Australia,Asia Pacific
+AWS,ap-southeast-5,Asia Pacific (Malaysia),Malaysia,Malaysia,Asia Pacific
+AWS,ap-southeast-6,Asia Pacific (New Zealand),New Zealand,New Zealand,Asia Pacific
+AWS,ap-southeast-7,Asia Pacific (Thailand),Thailand,Thailand,Asia Pacific
+AWS,ca-central-1,Canada (Central),Central,Canada,Canada
+AWS,ca-west-1,Canada West (Calgary),Calgary,Canada,Canada West
+AWS,eu-central-1,Europe (Frankfurt),Frankfurt,Germany,Europe
+AWS,eu-central-2,Europe (Zurich),Zurich,Switzerland,Europe
+AWS,eu-north-1,Europe (Stockholm),Stockholm,Sweden,Europe
+AWS,eu-south-1,Europe (Milan),Milan,Italy,Europe
+AWS,eu-south-2,Europe (Spain),Spain,Spain,Europe
+AWS,eu-west-1,Europe (Ireland),Ireland,Ireland,Europe
+AWS,eu-west-2,Europe (London),London,United Kingdom,Europe
+AWS,eu-west-3,Europe (Paris),Paris,France,Europe
+AWS,il-central-1,Israel (Tel Aviv),Tel Aviv,Israel,Israel
+AWS,me-central-1,Middle East (UAE),UAE,United Arab Emirates,Middle East
+AWS,me-south-1,Middle East (Bahrain),Bahrain,Bahrain,Middle East
+AWS,mx-central-1,Mexico (Central),Central,Canada,Mexico
+AWS,sa-east-1,South America (Sao Paulo),Sao Paulo,Brazil,South America
+AWS,us-east-1,US East (N. Virginia),N. Virginia,United States,US East
+AWS,us-east-2,US East (Ohio),Ohio,United States,US East
+AWS,us-west-1,US West (N. California),N. California,United States,US West
+AWS,us-west-2,US West (Oregon),Oregon,United States,US West
+Azure,australiacentral,Australia Central,Canberra,Australia,Unknown
+Azure,australiacentral2,Australia Central 2,Canberra,Australia,Unknown
+Azure,australiaeast,Australia East,New South Wales,Australia,Unknown
+Azure,australiasoutheast,Australia Southeast,Victoria,Australia,Unknown
+Azure,austriaeast,Austria East,Vienna,Austria,Unknown
+Azure,belgiumcentral,Belgium Central,Brussels,Belgium,Unknown
+Azure,brazilsouth,Brazil South,Sao Paulo State,Brazil,Unknown
+Azure,brazilsoutheast,Brazil Southeast,Rio,Brazil,Unknown
+Azure,canadacentral,Canada Central,Toronto,Canada,Unknown
+Azure,canadaeast,Canada East,Quebec,Canada,Unknown
+Azure,centralindia,Central India,Pune,India,Unknown
+Azure,centralus,Central US,Iowa,United States,Unknown
+Azure,chilecentral,Chile Central,Santiago,Chile,Unknown
+Azure,denmarkeast,Denmark East,Copenhagen,Denmark,Unknown
+Azure,eastasia,East Asia,Hong Kong SAR,Asia Pacific,Unknown
+Azure,eastus,East US,Virginia,United States,Unknown
+Azure,eastus2,East US 2,Virginia,United States,Unknown
+Azure,francecentral,France Central,Paris,France,Unknown
+Azure,francesouth,France South,Marseille,France,Unknown
+Azure,germanynorth,Germany North,Berlin,Germany,Unknown
+Azure,germanywestcentral,Germany West Central,Frankfurt,Germany,Unknown
+Azure,indiasouthcentral,India South Central,Hyderabad,India,Unknown
+Azure,indonesiacentral,Indonesia Central,Jakarta,Indonesia,Unknown
+Azure,israelcentral,Israel Central,Israel,Israel,Unknown
+Azure,italynorth,Italy North,Milan,Italy,Unknown
+Azure,japaneast,Japan East,"Tokyo, Saitama",Japan,Unknown
+Azure,japanwest,Japan West,Osaka,Japan,Unknown
+Azure,koreacentral,Korea Central,Seoul,Korea,Unknown
+Azure,koreasouth,Korea South,Busan,Korea,Unknown
+Azure,malaysiawest,Malaysia West,Kuala Lumpur,Malaysia,Unknown
+Azure,mexicocentral,Mexico Central,Querétaro State,Mexico,Unknown
+Azure,newzealandnorth,New Zealand North,Auckland,New Zealand,Unknown
+Azure,northcentralus,North Central US,Illinois,United States,Unknown
+Azure,northeurope,North Europe,Ireland,Europe,Unknown
+Azure,norwayeast,Norway East,Norway,Norway,Unknown
+Azure,norwaywest,Norway West,Norway,Norway,Unknown
+Azure,polandcentral,Poland Central,Warsaw,Poland,Unknown
+Azure,qatarcentral,Qatar Central,Doha,Qatar,Unknown
+Azure,southafricanorth,South Africa North,Johannesburg,South Africa,Unknown
+Azure,southafricawest,South Africa West,Cape Town,South Africa,Unknown
+Azure,southcentralus,South Central US,Texas,United States,Unknown
+Azure,southindia,South India,Chennai,India,Unknown
+Azure,southeastasia,Southeast Asia,Singapore,Asia Pacific,Unknown
+Azure,spaincentral,Spain Central,Madrid,Spain,Unknown
+Azure,swedencentral,Sweden Central,Gävle,Sweden,Unknown
+Azure,switzerlandnorth,Switzerland North,Zurich,Switzerland,Unknown
+Azure,switzerlandwest,Switzerland West,Geneva,Switzerland,Unknown
+Azure,uaecentral,UAE Central,Abu Dhabi,UAE,Unknown
+Azure,uaenorth,UAE North,Dubai,UAE,Unknown
+Azure,uksouth,UK South,London,United Kingdom,Unknown
+Azure,ukwest,UK West,Cardiff,United Kingdom,Unknown
+Azure,westcentralus,West Central US,Wyoming,United States,Unknown
+Azure,westeurope,West Europe,Netherlands,Europe,Unknown
+Azure,westindia,West India,Mumbai,India,Unknown
+Azure,westus,West US,California,United States,Unknown
+Azure,westus2,West US 2,Washington,United States,Unknown
+Azure,westus3,West US 3,Phoenix,United States,Unknown
+GCP,africa-south1,africa-south1,Johannesburg,South Africa,Africa
+GCP,asia-east1,asia-east1,Changhua County,Taiwan,APAC
+GCP,asia-east2,asia-east2,Hong Kong,Hong Kong,APAC
+GCP,asia-northeast1,asia-northeast1,Tokyo,Japan,APAC
+GCP,asia-northeast2,asia-northeast2,Osaka,Japan,APAC
+GCP,asia-northeast3,asia-northeast3,Seoul,South Korea,APAC
+GCP,asia-south1,asia-south1,Mumbai,India,APAC
+GCP,asia-south2,asia-south2,Delhi,India,APAC
+GCP,asia-southeast1,asia-southeast1,Jurong West,Singapore,APAC
+GCP,asia-southeast2,asia-southeast2,Jakarta,Indonesia,APAC
+GCP,asia-southeast3,asia-southeast3,Bangkok,Thailand,APAC
+GCP,australia-southeast1,australia-southeast1,Sydney,Australia,APAC
+GCP,australia-southeast2,australia-southeast2,Melbourne,Australia,APAC
+GCP,europe-north1,europe-north1,Hamina,Finland,Europe
+GCP,europe-north2,europe-north2,Stockholm,Sweden,Europe
+GCP,europe-central2,europe-central2,Warsaw,Poland,Europe
+GCP,europe-southwest1,europe-southwest1,Madrid,Spain,Europe
+GCP,europe-west1,europe-west1,St. Ghislain,Belgium,Europe
+GCP,europe-west2,europe-west2,London,England,Europe
+GCP,europe-west3,europe-west3,Frankfurt,Germany,Europe
+GCP,europe-west4,europe-west4,Eemshaven,Netherlands,Europe
+GCP,europe-west6,europe-west6,Zurich,Switzerland,Europe
+GCP,europe-west8,europe-west8,Milan,Italy,Europe
+GCP,europe-west9,europe-west9,Paris,France,Europe
+GCP,europe-west10,europe-west10,Berlin,Germany,Europe
+GCP,europe-west12,europe-west12,Turin,Italy,Europe
+GCP,me-central1,me-central1,Doha,Qatar,Middle East
+GCP,me-central2,me-central2,Dammam,Saudi Arabia,Middle East
+GCP,me-west1,me-west1,Tel Aviv,Israel,Middle East
+GCP,northamerica-northeast1,northamerica-northeast1,Montréal,Québec,North America
+GCP,northamerica-northeast2,northamerica-northeast2,Toronto,Ontario,North America
+GCP,northamerica-south1,northamerica-south1,Queretaro,Mexico,North America
+GCP,southamerica-east1,southamerica-east1,Osasco,São Paulo,Brazil
+GCP,southamerica-west1,southamerica-west1,Santiago,Chile,South America
+GCP,us-central1,us-central1,Council Bluffs,Iowa,North America
+GCP,us-east1,us-east1,Moncks Corner,South Carolina,North America
+GCP,us-east4,us-east4,Ashburn,Virginia,North America
+GCP,us-east5,us-east5,Columbus,Ohio,North America
+GCP,us-south1,us-south1,Dallas,Texas,North America
+GCP,us-west1,us-west1,The Dalles,Oregon,North America
+GCP,us-west2,us-west2,Los Angeles,California,North America
+GCP,us-west3,us-west3,Salt Lake City,Utah,North America
+GCP,us-west4,us-west4,Las Vegas,Nevada,North America

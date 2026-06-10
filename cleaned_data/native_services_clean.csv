@@ -1,0 +1,461 @@
+provider,service_code,service_name,service_title,category,source,collection_date,category_v2,category_v3
+AWS,VMwareCloudOnAWS,VMwareCloudOnAWS,VMwareCloudOnAWS,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AWSEndUserMessaging3pFees,AWSEndUserMessaging3pFees,AWSEndUserMessaging3pFees,Messaging / Integration,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AWSDatabaseMigrationSvc,AWSDatabaseMigrationSvc,AWSDatabaseMigrationSvc,Database,AWS Price List Offer Index,2026-05-28,Database,Database
+AWS,AmazonGuardDuty,AmazonGuardDuty,AmazonGuardDuty,Security,AWS Price List Offer Index,2026-05-28,Security,Other
+AWS,AmazonApiGateway,AmazonApiGateway,AmazonApiGateway,Networking,AWS Price List Offer Index,2026-05-28,Networking,Networking
+AWS,AWSBillingConductor,AWSBillingConductor,AWSBillingConductor,Billing / Support,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonEKS,AmazonEKS,AmazonEKS,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AmazonManagedBlockchain,AmazonManagedBlockchain,AmazonManagedBlockchain,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AWSSecurityHub,AWSSecurityHub,AWSSecurityHub,Security,AWS Price List Offer Index,2026-05-28,Security,Security
+AWS,AmazonLookoutVision,AmazonLookoutVision,AmazonLookoutVision,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonML,AmazonML,AmazonML,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonS3GlacierDeepArchive,AmazonS3GlacierDeepArchive,AmazonS3GlacierDeepArchive,Storage,AWS Price List Offer Index,2026-05-28,Storage,Storage
+AWS,AWSNetworkFirewall,AWSNetworkFirewall,AWSNetworkFirewall,Networking,AWS Price List Offer Index,2026-05-28,Networking,Networking
+AWS,AWSComputeOptimizer,AWSComputeOptimizer,AWSComputeOptimizer,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AWSStorageGateway,AWSStorageGateway,AWSStorageGateway,Storage,AWS Price List Offer Index,2026-05-28,Storage,Storage
+AWS,AmazonKinesisVideo,AmazonKinesisVideo,AmazonKinesisVideo,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AmazonSecurityLake,AmazonSecurityLake,AmazonSecurityLake,Security,AWS Price List Offer Index,2026-05-28,Security,Security
+AWS,AWSIAMAccessAnalyzer,AWSIAMAccessAnalyzer,AWSIAMAccessAnalyzer,Security,AWS Price List Offer Index,2026-05-28,Security,Security
+AWS,AWSCodePipeline,AWSCodePipeline,AWSCodePipeline,DevOps,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonKinesis,AmazonKinesis,AmazonKinesis,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,CodeBuild,CodeBuild,CodeBuild,DevOps,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonEFS,AmazonEFS,AmazonEFS,Storage,AWS Price List Offer Index,2026-05-28,Storage,Storage
+AWS,AWSCodeArtifact,AWSCodeArtifact,AWSCodeArtifact,DevOps,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonBedrockService,AmazonBedrockService,AmazonBedrockService,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AWSSupportBusiness,AWSSupportBusiness,AWSSupportBusiness,Billing / Support,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AWSElementalMediaTailor,AWSElementalMediaTailor,AWSElementalMediaTailor,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AWSDeveloperSupport,AWSDeveloperSupport,AWSDeveloperSupport,Billing / Support,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,mobileanalytics,mobileanalytics,mobileanalytics,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AWSStorageGatewayDeepArchive,AWSStorageGatewayDeepArchive,AWSStorageGatewayDeepArchive,Storage,AWS Price List Offer Index,2026-05-28,Storage,Storage
+AWS,IoTDeviceDefender,IoTDeviceDefender,IoTDeviceDefender,Security,AWS Price List Offer Index,2026-05-28,Security,Security
+AWS,AmazonRedshift,AmazonRedshift,AmazonRedshift,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AmazonSageMaker,AmazonSageMaker,AmazonSageMaker,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonECS,AmazonECS,AmazonECS,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AmazonKinesisAnalytics,AmazonKinesisAnalytics,AmazonKinesisAnalytics,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AmazonWorkMail,AmazonWorkMail,AmazonWorkMail,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AWSQueueService,AWSQueueService,AWSQueueService,Messaging / Integration,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonEC2,AmazonEC2,AmazonEC2,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AWSBackup,AWSBackup,AWSBackup,Storage,AWS Price List Offer Index,2026-05-28,Storage,Storage
+AWS,AmazonSNS,AmazonSNS,AmazonSNS,Messaging / Integration,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonFSx,AmazonFSx,AmazonFSx,Storage,AWS Price List Offer Index,2026-05-28,Storage,Storage
+AWS,AmazonDynamoDB,AmazonDynamoDB,AmazonDynamoDB,Database,AWS Price List Offer Index,2026-05-28,Database,Database
+AWS,IoTDeviceManagement,IoTDeviceManagement,IoTDeviceManagement,Management,AWS Price List Offer Index,2026-05-28,Management,Management
+AWS,awskms,awskms,awskms,Security,AWS Price List Offer Index,2026-05-28,Security,Security
+AWS,AWSTelcoNetworkBuilder,AWSTelcoNetworkBuilder,AWSTelcoNetworkBuilder,Networking,AWS Price List Offer Index,2026-05-28,Networking,Networking
+AWS,AmazonEKSAnywhere,AmazonEKSAnywhere,AmazonEKSAnywhere,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AWSIoTEvents,AWSIoTEvents,AWSIoTEvents,Messaging / Integration,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,translate,translate,translate,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonAthena,AmazonAthena,AmazonAthena,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AWSSupportEnterprise,AWSSupportEnterprise,AWSSupportEnterprise,Billing / Support,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AWSEvents,AWSEvents,AWSEvents,Messaging / Integration,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AWSIoTAnalytics,AWSIoTAnalytics,AWSIoTAnalytics,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AWSCloudTrail,AWSCloudTrail,AWSCloudTrail,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AWSLambda,AWSLambda,AWSLambda,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,AmazonLightsail,AmazonLightsail,AmazonLightsail,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonBedrock,AmazonBedrock,AmazonBedrock,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonDevOpsGuru,AmazonDevOpsGuru,AmazonDevOpsGuru,DevOps,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AmazonVPC,AmazonVPC,AmazonVPC,Networking,AWS Price List Offer Index,2026-05-28,Networking,Networking
+AWS,AWSSupplyChain,AWSSupplyChain,AWSSupplyChain,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonKinesisFirehose,AmazonKinesisFirehose,AmazonKinesisFirehose,Analytics,AWS Price List Offer Index,2026-05-28,Analytics,Analytics
+AWS,AuroraDSQL,AuroraDSQL,AuroraDSQL,Database,AWS Price List Offer Index,2026-05-28,Database,Database
+AWS,AmazonBedrockAgentCore,AmazonBedrockAgentCore,AmazonBedrockAgentCore,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonBedrockFoundationModels,AmazonBedrockFoundationModels,AmazonBedrockFoundationModels,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning
+AWS,AmazonEC2OCPULicenseFees,AmazonEC2OCPULicenseFees,AmazonEC2OCPULicenseFees,Compute,AWS Price List Offer Index,2026-05-28,Compute,Compute
+AWS,DevOpsAgent,DevOpsAgent,DevOpsAgent,DevOps,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AWSSupportEssential,AWSSupportEssential,AWSSupportEssential,Billing / Support,AWS Price List Offer Index,2026-05-28,Other,Other
+AWS,AWSSecurityIncidentResponse,AWSSecurityIncidentResponse,AWSSecurityIncidentResponse,Security,AWS Price List Offer Index,2026-05-28,Security,Security
+AWS,AWSUnifiedOperations,AWSUnifiedOperations,AWSUnifiedOperations,Management,AWS Price List Offer Index,2026-05-28,Management,Management
+AWS,AWSInterconnect,AWSInterconnect,AWSInterconnect,Networking,AWS Price List Offer Index,2026-05-28,Networking,Networking
+AWS,AMSOperations,AMSOperations,AMSOperations,Management,AWS Price List Offer Index,2026-05-28,Management,Management
+Azure,Virtual Machines,Virtual Machines,Virtual Machines,Compute,Curated Azure Service Catalog,2026-05-28,Other,Compute
+Azure,Azure Kubernetes Service,Azure Kubernetes Service,Azure Kubernetes Service,Compute,Curated Azure Service Catalog,2026-05-28,Compute,Compute
+Azure,Azure Functions,Azure Functions,Azure Functions,Compute,Curated Azure Service Catalog,2026-05-28,Compute,Compute
+Azure,Azure Container Instances,Azure Container Instances,Azure Container Instances,Compute,Curated Azure Service Catalog,2026-05-28,Compute,Compute
+Azure,Blob Storage,Blob Storage,Blob Storage,Storage,Curated Azure Service Catalog,2026-05-28,Storage,Storage
+Azure,Disk Storage,Disk Storage,Disk Storage,Storage,Curated Azure Service Catalog,2026-05-28,Storage,Storage
+Azure,Queue Storage,Queue Storage,Queue Storage,Storage,Curated Azure Service Catalog,2026-05-28,Storage,Storage
+Azure,Archive Storage,Archive Storage,Archive Storage,Storage,Curated Azure Service Catalog,2026-05-28,Storage,Storage
+Azure,Data Lake Storage,Data Lake Storage,Data Lake Storage,Storage,Curated Azure Service Catalog,2026-05-28,Storage,Storage
+Azure,Azure SQL Database,Azure SQL Database,Azure SQL Database,Database,Curated Azure Service Catalog,2026-05-28,Database,Database
+Azure,Azure Database for PostgreSQL,Azure Database for PostgreSQL,Azure Database for PostgreSQL,Database,Curated Azure Service Catalog,2026-05-28,Database,Database
+Azure,Azure Database for MySQL,Azure Database for MySQL,Azure Database for MySQL,Database,Curated Azure Service Catalog,2026-05-28,Database,Database
+Azure,Azure Cache for Redis,Azure Cache for Redis,Azure Cache for Redis,Database,Curated Azure Service Catalog,2026-05-28,Database,Database
+Azure,Azure Synapse Analytics,Azure Synapse Analytics,Azure Synapse Analytics,Analytics,Curated Azure Service Catalog,2026-05-28,Analytics,Analytics
+Azure,Azure Stream Analytics,Azure Stream Analytics,Azure Stream Analytics,Analytics,Curated Azure Service Catalog,2026-05-28,Analytics,Analytics
+Azure,Azure OpenAI Service,Azure OpenAI Service,Azure OpenAI Service,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning
+Azure,Azure Machine Learning,Azure Machine Learning,Azure Machine Learning,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning
+Azure,Azure AI Search,Azure AI Search,Azure AI Search,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning
+Azure,Azure AI Services,Azure AI Services,Azure AI Services,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning
+Azure,Virtual Network,Virtual Network,Virtual Network,Networking,Curated Azure Service Catalog,2026-05-28,Networking,Networking
+Azure,Load Balancer,Load Balancer,Load Balancer,Networking,Curated Azure Service Catalog,2026-05-28,Networking,Networking
+Azure,Application Gateway,Application Gateway,Application Gateway,Networking,Curated Azure Service Catalog,2026-05-28,Networking,Networking
+Azure,Azure CDN,Azure CDN,Azure CDN,Networking,Curated Azure Service Catalog,2026-05-28,Networking,Networking
+Azure,Azure DNS,Azure DNS,Azure DNS,Networking,Curated Azure Service Catalog,2026-05-28,Networking,Networking
+Azure,VPN Gateway,VPN Gateway,VPN Gateway,Networking,Curated Azure Service Catalog,2026-05-28,Networking,Networking
+Azure,Microsoft Defender for Cloud,Microsoft Defender for Cloud,Microsoft Defender for Cloud,Security,Curated Azure Service Catalog,2026-05-28,Security,Security
+Azure,Microsoft Sentinel,Microsoft Sentinel,Microsoft Sentinel,Security,Curated Azure Service Catalog,2026-05-28,Security,Security
+Azure,Azure Firewall,Azure Firewall,Azure Firewall,Security,Curated Azure Service Catalog,2026-05-28,Security,Security
+Azure,Azure Monitor,Azure Monitor,Azure Monitor,Management,Curated Azure Service Catalog,2026-05-28,Management,Other
+Azure,Azure Automation,Azure Automation,Azure Automation,Management,Curated Azure Service Catalog,2026-05-28,Management,Management
+Azure,Azure Policy,Azure Policy,Azure Policy,Management,Curated Azure Service Catalog,2026-05-28,Management,Management
+Azure,Azure Resource Manager,Azure Resource Manager,Azure Resource Manager,Management,Curated Azure Service Catalog,2026-05-28,Other,Management
+GCP,0017-8C5E-5B91,OpenLogic CentOS 7.8 (v20200922) - Security Hardened,OpenLogic CentOS 7.8 (v20200922) - Security Hardened,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,00E4-BD19-6904,Commvault Backup & Recovery  BYOL,Commvault Backup & Recovery  BYOL,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,0296-B408-6B99,MayaData Cloud File Gateway,MayaData Cloud File Gateway,Networking,Google Cloud Billing Catalog API,2026-05-28,Storage,Networking
+GCP,02DA-B362-D983,Cloud Text-to-Speech API,Cloud Text-to-Speech API,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,02E3-5518-2F6D,"F5 Networks F5 Per-App VE  Advanced WAF  (PAYG, 200Mbps)","F5 Networks F5 Per-App VE  Advanced WAF  (PAYG, 200Mbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,0393-AA9E-2E8F,Aiven for Redis,Aiven for Redis,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,03C0-8240-4A98,Moodle: The Ultimate Learning Management System,Moodle: The Ultimate Learning Management System,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,04BF-4769-E87A,VMware Tanzu Greenplum BYOL,VMware Tanzu Greenplum BYOL,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,0585-9FB4-1E3D,DataStax API (Dev),DataStax API (Dev),Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,0665-C160-E827,PostgreSQL 9.6,PostgreSQL 9.6,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,0773-E9BA-959C,NVIDIA GPU-Optimized VMI,NVIDIA GPU-Optimized VMI,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,0B9E-6C8C-DD9D,JENKINS,JENKINS,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,0BB0-D027-38CF,PREDICTIVE ANALYTICS FRAMEWORK R HADOOP,PREDICTIVE ANALYTICS FRAMEWORK R HADOOP,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,0BCC-06B3-2936,FortiGate Next-Generation Firewall (PAYG),FortiGate Next-Generation Firewall (PAYG),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,0CE3-7ECE-F8E8,Money Saver VM,Money Saver VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,0E0F-DA3F-B05F,OrangeHRM-The Ultimate HR Management Solution,OrangeHRM-The Ultimate HR Management Solution,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,0E69-0162-6B36,"AI/ML development, training & inference using Python & Jupyter","AI/ML development, training & inference using Python & Jupyter",AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,0F0F-56A0-A324,openlitespeed-rails,openlitespeed-rails,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,0F7C-A0C5-C2B7,NVIDIA GPU-Optimized TensorFlow VMI,NVIDIA GPU-Optimized TensorFlow VMI,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,1144-8BC5-52F6,MayaScale Composable NVMe Disaggregate Shared Storage ,MayaScale Composable NVMe Disaggregate Shared Storage ,Compute,Google Cloud Billing Catalog API,2026-05-28,Storage,Compute
+GCP,116A-ED39-D1F0,Database Migration,Database Migration,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,12BA-A8F0-838E,claire-auto-demo,claire-auto-demo,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,1394-64A3-F0C6,Deep Learning VM,Deep Learning VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,149C-F9EC-3994,Artifact Registry,Artifact Registry,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,14E6-EF9E-CFBC,Weka Machine Learning on Windows 2019,Weka Machine Learning on Windows 2019,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,14E7-BA84-3B4D,DataStax Distribution of Apache Cassandra 8x5 Support,DataStax Distribution of Apache Cassandra 8x5 Support,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,152E-C115-5142,Cloud Run,Cloud Run,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,1535-C8C3-9833,Jenkins-automation,Jenkins-automation,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,158F-556F-4845,Active Directory Domain Controller 2019,Active Directory Domain Controller 2019,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,169F-7D34-4D47,Mediawiki: Collaborative Knowledge Management,Mediawiki: Collaborative Knowledge Management,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,16B8-3DDA-9F10,BigQuery Reservation API,BigQuery Reservation API,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,177D-86F1-48C9,Google Quickstart Simple pre-configured Debian VM,Google Quickstart Simple pre-configured Debian VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Management,Compute
+GCP,1866-8E60-9018,Airlock Gateway 7.7,Airlock Gateway 7.7,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,18FC-D122-7B50,CloudBees Jenkins Support,CloudBees Jenkins Support,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,1BD3-107D-60B7,QRadar Security Intelligence Platform Console v7.3.2 P1,QRadar Security Intelligence Platform Console v7.3.2 P1,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,1BDF-7F3C-8605,Redmine on PostgreSQL,Redmine on PostgreSQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,1C58-CF90-9614,Firebase Realtime Database,Firebase Realtime Database,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,1CB2-E83D-FE7E,Active Directory Domain Controller 2016,Active Directory Domain Controller 2016,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,1D85-EB86-2067,Rakuten Symphony Symcloud Storage,Rakuten Symphony Symcloud Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,1DB1-3CD3-35A3,Translate,Translate,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,1E0A-E060-C394,AISE PyTorch CPU Production,AISE PyTorch CPU Production,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,1ED8-3C3C-1F3C,NVIDIA Image for AI using GPUs - Optimized for TensorFlow,NVIDIA Image for AI using GPUs - Optimized for TensorFlow,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,1F12-0A0C-1719,"Ionic Security, Inc. Ionic Machina","Ionic Security, Inc. Ionic Machina",Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,1F19-3B91-C65D,Mautic: The Ultimate Marketing Automation Platform,Mautic: The Ultimate Marketing Automation Platform,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,1FF1-FC11-1AC7,vmware-sdwan,vmware-sdwan,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,2024-A713-F326,Fortinet FortiWeb Web Application Firewall WAF (BYOL),Fortinet FortiWeb Web Application Firewall WAF (BYOL),Security,Google Cloud Billing Catalog API,2026-05-28,Networking,Security
+GCP,210D-F9A5-C051,Unravel for Dataproc,Unravel for Dataproc,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,2123-DACF-C407,Modshield SB - Web Application Firewall,Modshield SB - Web Application Firewall,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,2219-D3C2-A06A,"Vertica Data Warehouse, Enterprise BYOL","Vertica Data Warehouse, Enterprise BYOL",Analytics,Google Cloud Billing Catalog API,2026-05-28,Other,Analytics
+GCP,22C2-A2F8-3601,Tempered Networks Conductor v2.1,Tempered Networks Conductor v2.1,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,22EC-D055-264B,RubyRails,RubyRails,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,2379-84F2-4450,Sense Traffic Pulse™ and Cloud AutoML,Sense Traffic Pulse™ and Cloud AutoML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,238F-572F-F2D2,DiscrimiNAT Firewall,DiscrimiNAT Firewall,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,2401-8234-89C6,Shadowsocks VPN,Shadowsocks VPN,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,24B7-B9B6-2270,Simple pre-configured Debian VM,Simple pre-configured Debian VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Management,Compute
+GCP,24E6-581D-38E5,BigQuery,BigQuery,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,2672-E413-ACAC,"DataSunrise Database Security, Data Masking and Compliance","DataSunrise Database Security, Data Masking and Compliance",Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,26CA-A975-F471,Dynamic AI Demo,Dynamic AI Demo,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,278F-D51F-3660,gloo-enterprise-subscription,gloo-enterprise-subscription,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,27A6-BEA7-CB50,Redis Enterprise Cloud,Redis Enterprise Cloud,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,2852-5DD1-BBD6,OroCommerce VM,OroCommerce VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,2872-9FA7-9E8C,Check Point CloudGuard Network Security Autoscaling (BYOL),Check Point CloudGuard Network Security Autoscaling (BYOL),Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,28D7-5455-635F,Mautic: The Ultimate Marketing Automation Platform,Mautic: The Ultimate Marketing Automation Platform,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,293B-D409-8EE0,Telecom Network Automation,Telecom Network Automation,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,29E7-DA93-CA13,Cloud Run Functions,Cloud Run Functions,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,2A06-2FFD-D8DC,DataStax Distribution of Apache Cassandra 24x7 Support,DataStax Distribution of Apache Cassandra 24x7 Support,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,2A50-F3DA-21A7,LABS.AI E.D.D.I - Open Source Chatbot Platform,LABS.AI E.D.D.I - Open Source Chatbot Platform,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,2B5C-ED7A-1A76,PowerProtect DD Management Center (DDMC),PowerProtect DD Management Center (DDMC),Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,2BCF-F8B8-7A17,ThoughtSpot Search & AI-driven Analytics (BYOL),ThoughtSpot Search & AI-driven Analytics (BYOL),Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,2C3C-19A2-6493,ScaiPlatform - Free Real-Time Business Intelligence & Analytics,ScaiPlatform - Free Real-Time Business Intelligence & Analytics,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,2C40-ECFA-CF91,EnterpriseDB EDB Postgres Enterprise,EnterpriseDB EDB Postgres Enterprise,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,2D30-29F4-BA40,Jenkins,Jenkins,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,2DD4-A2EB-B906,FlashGrid Cluster for Oracle RAC / SI Database (RH7),FlashGrid Cluster for Oracle RAC / SI Database (RH7),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,2E1B-23BA-2D14,Couchbase Sync Gateway,Couchbase Sync Gateway,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,2E6C-5FE3-D0D2,MariaDB Managed Database,MariaDB Managed Database,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,2E8A-C97C-C946,H2O.ai Driverless AI (BYOL),H2O.ai Driverless AI (BYOL),AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,2EC9-6E36-8614,AutoML Neuton,AutoML Neuton,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,2ECC-231D-63E6,vsrx Next Generation Firewall-BYOL,vsrx Next Generation Firewall-BYOL,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,30D7-9CCE-CC0B,Cloudup Joomla  on Debian 9,Cloudup Joomla  on Debian 9,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,30DD-FBBD-FC49,"F5 Networks F5 Advanced WAF  (PAYG, 25Mbps)","F5 Networks F5 Advanced WAF  (PAYG, 25Mbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,31B7-A308-38F7,Anthos Policy Controller,Anthos Policy Controller,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,31F9-EB7E-D488,"F5 Networks F5 Advanced WAF  (PAYG, 1Gbps)","F5 Networks F5 Advanced WAF  (PAYG, 1Gbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,3203-AAF8-7D6F,Sense Traffic Pulse™ On-Demand Intelligent Video Analytics,Sense Traffic Pulse™ On-Demand Intelligent Video Analytics,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,3225-23F0-4062,Weka Machine Learning on Windows 2016,Weka Machine Learning on Windows 2016,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,3377-D1B3-F030,HeidiSQL on Windows 2012 R2,HeidiSQL on Windows 2012 R2,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,33C3-2389-DD71,Veritas NetBackup CloudPoint™ 9.1,Veritas NetBackup CloudPoint™ 9.1,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,3465-A68C-BFDD,CubeBackup for Google Workspace (Windows),CubeBackup for Google Workspace (Windows),Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,35E5-EB7C-B747,AtomicWP Cloud Workload Security for Docker,AtomicWP Cloud Workload Security for Docker,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,363B-8851-170D,Dataproc,Dataproc,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,3662-F860-6F1E,BizStats AI,BizStats AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,36A9-155B-23F0,API Gateway,API Gateway,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,3713-C0CF-F8B1,JFrog DevOps Platform - Enterprise+,JFrog DevOps Platform - Enterprise+,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,374E-72FC-1CD7,CompilerWorks compilerworks-vm deployment,CompilerWorks compilerworks-vm deployment,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,376F-19D2-9B33,"Microfusion Technology Co., Ltd AmigoCDN","Microfusion Technology Co., Ltd AmigoCDN",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,3A1B-66C4-2BAE,Pub/Sub Lite,Pub/Sub Lite,Messaging / Integration,Google Cloud Billing Catalog API,2026-05-28,Other,Networking
+GCP,3A97-2B2F-4BCF,NVIDIA Clara Train SDK on Google Cloud,NVIDIA Clara Train SDK on Google Cloud,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,3AFC-B84F-8D20,Dace IT℠with Sense Traffic Pulse™ and Vertex AI,Dace IT℠with Sense Traffic Pulse™ and Vertex AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,3B6F-D925-520E,Veeam Backup for Google Cloud,Veeam Backup for Google Cloud,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,3C29-F0F9-87C0,Aqua Cloud Native Security Platform,Aqua Cloud Native Security Platform,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,3CEF-4445-C395,AISE PyTorch NVidia GPU Production,AISE PyTorch NVidia GPU Production,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,3D57-32A3-4B3D,"F5 Networks F5 Advanced WAF (PAYG, 16vCPU)","F5 Networks F5 Advanced WAF (PAYG, 16vCPU)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,3DAD-299B-0D94,Backup and DR Service,Backup and DR Service,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,3DD4-CF86-6A20,Eyeblue Cloud Storage,Eyeblue Cloud Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,3DEE-5B87-9006,Veritas NetBackup™,Veritas NetBackup™,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,3F7D-6DF5-9FEA, Secured Postgresql on Windows 2012 R2, Secured Postgresql on Windows 2012 R2,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,3FB4-B70B-0252,JFrog DevOps Platform - Pro - 30 Day Free Trial,JFrog DevOps Platform - Pro - 30 Day Free Trial,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,4089-A91B-B72C,Striim Inc. Striim for Google Database Migration,Striim Inc. Striim for Google Database Migration,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,414C-A0E2-DB63,Evidian IDaaS (Identity as a Service),Evidian IDaaS (Identity as a Service),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,41DA-1FFA-98FF,Aqua Enterprise Security Platform,Aqua Enterprise Security Platform,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,4291-7B20-3ABB,QRadar Security Intelligence Platform App Host v7.3.2 P1,QRadar Security Intelligence Platform App Host v7.3.2 P1,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,4424-E3CF-5E09,DataStax Apache Cassandra for GCP supported by DataStax,DataStax Apache Cassandra for GCP supported by DataStax,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,4482-1174-7AA2,Aiven for PostgreSQL,Aiven for PostgreSQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,47C2-D59C-2006,Joomla on Windows 2012 R2,Joomla on Windows 2012 R2,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,4898-56E6-BF9F,gbick-vm-price-ingestion-test-free-1,gbick-vm-price-ingestion-test-free-1,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,4898-7F3B-F8BB,AXI AI SAP EasyConnect,AXI AI SAP EasyConnect,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,4A49-43DC-15FF,Trac on Windows - Project Management Tool,Trac on Windows - Project Management Tool,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,4B50-4AC3-36D5,NetScaler Web App Firewall (WAF) - 1000 Mbps,NetScaler Web App Firewall (WAF) - 1000 Mbps,Security,Google Cloud Billing Catalog API,2026-05-28,Networking,Security
+GCP,4BC3-229E-AB3F,AtScale Inc AtScale Adaptive Analytics,AtScale Inc AtScale Adaptive Analytics,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,4C1F-807E-603E,Cohesity Backup as a Service,Cohesity Backup as a Service,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,4C5B-68DC-5D85,Real-Time Integration to Cloud SQL for MySQL,Real-Time Integration to Cloud SQL for MySQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,4D0F-B1C2-996A,NETSCOUT Application Performance Management for GCP - nGeniusONE,NETSCOUT Application Performance Management for GCP - nGeniusONE,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,4DF8-F0E2-B09F,VM-Series Next-Generation Firewall Bundle 2,VM-Series Next-Generation Firewall Bundle 2,Compute,Google Cloud Billing Catalog API,2026-05-28,Security,Compute
+GCP,4E1A-BF2A-21FC,Fortinet FortiADC-VM Application Delivery Controller BYOL,Fortinet FortiADC-VM Application Delivery Controller BYOL,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,4E26-114D-8138,MySQL Secured by SG,MySQL Secured by SG,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,4F91-9FCF-8CA1,StackRox Security Platform,StackRox Security Platform,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,5490-F7B7-8DF6,Cloud Logging,Cloud Logging,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,54BD-2F64-9A4F,MySQL with IIS on Windows 2012 R2,MySQL with IIS on Windows 2012 R2,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,54C8-E3A0-5E86,MySQL,MySQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,5536-FA17-93E2,APEX Protection Storage for Google (DDVE),APEX Protection Storage for Google (DDVE),Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,5583-32E1-19BA,Tempered Networks Tempered Airwall Conductor v2.2.8,Tempered Networks Tempered Airwall Conductor v2.2.8,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,562C-FB9F-FBE5,Piwigo Gallery: Your Personalized Photo Management Solution,Piwigo Gallery: Your Personalized Photo Management Solution,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,57D6-8E6B-2DE0,Cloud Dataflow,Cloud Dataflow,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,58CD-E7C3-72CA,Cloud Monitoring,Cloud Monitoring,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,5957-0099-AD5C,"F5 Networks F5 Advanced WAF (PAYG, 8vCPU)","F5 Networks F5 Advanced WAF (PAYG, 8vCPU)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,59F0-AD94-BE1B,NetFoundry Inc. NetFoundry Zero Trust Networking Platform,NetFoundry Inc. NetFoundry Zero Trust Networking Platform,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,5AF5-2C11-D467,Cloud Memorystore for Redis,Cloud Memorystore for Redis,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,5B0B-EC43-D601,Netsil - Application Operations Center (Self-Hosted),Netsil - Application Operations Center (Self-Hosted),Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,5BA9-8DD4-D85C,Dataproc Metastore,Dataproc Metastore,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,5D00-C4D5-1F5C,Corezoid Hyperautomation Engine,Corezoid Hyperautomation Engine,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,5D1A-446C-487A,Moodle: The Ultimate Learning Management System,Moodle: The Ultimate Learning Management System,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,5DA6-6B13-4347,Check Point CloudGuard Network Security High Availability (BYOL),Check Point CloudGuard Network Security High Availability (BYOL),AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,5DE8-A315-AE25,Tempered Networks Tempered Airwall Conductor v2.2.3,Tempered Networks Tempered Airwall Conductor v2.2.3,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,5E18-9A83-2867,VM Manager,VM Manager,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,5E34-962A-8DCF,Zadara Cube - 1.6TB SSD Block and File Storage,Zadara Cube - 1.6TB SSD Block and File Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,5EEB-E2CB-29E1,Cisco ASA virtual firewall (ASAv),Cisco ASA virtual firewall (ASAv),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,5FF3-2FED-2805,Thinkup: The Ultimate Social Media Analytics Tool,Thinkup: The Ultimate Social Media Analytics Tool,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,60EA-1D83-3909,MySQL 8 (Codelab),MySQL 8 (Codelab),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,61A2-7AC7-12FA,BeyondInsight (SQL-Free),BeyondInsight (SQL-Free),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,61DD-B853-FE08,MayaNAS Cloud File Storage,MayaNAS Cloud File Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,63DE-82AB-F564,Cloud Speech API,Cloud Speech API,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,63EF-53A0-9459,Jenkins With CentOS 8 Stream,Jenkins With CentOS 8 Stream,DevOps,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,650B-3C82-34DB,BigQuery BI Engine,BigQuery BI Engine,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,6519-E9CC-A975,QRadar Security Intelligence Platform Managed Host v7.3.2 P1,QRadar Security Intelligence Platform Managed Host v7.3.2 P1,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,6594-98DC-0EB3,Cloud KMS KACLS,Cloud KMS KACLS,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,68FB-7D8F-BCEE,GithubCE-v2-9-0,GithubCE-v2-9-0,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,6910-147C-4426,Healthcare ML,Healthcare ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,69E9-C236-6E87,ScaleArc for MS SQL,ScaleArc for MS SQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,69F6-D067-EDB2,"F5 BIG-IP VE – LTM/DNS   (BYOL, 1 Boot Location)","F5 BIG-IP VE – LTM/DNS   (BYOL, 1 Boot Location)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,6A61-BEF8-949C,Iron Mountain InSight®,Iron Mountain InSight®,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,6B94-D1B5-8ED7,Cavirin First Line of Defense for Cloud Security - BYOL,Cavirin First Line of Defense for Cloud Security - BYOL,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,6BD3-BF6B-4CAE,Airlock Gateway 7.4,Airlock Gateway 7.4,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,6C88-3A8D-1571,Kaspersky Hybrid Cloud Security (BYOL),Kaspersky Hybrid Cloud Security (BYOL),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,6CB6-0088-D9BB,Veritas NetBackup™ 9.1,Veritas NetBackup™ 9.1,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,6F81-5844-456A,Compute Engine,Compute Engine,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,719A-983F-202D,Duet AI,Duet AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,71CB-8476-F01C,MinIO Object Storage,MinIO Object Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,7200-E915-9CC4,CloudGuard Network Security NGFW and Threat Prevention (BYOL),CloudGuard Network Security NGFW and Threat Prevention (BYOL),Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,72A1-13EC-7C0E,LABS.AI E.D.D.I - Open Source Chatbot Platform,LABS.AI E.D.D.I - Open Source Chatbot Platform,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,72B9-712F-D234,PostgreSQL Cluster (with Bucardo replication),PostgreSQL Cluster (with Bucardo replication),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,7369-3E4F-BB69,Veritas NetBackup CloudPoint™,Veritas NetBackup CloudPoint™,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,73DA-E903-54C9,Cloud Vision OCR On-Prem,Cloud Vision OCR On-Prem,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,73E4-0A4B-A37D,Mediawiki: Collaborative Knowledge Management,Mediawiki: Collaborative Knowledge Management,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,749F-7748-5DE3,"F5 Networks F5 Per-App VE - Advanced WAF + LTM (PAYG, 25M)","F5 Networks F5 Per-App VE - Advanced WAF + LTM (PAYG, 25M)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,74B1-77CF-C302,Vertex AI Search,Vertex AI Search,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,7579-B41A-F79A,AtomicWP Cloud Workload Security,AtomicWP Cloud Workload Security,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,75BA-3F18-565B,Abzooba Inc. xpresso-ai,Abzooba Inc. xpresso-ai,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,7669-04F9-6CC0,OpenVINO™ Toolkit Smart City Reference Implementation VM,OpenVINO™ Toolkit Smart City Reference Implementation VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,76FD-606F-7E3F,Payment Gateway,Payment Gateway,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,77D5-956F-A0B6,Array Networks vAPV - BYOL,Array Networks vAPV - BYOL,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,7833-560F-9F03,"F5 Networks F5 Advanced WAF  (PAYG, 200Mbps)","F5 Networks F5 Advanced WAF  (PAYG, 200Mbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,7929-AEC3-626F,Backup for GKE,Backup for GKE,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,7A36-CA7C-E7CA,PostgreSQL with CentOS 8.3,PostgreSQL with CentOS 8.3,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,7B48-FFDB-0D35,V2Ray VPN,V2Ray VPN,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,7BEB-7A51-4223,Network Connectivity Center,Network Connectivity Center,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,7D4B-452B-4807,Load Balancer ADC Enterprise GCP,Load Balancer ADC Enterprise GCP,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,807A-DB32-72DB,Cloud Contact Center AI Platform,Cloud Contact Center AI Platform,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,808A-FF31-2398,Airlock Gateway 7.5,Airlock Gateway 7.5,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,80BB-9E57-982C,FortiAnalyzer Centralized Logging/Reporting,FortiAnalyzer Centralized Logging/Reporting,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,82AF-DE7A-51D0,Container Registry Vulnerability Scanning,Container Registry Vulnerability Scanning,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,82F7-F720-970A,Aiven for Apache Kafka Connect,Aiven for Apache Kafka Connect,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,8350-081E-1AA3,Modshield SB - Web Application Firewall (BYOL),Modshield SB - Web Application Firewall (BYOL),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,8354-92BB-F1FC,Cisco Meraki vMX,Cisco Meraki vMX,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,8480-0C9C-1578,Dace IT℠with Sense Traffic Pulse™ Smart Stadium Reference VM,Dace IT℠with Sense Traffic Pulse™ Smart Stadium Reference VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,8534-F08B-BEBD,Cloud Domains,Cloud Domains,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,85F6-35D3-58E0,Cortex Certifai,Cortex Certifai,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,8617-F172-5EBD,Cisco Firepower NGFW virtual firewall (NGFWv),Cisco Firepower NGFW virtual firewall (NGFWv),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,86A8-4796-BD2B,Digital Asset Management,Digital Asset Management,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,870C-C0D2-AACC,Tempered Airwall Conductor v3.0.0,Tempered Airwall Conductor v3.0.0,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,89BD-C877-326D,Aiven for Apache Cassandra,Aiven for Apache Cassandra,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,8B5D-EF7D-EB12,Cloud Build,Cloud Build,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,8BFB-22FE-0BF5,JFrog Test - JFrog Enterprise+ (Complete DevOps Platform) -Test,JFrog Test - JFrog Enterprise+ (Complete DevOps Platform) -Test,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,8C20-EB9B-D9FF,Tempered Networks Conductor v2.2,Tempered Networks Conductor v2.2,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,8C24-874C-F665,Zadara Cube - 10TB Block and File Storage,Zadara Cube - 10TB Block and File Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,8DB6-593A-DE29,suki-ai,suki-ai,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,8E16-A5D7-AA86,JFrog Enterprise - Secure DevOps Platform - Test,JFrog Enterprise - Secure DevOps Platform - Test,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,8E39-B122-97BC,Tempered Networks HIPswitch v2.2,Tempered Networks HIPswitch v2.2,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,8F72-B6E2-E39A,Qtum Chain Foundation Unita compute engine,Qtum Chain Foundation Unita compute engine,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,8FB8-9DC6-F51C,Retail API,Retail API,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,8FC4-8F1C-6E2E,Atos Database hotel for GCP,Atos Database hotel for GCP,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,90A5-466E-41D7,Dace IT d/b/a Sense Traffic Pulse ORIGAMI | Oak Ridge Graph Analytics for Medical Innovation,Dace IT d/b/a Sense Traffic Pulse ORIGAMI | Oak Ridge Graph Analytics for Medical Innovation,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,916C-61AA-8E54,Google Maps Platform Air Quality Service,Google Maps Platform Air Quality Service,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,92A6-B867-1D4C,MySQL 5.6 on Windows 2012 R2,MySQL 5.6 on Windows 2012 R2,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,936F-AA36-4A91,Exasol Analytics Database PAYG,Exasol Analytics Database PAYG,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,9407-122B-A7B6,Versa Networks Inc Versa Operating System,Versa Networks Inc Versa Operating System,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,9500-B089-9EA5,FlashGrid Cluster for Oracle RAC / SI Database (RH8),FlashGrid Cluster for Oracle RAC / SI Database (RH8),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,9501-987F-84F0,BigQuery Data Transfer Service,BigQuery Data Transfer Service,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,9526-12F3-667B,Ripple Development & Training Suit,Ripple Development & Training Suit,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,95FF-2EF5-5EA1,Cloud Storage,Cloud Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,9662-B51E-5089,Cloud SQL,Cloud SQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,96C2-B131-EA62,DataStax Astra for Apache Cassandra,DataStax Astra for Apache Cassandra,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,97C3-5FC1-5C7E,Blockchain Solution Platform,Blockchain Solution Platform,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,9866-D980-657B,Google Click to Deploy Migrate for Compute Engine (formerly Velostrata),Google Click to Deploy Migrate for Compute Engine (formerly Velostrata),Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,98BE-003B-C43E,Click to Deploy VM Deployment for Redis,Click to Deploy VM Deployment for Redis,Compute,Google Cloud Billing Catalog API,2026-05-28,Database,Compute
+GCP,9942-D767-DC5C,VM-Series Next-Generation Firewall (BYOL and ELA),VM-Series Next-Generation Firewall (BYOL and ELA),Compute,Google Cloud Billing Catalog API,2026-05-28,Security,Compute
+GCP,9948-2FED-FE82,Intelligent Video Analytics VM,Intelligent Video Analytics VM,Compute,Google Cloud Billing Catalog API,2026-05-28,Analytics,Compute
+GCP,9B8F-0ABC-AD60,Logistic ML,Logistic ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,9BC8-1C6A-599D,PerimeterX Bot Defender Web,PerimeterX Bot Defender Web,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,9C84-ADE9-D5BF,JOOMLA,JOOMLA,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,9C87-5BCE-65DD,Storage Insights,Storage Insights,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,9D03-633A-0524,NVIDIA Image for AI using GPUs - Optimized for PyTorch,NVIDIA Image for AI using GPUs - Optimized for PyTorch,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,9DCC-EE36-1563,vSRX Next Generation Firewall with Anti-Virus Protection,vSRX Next Generation Firewall with Anti-Virus Protection,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,9E2D-8362-D2B6,NETSCOUT Application Performance Management for GCP - vSTREAM,NETSCOUT Application Performance Management for GCP - vSTREAM,Management,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,9F34-C20A-7E12,Aparavi Aparavi Active Archive,Aparavi Aparavi Active Archive,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,A01D-6876-60A3,"Pivotal Software, Inc. Pivotal Postgres","Pivotal Software, Inc. Pivotal Postgres",Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,A02A-EFEA-2C2D,Dataiku Get Started,Dataiku Get Started,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,A0F5-2E03-A25B,Informatica Intelligent Data Management Cloud Secure Agent,Informatica Intelligent Data Management Cloud Secure Agent,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,A1E8-BE35-7EBC,Cloud Pub/Sub,Cloud Pub/Sub,Messaging / Integration,Google Cloud Billing Catalog API,2026-05-28,Other,Networking
+GCP,A22A-E5D7-B6FF,DataStax Astra DB,DataStax Astra DB,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,A368-396E-EF7F,VMware Tanzu Greenplum Hourly,VMware Tanzu Greenplum Hourly,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,A59B-BFC3-46AD,Stratusphere UX Database (6.1.5),Stratusphere UX Database (6.1.5),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,A603-C604-CF0E,Aiven for Apache Kafka MirrorMaker 2,Aiven for Apache Kafka MirrorMaker 2,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,A668-ABC5-9B82,Airtable,Airtable,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,A7C3-CC71-FD33,Wallarm Advanced API Security and WAAP Platform,Wallarm Advanced API Security and WAAP Platform,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,A860-874E-CE41,"F5 Networks F5 Per-App VE  BIG-IP LTM  (PAYG, 200Mbps)","F5 Networks F5 Per-App VE  BIG-IP LTM  (PAYG, 200Mbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,A87F-D283-E763,MySQL 5.7 on Windows 2012 R2,MySQL 5.7 on Windows 2012 R2,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,A97C-594D-C6AB,Joomla!,Joomla!,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,A99C-FB9A-7F5C,End-to-end Testing Kubernetes test solution,End-to-end Testing Kubernetes test solution,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,A9A5-163C-8ED5,SpendAi,SpendAi,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,A9BD-FD2B-0E45,Data360 Analyze - Hourly Paid,Data360 Analyze - Hourly Paid,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,AA1E-78BC-757F,Dace IT℠with Intel OpenVINO™ Intelligent Traffic Management 2021,Dace IT℠with Intel OpenVINO™ Intelligent Traffic Management 2021,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,AA51-DD00-0D8F,Aiven Platform: Managed Database and Data Streaming Services,Aiven Platform: Managed Database and Data Streaming Services,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,AAAE-042A-93A7,Multiuser Python Jupyter notebook for AI/ML,Multiuser Python Jupyter notebook for AI/ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,AB1F-6E1A-E9EF,Real-Time Integration to Cloud Spanner,Real-Time Integration to Cloud Spanner,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,AD74-09F0-CDF1,USAN Dialogflow Enterprise Telephony Gateway,USAN Dialogflow Enterprise Telephony Gateway,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,ADA4-0368-578C,AISE TensorFlow NVidia GPU Production,AISE TensorFlow NVidia GPU Production,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,AF68-E2E7-6A07,"Lacework, Inc. Lacework Cloud Security Platform","Lacework, Inc. Lacework Cloud Security Platform",Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,AF9A-5F4C-31E5,Recommendations AI,Recommendations AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,AFD4-4E26-6CBC,"F5 Networks F5 Per-App VE - Advanced WAF + LTM (PAYG, 200M)","F5 Networks F5 Per-App VE - Advanced WAF + LTM (PAYG, 200M)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,AFD5-0BDF-2F92,Real-Time Data Integration to Google Cloud Storage,Real-Time Data Integration to Google Cloud Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,B114-A969-6354,"F5 BIG-IP VE – LTM/DNS   (BYOL, 2 Boot Locations)","F5 BIG-IP VE – LTM/DNS   (BYOL, 2 Boot Locations)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,B172-FDD7-0DBE,JENKINS,JENKINS,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,B18A-193A-B18D,CloudBees Jenkins Distribution,CloudBees Jenkins Distribution,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,B3C4-4767-F8EF,Speech-to-Text On-Prem,Speech-to-Text On-Prem,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,B3FB-3440-E6EB,FlashGrid Cluster for Oracle RAC / SI Database (OL7),FlashGrid Cluster for Oracle RAC / SI Database (OL7),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,B4FE-07DA-A400,VM-Series Next-Generation Firewall Bundle 1,VM-Series Next-Generation Firewall Bundle 1,Compute,Google Cloud Billing Catalog API,2026-05-28,Security,Compute
+GCP,B52F-5A3D-57A8,Sales ML,Sales ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,B535-ED6D-9507,Instana - Container & Microservices Monitoring on GCP,Instana - Container & Microservices Monitoring on GCP,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,B578-1C3B-DCC2,"Vertica Data Warehouse, Eon BYOL","Vertica Data Warehouse, Eon BYOL",Analytics,Google Cloud Billing Catalog API,2026-05-28,Other,Analytics
+GCP,B681-1E96-9DE3,AXI AI Forecast ML,AXI AI Forecast ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,B899-77F3-1A7B,PostgreSQL,PostgreSQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,B96C-F8F9-92B8,PerimeterX Code Defender,PerimeterX Code Defender,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,BA71-906B-95A8,Eventarc,Eventarc,Messaging / Integration,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,BA9E-0885-F593,Zadara Cube - 40TB Block and File Storage,Zadara Cube - 40TB Block and File Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,BAFF-09F1-395B,OrchardCMS: The Ultimate Content Management System,OrchardCMS: The Ultimate Content Management System,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,BBDB-A1ED-7E4F,Redis®*-v-5-0-7-04-08-2021,Redis®*-v-5-0-7-04-08-2021,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,BE37-0FCF-2D61,Airlock Gateway 7.6,Airlock Gateway 7.6,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C001-C139-6771,Jenkins on Windows 2012 R2,Jenkins on Windows 2012 R2,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,C062-0239-35AB,Delphix DevOps Data Platform for Google Cloud Platform (3TB),Delphix DevOps Data Platform for Google Cloud Platform (3TB),DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,C079-64FE-9109,VMware Engine,VMware Engine,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,C07F-DB2D-BB31,Storage Made Easy Enterprise File Fabric,Storage Made Easy Enterprise File Fabric,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,C082-44C2-29AE,Arista Networks Inc. cloudeos-router-payg,Arista Networks Inc. cloudeos-router-payg,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,C08E-37B9-80D3,Cloud Vision API,Cloud Vision API,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C096-CD96-16B6,AXI AI SAP EasyConnect Plus,AXI AI SAP EasyConnect Plus,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C1F4-4081-8121,omniX Vision | Analyze video in real time,omniX Vision | Analyze video in real time,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C2B0-0683-86E8,NVIDIA Image for AI using GPUs,NVIDIA Image for AI using GPUs,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C2C2-363D-1F89,OrchardCMS: The Ultimate Content Management System,OrchardCMS: The Ultimate Content Management System,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,C399-D6B0-149D,Marketing ML,Marketing ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C3BE-24A5-0975,Cloud Bigtable,Cloud Bigtable,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,C473-562C-110E,End-to-end Testing dm-solution-with-support,End-to-end Testing dm-solution-with-support,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,C481-A385-72C1,ScaleArc for MySQL,ScaleArc for MySQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,C56B-E4CF-41A7,Aviatrix Cloud Network CoPilot,Aviatrix Cloud Network CoPilot,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,C5CF-2B8E-DB4D,CubeBackup-for-Docker,CubeBackup-for-Docker,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,C648-B248-FAAB,Education ML,Education ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C665-08F1-3BCD,JFrog DevOps Platform - Enterprise X,JFrog DevOps Platform - Enterprise X,DevOps,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,C73A-560A-AA73,SPARKMLLIB,SPARKMLLIB,Analytics,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,Analytics
+GCP,C73B-2497-52D8,FlashGrid Cluster for Oracle RAC / SI Database (OL8),FlashGrid Cluster for Oracle RAC / SI Database (OL8),Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,C7E2-9256-1C43,Vertex AI,Vertex AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,C813-1887-5DF5,FortiGate Next-Generation Firewall (BYOL),FortiGate Next-Generation Firewall (BYOL),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,C896-A787-8C84,Exasol Analytics Database BYOL,Exasol Analytics Database BYOL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,CAC9-F3C7-B492,Zadara Cube - 3.2TB SSD Block and File Storage,Zadara Cube - 3.2TB SSD Block and File Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,CAD8-1AAB-F97D,Virtual Web Application Firewall,Virtual Web Application Firewall,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,CC63-0873-48FD,Cloud Spanner,Cloud Spanner,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,CC8F-E88B-8404,"F5 Networks F5 Per-App VE  BIG-IP LTM  (PAYG, 25Mbps)","F5 Networks F5 Per-App VE  BIG-IP LTM  (PAYG, 25Mbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,CCD8-9BF1-090E,Kubernetes Engine,Kubernetes Engine,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,CEAC-A377-01E2,VM Bugbash 8,VM Bugbash 8,Compute,Google Cloud Billing Catalog API,2026-05-28,Other,Compute
+GCP,D231-A46B-B9CA,aelf Blockchain for Enterprise,aelf Blockchain for Enterprise,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,D260-5FA3-DB05,Aiven for Apache Kafka,Aiven for Apache Kafka,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,D35D-C4B7-89DB,Couchbase Sync Gateway (BYOL),Couchbase Sync Gateway (BYOL),Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,D35F-5FDC-481E,BlueCat DNS for Google Cloud Platform,BlueCat DNS for Google Cloud Platform,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,D4BA-2EE5-1D7D,Supplier ML,Supplier ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,D64E-AF12-1813,Cloud Data Loss Prevention,Cloud Data Loss Prevention,Messaging / Integration,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,D755-FF83-08A7,Cloud Security Connector for Zscaler (ZIA),Cloud Security Connector for Zscaler (ZIA),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,D7AF-4D89-3C2F,Value Chain ML,Value Chain ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,D7C1-3BB4-C0A8,"F5 Networks F5 Per-App VE  Advanced WAF  (PAYG, 25Mbps)","F5 Networks F5 Per-App VE  Advanced WAF  (PAYG, 25Mbps)",Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,D870-408D-92A6,Cloud Document AI API,Cloud Document AI API,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,D876-6B60-6041,Evidian IDaaS (Identity as a Service),Evidian IDaaS (Identity as a Service),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,D931-C0D6-087A,Accelerated Joomla,Accelerated Joomla,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,D98A-BF89-4415,Redis: High-Performance In-Memory Data Store,Redis: High-Performance In-Memory Data Store,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,DA1B-B9C8-944D,MySQL 5.7,MySQL 5.7,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,DB9C-E2E2-5C14,NETSCOUT Application Performance Management for GCP,NETSCOUT Application Performance Management for GCP,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,DC5D-D207-FD2F,Identity Platform,Identity Platform,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,DCA3-44D1-341C,Barracuda CloudGen Firewall (BYOL),Barracuda CloudGen Firewall (BYOL),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,DCC9-8DB9-673F,BigQuery Storage API,BigQuery Storage API,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,DDB4-B88A-C380,"Vertica Data Warehouse, Eon by the Hour","Vertica Data Warehouse, Eon by the Hour",Analytics,Google Cloud Billing Catalog API,2026-05-28,Other,Analytics
+GCP,DEFB-D14E-F638,vSRX Next Generation Firewall,vSRX Next Generation Firewall,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,DF46-13F9-1229,VM-Series Next-Generation Firewall (BYOL),VM-Series Next-Generation Firewall (BYOL),Compute,Google Cloud Billing Catalog API,2026-05-28,Security,Compute
+GCP,E043-C790-E901,Cisco Firepower Management Center (FMCv) BYOL,Cisco Firepower Management Center (FMCv) BYOL,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,E19D-14A9-5725,Cloud Machine Learning Engine,Cloud Machine Learning Engine,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,E33D-F35F-F6C5,FortiManager Centralized Security Management,FortiManager Centralized Security Management,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,E342-B6DB-4748,Tempered Airwall Gateway v3.0.0,Tempered Airwall Gateway v3.0.0,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,E505-1604-58F8,Networking,Networking,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,E51C-03E8-8B48,Aviatrix Cloud Network Controller,Aviatrix Cloud Network Controller,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,E552-B7A8-0941,Zadara Cube - 20TB Block and File Storage,Zadara Cube - 20TB Block and File Storage,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,E5FE-878F-FECE,Vertex AI Vision,Vertex AI Vision,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,E749-01A2-AE1F,Network Security,Network Security,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,E88F-D0FA-C1F1,Blockchain Accelerator,Blockchain Accelerator,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,E904-3803-243D,Kubernetes Cost Attribution,Kubernetes Cost Attribution,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,E9E6-7C65-5FBC,OpenLogic CentOS 7.9 (v20201130) - Security Hardened,OpenLogic CentOS 7.9 (v20201130) - Security Hardened,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,ED34-2A09-AC0E,Red Pill Analytics,Red Pill Analytics,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,EDA4-10BF-88A3,Cloud AutoML,Cloud AutoML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,EE2F-D110-890C,Cloud Key Management Service (KMS),Cloud Key Management Service (KMS),Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,EEEF-E90C-5339,speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest,speech-onprem-private INTERNAL Speech-to-Text On-Prem DevTest,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,EF22-4122-71B1,Real-Time Data Integration to BigQuery,Real-Time Data Integration to BigQuery,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,F126-023F-1D57,Real-Time Integration to Cloud SQL for PostgreSQL,Real-Time Integration to Cloud SQL for PostgreSQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,F17B-412E-CB64,App Engine,App Engine,Compute,Google Cloud Billing Catalog API,2026-05-28,Compute,Compute
+GCP,F257-99C0-20C0,Redis Enterprise Cloud,Redis Enterprise Cloud,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,F33E-369C-A8B4,superQuery for BigQuery,superQuery for BigQuery,Analytics,Google Cloud Billing Catalog API,2026-05-28,Analytics,Analytics
+GCP,F370-FC68-619B,Cloudinary Dynamic Media Management Solution,Cloudinary Dynamic Media Management Solution,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management
+GCP,F573-2502-2C23,LogicMonitor,LogicMonitor,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Other
+GCP,F7E9-6A2F-C61B,Open Source Social Network,Open Source Social Network,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,F98A-A936-FEBF,Preventive Maintenance ML,Preventive Maintenance ML,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning
+GCP,FA26-5236-B8B5,Cloud DNS,Cloud DNS,Networking,Google Cloud Billing Catalog API,2026-05-28,Networking,Networking
+GCP,FB27-E078-76FF,Aiven for MySQL,Aiven for MySQL,Database,Google Cloud Billing Catalog API,2026-05-28,Database,Database
+GCP,FB65-D7BD-0287,Veritas Technologies Veritas NetBackup CloudPoint,Veritas Technologies Veritas NetBackup CloudPoint,Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,FBE1-9050-D6DE,ShadowProtect Backup and Disaster Recovery (US & Canada),ShadowProtect Backup and Disaster Recovery (US & Canada),Storage,Google Cloud Billing Catalog API,2026-05-28,Storage,Storage
+GCP,FBF2-FC68-171A,Security Command Center,Security Command Center,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,FC68-9D7F-003C,DataStax Enterprise,DataStax Enterprise,Billing / Support,Google Cloud Billing Catalog API,2026-05-28,Other,Other
+GCP,FD10-51B1-0541,PerimeterX Bot Defender Mobile,PerimeterX Bot Defender Mobile,Security,Google Cloud Billing Catalog API,2026-05-28,Security,Security
+GCP,FEF0-295D-9A74,itopia Cloud Automation Stack,itopia Cloud Automation Stack,Management,Google Cloud Billing Catalog API,2026-05-28,Management,Management

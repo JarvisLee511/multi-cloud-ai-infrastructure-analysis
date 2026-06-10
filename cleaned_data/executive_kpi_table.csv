@@ -1,0 +1,4 @@
+provider,region_count,country_count,continent_count,ai_service_count,ai_type_count,ai_category_count,native_service_count,category_count,year_quarter,market_share
+AWS,34,26,11,6,3,1,69,9,2026 Q1,28
+Azure,57,30,1,4,3,1,32,9,2026 Q1,21
+GCP,43,38,7,7,2,1,351,9,2026 Q1,15

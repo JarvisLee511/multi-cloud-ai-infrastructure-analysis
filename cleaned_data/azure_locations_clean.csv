@@ -1,0 +1,58 @@
+provider,region_code,region_name,city,country
+Azure,australiacentral,Australia Central,Canberra,Australia
+Azure,australiacentral2,Australia Central 2,Canberra,Australia
+Azure,australiaeast,Australia East,New South Wales,Australia
+Azure,australiasoutheast,Australia Southeast,Victoria,Australia
+Azure,austriaeast,Austria East,Vienna,Austria
+Azure,belgiumcentral,Belgium Central,Brussels,Belgium
+Azure,brazilsouth,Brazil South,Sao Paulo State,Brazil
+Azure,brazilsoutheast,Brazil Southeast,Rio,Brazil
+Azure,canadacentral,Canada Central,Toronto,Canada
+Azure,canadaeast,Canada East,Quebec,Canada
+Azure,centralindia,Central India,Pune,India
+Azure,centralus,Central US,Iowa,United States
+Azure,chilecentral,Chile Central,Santiago,Chile
+Azure,denmarkeast,Denmark East,Copenhagen,Denmark
+Azure,eastasia,East Asia,Hong Kong SAR,Asia Pacific
+Azure,eastus,East US,Virginia,United States
+Azure,eastus2,East US 2,Virginia,United States
+Azure,francecentral,France Central,Paris,France
+Azure,francesouth,France South,Marseille,France
+Azure,germanynorth,Germany North,Berlin,Germany
+Azure,germanywestcentral,Germany West Central,Frankfurt,Germany
+Azure,indiasouthcentral,India South Central,Hyderabad,India
+Azure,indonesiacentral,Indonesia Central,Jakarta,Indonesia
+Azure,israelcentral,Israel Central,Israel,Israel
+Azure,italynorth,Italy North,Milan,Italy
+Azure,japaneast,Japan East,"Tokyo, Saitama",Japan
+Azure,japanwest,Japan West,Osaka,Japan
+Azure,koreacentral,Korea Central,Seoul,Korea
+Azure,koreasouth,Korea South,Busan,Korea
+Azure,malaysiawest,Malaysia West,Kuala Lumpur,Malaysia
+Azure,mexicocentral,Mexico Central,Querétaro State,Mexico
+Azure,newzealandnorth,New Zealand North,Auckland,New Zealand
+Azure,northcentralus,North Central US,Illinois,United States
+Azure,northeurope,North Europe,Ireland,Europe
+Azure,norwayeast,Norway East,Norway,Norway
+Azure,norwaywest,Norway West,Norway,Norway
+Azure,polandcentral,Poland Central,Warsaw,Poland
+Azure,qatarcentral,Qatar Central,Doha,Qatar
+Azure,southafricanorth,South Africa North,Johannesburg,South Africa
+Azure,southafricawest,South Africa West,Cape Town,South Africa
+Azure,southcentralus,South Central US,Texas,United States
+Azure,southindia,South India,Chennai,India
+Azure,southeastasia,Southeast Asia,Singapore,Asia Pacific
+Azure,spaincentral,Spain Central,Madrid,Spain
+Azure,swedencentral,Sweden Central,Gävle,Sweden
+Azure,switzerlandnorth,Switzerland North,Zurich,Switzerland
+Azure,switzerlandwest,Switzerland West,Geneva,Switzerland
+Azure,uaecentral,UAE Central,Abu Dhabi,UAE
+Azure,uaenorth,UAE North,Dubai,UAE
+Azure,uksouth,UK South,London,United Kingdom
+Azure,ukwest,UK West,Cardiff,United Kingdom
+Azure,westcentralus,West Central US,Wyoming,United States
+Azure,westeurope,West Europe,Netherlands,Europe
+Azure,westindia,West India,Mumbai,India
+Azure,westus,West US,California,United States
+Azure,westus2,West US 2,Washington,United States
+Azure,westus3,West US 3,Phoenix,United States

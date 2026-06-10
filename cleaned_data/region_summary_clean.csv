@@ -1,0 +1,4 @@
+provider,region_count,country_count,continent_count
+AWS,34,26,11
+Azure,57,30,1
+GCP,43,38,7

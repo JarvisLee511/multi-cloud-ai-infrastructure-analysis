@@ -1,0 +1,4 @@
+provider,recalculated_region_count,region_summary_count,global_region_summary_count
+AWS,34,34,42
+Azure,57,114,77
+GCP,43,43,40

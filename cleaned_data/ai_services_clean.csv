@@ -1,0 +1,18 @@
+provider,service_code,service_name,service_title,category,source,collection_date,category_v2,category_v3,service_origin,ai_type
+AWS,AmazonLookoutVision,AmazonLookoutVision,AmazonLookoutVision,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,Computer Vision
+AWS,AmazonBedrockService,AmazonBedrockService,AmazonBedrockService,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,Foundation Models
+AWS,AmazonSageMaker,AmazonSageMaker,AmazonSageMaker,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform
+AWS,AmazonBedrock,AmazonBedrock,AmazonBedrock,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,Foundation Models
+AWS,AmazonBedrockAgentCore,AmazonBedrockAgentCore,AmazonBedrockAgentCore,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,Foundation Models
+AWS,AmazonBedrockFoundationModels,AmazonBedrockFoundationModels,AmazonBedrockFoundationModels,AI / Machine Learning,AWS Price List Offer Index,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,Foundation Models
+Azure,Azure OpenAI Service,Azure OpenAI Service,Azure OpenAI Service,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,Foundation Models
+Azure,Azure Machine Learning,Azure Machine Learning,Azure Machine Learning,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform
+Azure,Azure AI Search,Azure AI Search,Azure AI Search,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,General AI
+Azure,Azure AI Services,Azure AI Services,Azure AI Services,AI / Machine Learning,Curated Azure Service Catalog,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,General AI
+GCP,3AFC-B84F-8D20,Dace IT℠with Sense Traffic Pulse™ and Vertex AI,Dace IT℠with Sense Traffic Pulse™ and Vertex AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform
+GCP,74B1-77CF-C302,Vertex AI Search,Vertex AI Search,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform
+GCP,807A-DB32-72DB,Cloud Contact Center AI Platform,Cloud Contact Center AI Platform,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,General AI
+GCP,C7E2-9256-1C43,Vertex AI,Vertex AI,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform
+GCP,D870-408D-92A6,Cloud Document AI API,Cloud Document AI API,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,General AI
+GCP,E19D-14A9-5725,Cloud Machine Learning Engine,Cloud Machine Learning Engine,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform
+GCP,E5FE-878F-FECE,Vertex AI Vision,Vertex AI Vision,AI / Machine Learning,Google Cloud Billing Catalog API,2026-05-28,AI / Machine Learning,AI / Machine Learning,Native Cloud Service,ML Platform

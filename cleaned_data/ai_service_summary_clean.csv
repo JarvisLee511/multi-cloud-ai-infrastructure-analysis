@@ -1,0 +1,4 @@
+provider,ai_service_count,ai_type_count,ai_category_count
+AWS,6,3,1
+Azure,4,3,1
+GCP,7,2,1

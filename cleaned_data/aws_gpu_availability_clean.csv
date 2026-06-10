@@ -1,0 +1,86 @@
+Instance Type,Instance Family,GPU,GPU Memory,accelerator
+g7e.24xlarge,GPU instance,4.0,384 GB,Blackwell
+g6.48xlarge,GPU instance,8.0,192 GB,L4
+inf1.xlarge,Machine Learning ASIC Instances,1.0,,Inferentia
+inf1.2xlarge,Machine Learning ASIC Instances,1.0,,Inferentia
+gr6.8xlarge,GPU instance,1.0,24 GB,L4
+g4dn.16xlarge,GPU instance,1.0,16 GB,T4
+g6.8xlarge,GPU instance,1.0,24 GB,L4
+g5.12xlarge,GPU instance,4.0,96 GB,A10G
+g6e.12xlarge,GPU instance,4.0,192 GB,L4
+g5.48xlarge,GPU instance,8.0,192 GB,A10G
+g7e.12xlarge,GPU instance,2.0,192 GB,Blackwell
+g4ad.8xlarge,GPU instance,2.0,16 GB,T4
+inf1.24xlarge,Machine Learning ASIC Instances,16.0,,Inferentia
+g6.xlarge,GPU instance,1.0,24 GB,L4
+g6f.large,GPU instance,0.125,3 GB,L4
+g6f.2xlarge,GPU instance,0.25,6 GB,L4
+g6.4xlarge,GPU instance,1.0,24 GB,L4
+g6.24xlarge,GPU instance,4.0,96 GB,L4
+g7e.8xlarge,GPU instance,1.0,96 GB,Blackwell
+p2.8xlarge,GPU instance,8.0,,K80
+g5.24xlarge,GPU instance,4.0,96 GB,A10G
+g5.4xlarge,GPU instance,1.0,24 GB,A10G
+g4dn.xlarge,GPU instance,1.0,16 GB,T4
+g4dn.8xlarge,GPU instance,1.0,16 GB,T4
+g6f.xlarge,GPU instance,0.125,3 GB,L4
+g6e.48xlarge,GPU instance,8.0,384 GB,L4
+g6f.4xlarge,GPU instance,0.5,12 GB,L4
+g6.2xlarge,GPU instance,1.0,24 GB,L4
+g7e.48xlarge,GPU instance,8.0,768 GB,Blackwell
+gr6.4xlarge,GPU instance,1.0,24 GB,L4
+g6.16xlarge,GPU instance,1.0,24 GB,L4
+g4dn.2xlarge,GPU instance,1.0,16 GB,T4
+g4dn.4xlarge,GPU instance,1.0,16 GB,T4
+p5.48xlarge,GPU instance,8.0,640 GB HBM3,H100
+g5g.xlarge,GPU instance,1.0,16 GB,A10G
+g7e.2xlarge,GPU instance,1.0,96 GB,Blackwell
+inf2.8xlarge,Machine Learning ASIC Instances,1.0,32 GB,Inferentia 2
+p4d.24xlarge,GPU instance,8.0,320 GB HBM2,A100
+p4de.24xlarge,GPU instance,8.0,640 GB HBM2e,A100
+p3.2xlarge,GPU instance,1.0,16 GiB,V100
+g3.8xlarge,GPU instance,2.0,16 GB,M60
+g6.12xlarge,GPU instance,4.0,96 GB,L4
+g7e.4xlarge,GPU instance,1.0,96 GB,Blackwell
+p5.4xlarge,GPU instance,1.0,80 GB HBM3,H100
+g4ad.xlarge,GPU instance,1.0,8 GB,T4
+g6e.xlarge,GPU instance,1.0,48 GB,L4
+g6e.8xlarge,GPU instance,1.0,48 GB,L4
+g3.16xlarge,GPU instance,4.0,32 GB,M60
+inf1.6xlarge,Machine Learning ASIC Instances,4.0,,Inferentia
+p6-b200.48xlarge,GPU instance,8.0,1432 GB HBM3e,Blackwell (B200)
+g6e.24xlarge,GPU instance,4.0,192 GB,L4
+gr6f.4xlarge,GPU instance,0.5,12 GB,L4
+trn1.32xlarge,Machine Learning ASIC Instances,16.0,512 GB,Trainium
+g4dn.12xlarge,GPU instance,4.0,64 GB,T4
+g2.2xlarge,GPU instance,1.0,,GRID K520
+p3.8xlarge,GPU instance,4.0,64 GiB,V100
+g3s.xlarge,GPU instance,1.0,8 GB,M60
+g6e.2xlarge,GPU instance,1.0,48 GB,L4
+g2.8xlarge,GPU instance,4.0,,GRID K520
+g3.4xlarge,GPU instance,1.0,8 GB,M60
+p3.16xlarge,GPU instance,8.0,128 GiB,V100
+g5.xlarge,GPU instance,1.0,24 GB,A10G
+inf2.24xlarge,Machine Learning ASIC Instances,6.0,192 GB,Inferentia 2
+inf2.48xlarge,Machine Learning ASIC Instances,12.0,384 GB,Inferentia 2
+g5g.16xlarge,GPU instance,2.0,32 GB,A10G
+g5.2xlarge,GPU instance,1.0,24 GB,A10G
+p5en.48xlarge,GPU instance,8.0,141 GB HBM3e,H100
+g5.8xlarge,GPU instance,1.0,24 GB,A10G
+g4ad.2xlarge,GPU instance,1.0,8 GB,T4
+g5g.4xlarge,GPU instance,1.0,16 GB,A10G
+p3dn.24xlarge,GPU instance,8.0,256 GiB,V100
+p2.xlarge,GPU instance,1.0,,K80
+g6e.4xlarge,GPU instance,1.0,48 GB,L4
+g5.16xlarge,GPU instance,1.0,24 GB,A10G
+g4ad.4xlarge,GPU instance,1.0,8 GB,T4
+trn1.2xlarge,Machine Learning ASIC Instances,1.0,32 GB,Trainium
+inf2.xlarge,Machine Learning ASIC Instances,1.0,32 GB,Inferentia 2
+dl2q.24xlarge,Machine Learning ASIC Instances,8.0,128 GiB,Gaudi 3
+p6-b300.48xlarge,GPU instance,8.0,2144 GB HBM3e,Blackwell Ultra (B300)
+g4ad.16xlarge,GPU instance,4.0,32 GB,T4
+trn1n.32xlarge,Machine Learning ASIC Instances,16.0,512 GB,Trainium
+g6e.16xlarge,GPU instance,1.0,48 GB,L4
+g5g.8xlarge,GPU instance,1.0,16 GB,A10G
+g5g.2xlarge,GPU instance,1.0,16 GB,A10G
+p2.16xlarge,GPU instance,16.0,,K80
