@@ -29,9 +29,19 @@ An automated pipeline (GitHub Actions, weekly) snapshots **GPU/accelerator list 
 - **AWS** — Vantage mirror of the official AWS Price List (on-demand + spot, Linux)
 - **GCP** — Cloud Billing Catalog API (on-demand + preemptible, per-GPU SKUs)
 
-Each weekly run appends ~5,000+ price points (≈200 regions; H100 / H200 / B200 / A100 / MI300X and more) to a growing longitudinal dataset in [`data/pricing_history/`](data/pricing_history/) — tracking the AI-compute price war as it happens. Collection started **2026-06-10**.
+Each weekly run appends ~5,000+ price points (≈200 regions; H100 / H200 / B200 / A100 / MI300X and more) to a growing longitudinal dataset in [`data/pricing_history/`](data/pricing_history/) — tracking the AI-compute price war as it happens. Collection started **2026-06-10**. The report includes a **world map of every GPU-equipped cloud region** (dot size = SKU breadth, hover = cheapest H100/A100) plus per-continent distribution, price floors, spot discounts, and the accumulating price-history series.
 
 Code: [`pricing_tracker/`](pricing_tracker/) · Workflow: [`.github/workflows/pricing-tracker.yml`](.github/workflows/pricing-tracker.yml)
+
+### SQL layer
+
+The tracker data also ships as a **SQLite star schema** — `dim_provider` / `dim_region` (geo-enriched) / `dim_gpu` (vendor-tagged) × `fact_gpu_price` (+ quarterly financials & market-share facts as they land):
+
+```bash
+py sql/build_db.py          # builds data/cloud_market.db
+```
+
+[`sql/analysis_queries.sql`](sql/analysis_queries.sql) contains 8 ready-to-run analyses (window functions, self-joins, YoY growth via LAG): cheapest H100 per provider, week-over-week price moves, spot discounts on matched SKUs, regional dispersion, NVIDIA/AMD/custom-silicon mix, and more.
 
 ---
 

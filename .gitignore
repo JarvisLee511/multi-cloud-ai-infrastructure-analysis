@@ -8,6 +8,12 @@ venv/
 # Secrets
 .env
 
+# Rebuildable artifacts (py sql/build_db.py)
+*.db
+
+# Research-agent scratch downloads (raw filings cached during data compilation)
+msft_data/
+
 # OS
 .DS_Store
 Thumbs.db

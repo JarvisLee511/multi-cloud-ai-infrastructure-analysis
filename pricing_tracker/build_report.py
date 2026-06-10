@@ -9,11 +9,16 @@ flagship GPU prices but not zero.
 from __future__ import annotations
 
 import datetime as dt
+from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
 
 from common import DOCS_DIR
+
+REGION_GEO_CSV = Path(__file__).resolve().parent / "region_geo.csv"
+# Spread per-provider dots that share a metro so all three stay visible.
+MAP_JITTER = {"AWS": (0.9, -1.6), "Azure": (-0.9, 0.0), "GCP": (0.9, 1.6)}
 
 COLORS = {"AWS": "#FF9900", "Azure": "#0078D4", "GCP": "#34A853"}
 FLAGSHIP_ORDER = [
@@ -26,6 +31,69 @@ HISTORY_MODELS = ["H200", "H100", "A100", "L4", "T4"]
 def _ondemand_per_gpu(df: pd.DataFrame) -> pd.DataFrame:
     out = df[(df["price_type"] == "ondemand") & df["price_usd_per_gpu_hour"].notna()]
     return out[out["price_usd_per_gpu_hour"] > 0]
+
+
+def _region_stats(latest: pd.DataFrame) -> pd.DataFrame:
+    """Per provider+region: GPU SKU breadth and cheapest flagship prices."""
+    od = latest[latest["price_type"] == "ondemand"]
+    stats = od.groupby(["provider", "region"]).agg(
+        n_skus=("sku", "nunique"),
+        n_models=("gpu_model", "nunique"),
+        models=("gpu_model", lambda s: ", ".join(sorted(s.unique()))),
+    ).reset_index()
+    for model in ("H100", "A100"):
+        d = od[(od["gpu_model"] == model) & od["price_usd_per_gpu_hour"].notna()]
+        floor = (d.groupby(["provider", "region"])["price_usd_per_gpu_hour"]
+                  .min().rename(f"min_{model.lower()}"))
+        stats = stats.merge(floor, on=["provider", "region"], how="left")
+    return stats
+
+
+def fig_map(latest: pd.DataFrame):
+    geo = pd.read_csv(REGION_GEO_CSV)
+    d = _region_stats(latest).merge(geo, on=["provider", "region"], how="inner")
+    for provider, (dlat, dlon) in MAP_JITTER.items():
+        mask = d["provider"] == provider
+        d.loc[mask, "lat"] += dlat
+        d.loc[mask, "lon"] += dlon
+    d["hover"] = (
+        d["city"] + ", " + d["country"] + " (" + d["region"] + ")<br>" +
+        d["n_skus"].astype(str) + " GPU SKUs · " +
+        d["n_models"].astype(str) + " accelerator models<br>cheapest H100: " +
+        d["min_h100"].map(lambda v: f"${v:,.2f}/GPU-hr" if pd.notna(v) else "—") +
+        " · A100: " +
+        d["min_a100"].map(lambda v: f"${v:,.2f}/GPU-hr" if pd.notna(v) else "—")
+    )
+    fig = px.scatter_geo(
+        d, lat="lat", lon="lon", color="provider", size="n_skus",
+        size_max=22, color_discrete_map=COLORS, custom_data=["hover"],
+        title="Where the GPUs are — every cloud region selling GPU compute "
+              "(dot size = GPU SKU breadth)",
+    )
+    fig.update_traces(hovertemplate="%{customdata[0]}<extra></extra>")
+    fig.update_geos(
+        projection_type="natural earth", showcountries=True,
+        countrycolor="#d0d7de", landcolor="#eef1f4", showland=True,
+    )
+    fig.update_layout(legend=dict(orientation="h", y=1.06), height=540,
+                      margin=dict(l=10, r=10, t=70, b=10))
+    return fig
+
+
+def fig_continent(latest: pd.DataFrame):
+    geo = pd.read_csv(REGION_GEO_CSV)
+    d = _region_stats(latest).merge(geo, on=["provider", "region"], how="inner")
+    agg = d.groupby(["continent", "provider"], as_index=False)["region"].count()
+    order = (agg.groupby("continent")["region"].sum()
+                .sort_values(ascending=False).index.tolist())
+    fig = px.bar(
+        agg, x="continent", y="region", color="provider", barmode="group",
+        color_discrete_map=COLORS, category_orders={"continent": order},
+        labels={"region": "regions with GPU compute", "continent": "", "provider": ""},
+        title="Regional distribution — GPU-equipped regions per continent",
+    )
+    fig.update_layout(legend=dict(orientation="h", y=1.08), height=420)
+    return fig
 
 
 def fig_latest_floor(latest: pd.DataFrame):
@@ -146,7 +214,8 @@ def build(history: pd.DataFrame) -> None:
     latest = history[history["snapshot_date"] == snapshot_date]
     n_snapshots = history["snapshot_date"].nunique()
 
-    figs = [fig_latest_floor(latest), fig_spot_discount(latest)]
+    figs = [fig_map(latest), fig_continent(latest),
+            fig_latest_floor(latest), fig_spot_discount(latest)]
     regional = fig_regional(latest)
     if regional is not None:
         figs.append(regional)
@@ -188,7 +257,10 @@ GCP from the Cloud Billing Catalog API (on-demand + preemptible).
 AWS/Azure per-GPU prices are derived from whole GPU instances, so they include bundled vCPU/RAM;
 GCP bills GPUs as standalone per-GPU-hour SKUs that exclude the host VM.
 Cross-cloud comparisons should treat roughly the host-VM cost as the bundling wedge.
-List prices only — negotiated/committed-use discounts are not reflected.</div>
+List prices only — negotiated/committed-use discounts are not reflected.
+The map shows primary cloud regions; AWS Local Zones / Wavelength and operator edge
+zones are tracked in the dataset but omitted from the map. Same-metro dots are
+slightly offset so all providers stay visible.</div>
 <footer>Part of the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis">Multi-Cloud AI Infrastructure Market Analysis</a> project
 · Che-Wei (Jarvis) Lee · report rebuilt {built}</footer>
 </div></body></html>"""
