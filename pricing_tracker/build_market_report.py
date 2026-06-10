@@ -123,19 +123,25 @@ def fig_share():
         return None
     share = pd.read_csv(path)
     share["date"] = pd.PeriodIndex(share["quarter"], freq="Q").to_timestamp()
-    firm = "Synergy" if (share["firm"] == "Synergy").any() else share["firm"].iloc[0]
-    d = share[share["firm"] == firm].sort_values("date")
     fig = go.Figure()
-    for provider in ("AWS", "Azure", "GCP"):
-        s = d[d["provider"] == provider]
-        fig.add_trace(go.Scatter(
-            x=s["date"], y=s["share_pct"], name=LABELS[provider],
-            mode="lines+markers", line=dict(color=COLORS[provider], width=2.5),
-            hovertemplate="%{x|%Y Q%q}: %{y:.0f}%<extra></extra>"))
+    styles = {"Synergy": ("solid", 2.5), "Canalys": ("dot", 1.8)}
+    for firm, (dash, width) in styles.items():
+        d = share[share["firm"] == firm].sort_values("date")
+        for provider in ("AWS", "Azure", "GCP"):
+            s = d[d["provider"] == provider]
+            if s.empty:
+                continue
+            fig.add_trace(go.Scatter(
+                x=s["date"], y=s["share_pct"], name=f"{provider} ({firm})",
+                legendgroup=provider, mode="lines+markers", connectgaps=True,
+                line=dict(color=COLORS[provider], dash=dash, width=width),
+                marker=dict(size=6),
+                hovertemplate="%{x|%Y Q%q}: %{y:.0f}% (" + firm + ")<extra></extra>"))
     fig.update_layout(
-        title=f"Worldwide cloud-infrastructure market share ({firm} Research estimates)",
-        yaxis_title="market share %", height=480,
-        legend=dict(orientation="h", y=1.12), hovermode="x unified")
+        title="Worldwide cloud-infrastructure market share — analyst estimates "
+              "(solid = Synergy, dotted = Canalys; firms differ and are never mixed)",
+        yaxis_title="market share %", height=500,
+        legend=dict(orientation="h", y=1.14), hovermode="x unified")
     return _add_events(fig)
 
 

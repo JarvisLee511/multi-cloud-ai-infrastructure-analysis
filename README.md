@@ -22,6 +22,7 @@ Compares the three major public clouds across **service ecosystems, AI offerings
 ## 🔴 Live: AI Cloud GPU Pricing Tracker
 
 **Dashboard: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/>** · latest numbers: [`docs/LATEST.md`](docs/LATEST.md)
+**Market History 2016–2026: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/market.html>** — ten years of cloud market share, revenue, growth, and operating margin, compiled quarter-by-quarter from SEC filings and analyst press releases ([data + methodology](data/market_history/)). Every data point carries its source URL.
 
 An automated pipeline (GitHub Actions, weekly) snapshots **GPU/accelerator list prices across all three clouds** and rebuilds an interactive Plotly report:
 
