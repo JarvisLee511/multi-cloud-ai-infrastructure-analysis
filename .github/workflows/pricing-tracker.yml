@@ -30,8 +30,8 @@ jobs:
       - name: Commit snapshot and report
         if: always()   # commit whatever fetched OK even when validation flags the run red
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Che-Wei Lee"
+          git config user.email "lee.chew@northeastern.edu"
           git add data docs
           git diff --cached --quiet || git commit -m "Weekly GPU pricing snapshot $(date -u +%F)"
           git push
