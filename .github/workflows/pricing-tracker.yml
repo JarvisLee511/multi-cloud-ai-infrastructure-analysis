@@ -1,0 +1,36 @@
+name: Weekly GPU pricing tracker
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # every Monday 13:00 UTC
+  workflow_dispatch: {}     # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pandas plotly
+
+      - name: Fetch prices and rebuild report
+        working-directory: pricing_tracker
+        env:
+          GCP_API_KEY: ${{ secrets.GCP_API_KEY }}   # optional; GCP is skipped if absent
+        run: python run_all.py
+
+      - name: Commit snapshot and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Weekly GPU pricing snapshot $(date -u +%F)"
+          git push

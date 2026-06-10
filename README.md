@@ -19,6 +19,22 @@ Compares the three major public clouds across **service ecosystems, AI offerings
 
 ---
 
+## 🔴 Live: AI Cloud GPU Pricing Tracker
+
+**Dashboard: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/>** · latest numbers: [`docs/LATEST.md`](docs/LATEST.md)
+
+An automated pipeline (GitHub Actions, weekly) snapshots **GPU/accelerator list prices across all three clouds** and rebuilds an interactive Plotly report:
+
+- **Azure** — public Retail Prices API (pay-as-you-go + Spot, Linux, all N-series GPU families)
+- **AWS** — Vantage mirror of the official AWS Price List (on-demand + spot, Linux)
+- **GCP** — Cloud Billing Catalog API (on-demand + preemptible, per-GPU SKUs)
+
+Each weekly run appends ~5,000+ price points (≈200 regions; H100 / H200 / B200 / A100 / MI300X and more) to a growing longitudinal dataset in [`data/pricing_history/`](data/pricing_history/) — tracking the AI-compute price war as it happens. Collection started **2026-06-10**.
+
+Code: [`pricing_tracker/`](pricing_tracker/) · Workflow: [`.github/workflows/pricing-tracker.yml`](.github/workflows/pricing-tracker.yml)
+
+---
+
 ## Objectives
 
 1. **Compare cloud service ecosystems** — breadth and composition of service portfolios (compute, storage, database, networking, security, analytics, AI/ML).
