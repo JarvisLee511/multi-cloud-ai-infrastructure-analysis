@@ -1,12 +1,21 @@
 # Multi-Cloud AI Infrastructure Market Analysis
 
-**A comparative analysis of AWS, Microsoft Azure, and Google Cloud Platform (GCP)**
+> Head-to-head market intelligence on **AWS vs. Azure vs. GCP** — from 2M+ scraped records to three interactive Tableau dashboards.
 
-> Author: Che-Wei Lee · MS in Data Analytics Engineering, Northeastern University · June 2026
+`Python` · `BeautifulSoup` · `pandas` · `Tableau` · web scraping · data cleaning · BI dashboards
 
-A data analytics & business-intelligence project that compares the three major public cloud providers across their **service ecosystems, AI offerings, GPU/accelerator infrastructure, global region footprint, and market share**. Public cloud data is collected, cleaned, and standardized in Python, then visualized through three interactive Tableau dashboards. The full write-up is in **`Project_Report.pdf`**.
+**Che-Wei Lee** — M.S. in Data Analytics Engineering, Northeastern University
 
-**Headline takeaway:** AWS maintains the largest service ecosystem, Azure operates the broadest global infrastructure footprint, and GCP focuses heavily on AI innovation and accelerator technologies — signalling that future cloud competition will be increasingly shaped by AI services, specialized hardware, and global infrastructure expansion.
+## Highlights
+
+- **Scraped and cleaned 2M+ records** from AWS, Azure, and GCP into a tidy 12K-row dataset — 134 regions, 9 service types, 17+ accelerator types.
+- **Benchmarked all three clouds** on service ecosystems, AI products, GPU pricing, and 6 quarters of market share.
+- **Key result:** AWS leads the ecosystem, Azure has the broadest global reach, and GCP is the fastest grower — market share up from **11% → 15%**.
+- **Shipped 3 interactive Tableau dashboards and 9 charts** that turn a complex market into a clear, comparable story.
+
+## Overview
+
+Compares the three major public clouds across **service ecosystems, AI offerings, GPU/accelerator infrastructure, global region footprint, and market share**. Data is scraped, cleaned, and standardized in Python, then visualized in Tableau. Full write-up: **`Project_Report.pdf`**.
 
 ---
 
