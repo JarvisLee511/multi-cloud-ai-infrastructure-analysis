@@ -13,6 +13,7 @@ venv/
 
 # Research-agent scratch downloads (raw filings cached during data compilation)
 msft_data/
+secdata/
 
 # OS
 .DS_Store
