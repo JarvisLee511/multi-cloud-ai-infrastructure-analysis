@@ -11,6 +11,7 @@ releases** (8-K Exhibit 99.1). Every row carries its `source_url`. Compiled
 | `quarterly_financials.csv` | quarter × provider: revenue & operating income, USD millions |
 | `azure_yoy_growth.csv` | Microsoft's disclosed "Azure (and other cloud services)" YoY growth %, the only Azure-specific revenue metric Microsoft publishes |
 | `market_share.csv` | analyst-firm (Synergy/Canalys) worldwide IaaS/PaaS market-share estimates, by quarter (compiled from public press releases) |
+| `quarterly_capex.csv` | FIRM-WIDE quarterly capital expenditures for Amazon / Microsoft / Alphabet, from SEC EDGAR XBRL (`PaymentsToAcquireProductiveAssets` for Amazon gross basis from 2017, `PaymentsToAcquirePropertyPlantAndEquipment` for Microsoft/Alphabet). Caveats: company-wide (not cloud-segment) capex; excludes finance-lease additions (material for Amazon 2017-2020 and Microsoft's datacenter leases); Amazon 2016 quarters are net-of-incentives as originally filed. De-cumulated YTD→quarter, tied to 10-K annual totals. |
 
 ## Comparability caveats — read before charting
 

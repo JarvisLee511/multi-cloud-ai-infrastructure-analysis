@@ -23,6 +23,8 @@ Compares the three major public clouds across **service ecosystems, AI offerings
 
 **Dashboard: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/>** · latest numbers: [`docs/LATEST.md`](docs/LATEST.md)
 **Market History 2016–2026: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/market.html>** — ten years of cloud market share, revenue, growth, and operating margin, compiled quarter-by-quarter from SEC filings and analyst press releases ([data + methodology](data/market_history/)). Every data point carries its source URL.
+**Regional Deep-Dive: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/regional.html>** — who wins where, and why: developer adoption by country/region (Stack Overflow survey microdata), the China market structure (Canalys/IDC), and Europe's 29%→15% local-provider story (Synergy).
+**Event Study & Experiments: <https://jarvislee511.github.io/multi-cloud-ai-infrastructure-analysis/analysis.html>** — did ChatGPT bend the revenue curve? Interrupted time-series with two counterfactuals, the capex supercycle from SEC XBRL, and a fully designed A/B experiment (power analysis, SRM check, z-test — simulated data, clearly labeled).
 
 An automated pipeline (GitHub Actions, weekly) snapshots **GPU/accelerator list prices across all three clouds** and rebuilds an interactive Plotly report:
 

@@ -34,11 +34,12 @@ def main() -> None:
     print(f"history: {len(history):,} rows, {history['snapshot_date'].nunique()} snapshot date(s)")
     build_report.build(history)
 
-    try:
-        import build_market_report
-        build_market_report.build()
-    except FileNotFoundError as exc:
-        print(f"market report skipped (missing data): {exc}", file=sys.stderr)
+    for module_name in ("build_market_report", "build_regional_report",
+                        "build_analysis_report"):
+        try:
+            __import__(module_name).build()
+        except FileNotFoundError as exc:
+            print(f"{module_name} skipped (missing data): {exc}", file=sys.stderr)
 
 
 if __name__ == "__main__":

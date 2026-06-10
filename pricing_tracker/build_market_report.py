@@ -202,7 +202,7 @@ def build() -> None:
 <h1>Cloud Market History, 2016–2026</h1>
 <p class="byline">Ten years of the cloud wars, compiled quarter-by-quarter from SEC filings
 (every row in the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis/tree/main/data/market_history">dataset</a> carries its source URL).</p>
-<nav><a href="index.html">← Live GPU Pricing Tracker</a><a href="market.html">Market History</a></nav>
+<nav><a href="index.html">Live GPU Pricing</a><a href="market.html">Market History</a><a href="regional.html">Regional Deep-Dive</a><a href="analysis.html">Event Study &amp; Experiments</a></nav>
 {kpis(df)}
 {"".join(f"<div class='chart'>{c}</div>" for c in charts_html)}
 <div class="note"><b>Comparability.</b>

@@ -1,0 +1,33 @@
+period,region,firm,provider,share_pct,market_size_busd,source_url
+2019Q4,China,Canalys,Alibaba Cloud,46.4,3.3,https://hostingjournalist.com/canalys-china-cloud-infrastructure-services-market-grew-66-9-in-q4-2019/
+2019Q4,China,Canalys,Tencent Cloud,18.0,3.3,https://hostingjournalist.com/canalys-china-cloud-infrastructure-services-market-grew-66-9-in-q4-2019/
+2019Q4,China,Canalys,Baidu AI Cloud,8.8,3.3,https://hostingjournalist.com/canalys-china-cloud-infrastructure-services-market-grew-66-9-in-q4-2019/
+2021Q3,China,Canalys,Alibaba Cloud,38.3,,https://www.theregister.com/2021/12/09/china_cloud_market/
+2021Q3,China,Canalys,Huawei Cloud,17.0,,https://www.theregister.com/2021/12/09/china_cloud_market/
+2021Q3,China,Canalys,Tencent Cloud,16.6,,https://www.theregister.com/2021/12/09/china_cloud_market/
+2021Q3,China,Canalys,Baidu AI Cloud,8.8,,https://www.theregister.com/2021/12/09/china_cloud_market/
+2021Q3,China,Canalys,Others (incl. AWS & Azure),19.9,,https://www.theregister.com/2021/12/09/china_cloud_market/
+2023Q3,China,Canalys,Alibaba Cloud,39,9.2,https://www.cloudcomputing-news.net/news/china-cloud-infrastructure-spend-hits-9-2bn-in-q3-with-relentless-ai-focus/
+2023Q3,China,Canalys,Huawei Cloud,19,9.2,https://www.cloudcomputing-news.net/news/china-cloud-infrastructure-spend-hits-9-2bn-in-q3-with-relentless-ai-focus/
+2023Q3,China,Canalys,Tencent Cloud,15,9.2,https://www.cloudcomputing-news.net/news/china-cloud-infrastructure-spend-hits-9-2bn-in-q3-with-relentless-ai-focus/
+2024Q3,China,Canalys,Alibaba Cloud,36,10.2,https://www.dcpostmea.com/2024/12/alibaba-huawei-tencent-dominate-china-cloud-market/
+2024Q3,China,Canalys,Huawei Cloud,19,10.2,https://www.dcpostmea.com/2024/12/alibaba-huawei-tencent-dominate-china-cloud-market/
+2024Q3,China,Canalys,Tencent Cloud,15,10.2,https://www.dcpostmea.com/2024/12/alibaba-huawei-tencent-dominate-china-cloud-market/
+2025Q1,China,Canalys,Alibaba Cloud,33,11.6,https://www.scmp.com/tech/big-tech/article/3317760/chinas-cloud-services-spending-hits-us116-billion-first-quarter-ai-related-demand
+2025Q1,China,Canalys,Huawei Cloud,18,11.6,https://www.scmp.com/tech/big-tech/article/3317760/chinas-cloud-services-spending-hits-us116-billion-first-quarter-ai-related-demand
+2025Q1,China,Canalys,Tencent Cloud,10,11.6,https://www.scmp.com/tech/big-tech/article/3317760/chinas-cloud-services-spending-hits-us116-billion-first-quarter-ai-related-demand
+2023H1,China (public cloud IaaS),IDC,Alibaba Cloud,29.9,,https://kr-asia.com/alibaba-cloud-is-accelerating-its-reform-to-achieve-profitability-this-year
+2023H1,China (public cloud IaaS),IDC,Huawei Cloud,13.2,,https://kr-asia.com/alibaba-cloud-is-accelerating-its-reform-to-achieve-profitability-this-year
+2023H1,China (public cloud IaaS),IDC,China Telecom,12.2,,https://kr-asia.com/alibaba-cloud-is-accelerating-its-reform-to-achieve-profitability-this-year
+2023H1,China (public cloud IaaS),IDC,Tencent Cloud,9.0,,https://kr-asia.com/alibaba-cloud-is-accelerating-its-reform-to-achieve-profitability-this-year
+2023H1,China (public cloud IaaS),IDC,AWS,8.1,,https://kr-asia.com/alibaba-cloud-is-accelerating-its-reform-to-achieve-profitability-this-year
+FY2017,Europe,Synergy,European providers combined,29,,https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15
+2021Q2,Europe,Synergy,Amazon+Microsoft+Google combined,69,8.8,https://www.srgresearch.com/articles/european-cloud-providers-double-in-size-but-lose-market-share
+2021Q2,Europe,Synergy,European providers combined,16,8.8,https://www.srgresearch.com/articles/european-cloud-providers-double-in-size-but-lose-market-share
+2022Q2,Europe,Synergy,Amazon+Microsoft+Google combined,72,10.9,https://www.srgresearch.com/articles/european-cloud-providers-continue-to-grow-but-still-lose-market-share
+2022Q2,Europe,Synergy,European providers combined,13,10.9,https://www.srgresearch.com/articles/european-cloud-providers-continue-to-grow-but-still-lose-market-share
+FY2024,Europe,Synergy,Amazon+Microsoft+Google combined,70,70,https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15
+FY2024,Europe,Synergy,European providers combined,15,70,https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15
+2024Q2,Worldwide ex-China,Synergy,AWS,32,,https://www.srgresearch.com/articles/cloud-is-a-global-market-apart-from-china
+2024Q2,Worldwide ex-China,Synergy,Microsoft,23,,https://www.srgresearch.com/articles/cloud-is-a-global-market-apart-from-china
+2024Q2,Worldwide ex-China,Synergy,Google,12,,https://www.srgresearch.com/articles/cloud-is-a-global-market-apart-from-china
