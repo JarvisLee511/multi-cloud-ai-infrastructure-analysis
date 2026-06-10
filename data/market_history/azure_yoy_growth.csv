@@ -1,0 +1,42 @@
+quarter,azure_yoy_growth_pct,note,source_url
+2016Q1,120,constant-currency only (no GAAP rate disclosed),https://www.sec.gov/Archives/edgar/data/789019/000119312516550250/d177964dex991.htm
+2016Q2,102,,https://www.sec.gov/Archives/edgar/data/789019/000119312516651176/d232602dex991.htm
+2016Q3,116,,https://www.sec.gov/Archives/edgar/data/789019/000119312516742793/d274148dex991.htm
+2016Q4,93,,https://www.sec.gov/Archives/edgar/data/789019/000119312517019726/d338385dex991.htm
+2017Q1,93,,https://www.sec.gov/Archives/edgar/data/789019/000119312517142963/d373233dex991.htm
+2017Q2,97,,https://www.sec.gov/Archives/edgar/data/789019/000119312517232047/d425932dex991.htm
+2017Q3,90,,https://www.sec.gov/Archives/edgar/data/789019/000119312517321202/d483053dex991.htm
+2017Q4,98,,https://www.sec.gov/Archives/edgar/data/789019/000119312518027377/d468387dex991.htm
+2018Q1,93,,https://www.sec.gov/Archives/edgar/data/789019/000119312518134732/d576671dex991.htm
+2018Q2,89,,https://www.sec.gov/Archives/edgar/data/789019/000119312518221458/d501766dex991.htm
+2018Q3,76,,https://www.sec.gov/Archives/edgar/data/789019/000119312518306365/d640048dex991.htm
+2018Q4,76,,https://www.sec.gov/Archives/edgar/data/789019/000119312519022553/d699806dex991.htm
+2019Q1,73,,https://www.sec.gov/Archives/edgar/data/789019/000119312519117108/d661527dex991.htm
+2019Q2,64,,https://www.sec.gov/Archives/edgar/data/789019/000119312519196501/d777737dex991.htm
+2019Q3,59,,https://www.sec.gov/Archives/edgar/data/789019/000119312519272562/d823675dex991.htm
+2019Q4,62,,https://www.sec.gov/Archives/edgar/data/789019/000119312520018383/d875975dex991.htm
+2020Q1,59,,https://www.sec.gov/Archives/edgar/data/789019/000119312520126089/d844377dex991.htm
+2020Q2,47,,https://www.sec.gov/Archives/edgar/data/789019/000119312520197109/d941281dex991.htm
+2020Q3,48,,https://www.sec.gov/Archives/edgar/data/789019/000119312520278410/d10535dex991.htm
+2020Q4,50,,https://www.sec.gov/Archives/edgar/data/789019/000119312521017683/d65802dex991.htm
+2021Q1,50,,https://www.sec.gov/Archives/edgar/data/789019/000119312521134213/d179564dex991.htm
+2021Q2,51,,https://www.sec.gov/Archives/edgar/data/789019/000119312521225746/d200100dex991.htm
+2021Q3,50,metric renamed to "Azure and other cloud services" from this quarter,https://www.sec.gov/Archives/edgar/data/789019/000119312521307941/d239488dex991.htm
+2021Q4,46,,https://www.sec.gov/Archives/edgar/data/789019/000119312522017041/d299919dex991.htm
+2022Q1,46,,https://www.sec.gov/Archives/edgar/data/789019/000119312522120207/d328712dex991.htm
+2022Q2,40,,https://www.sec.gov/Archives/edgar/data/789019/000119312522202034/d372382dex991.htm
+2022Q3,35,,https://www.sec.gov/Archives/edgar/data/789019/000119312522268356/d361432dex991.htm
+2022Q4,31,,https://www.sec.gov/Archives/edgar/data/789019/000119312523014230/d406070dex991.htm
+2023Q1,27,,https://www.sec.gov/Archives/edgar/data/789019/000119312523115280/d321368dex991.htm
+2023Q2,26,,https://www.sec.gov/Archives/edgar/data/789019/000095017023034400/msft-ex99_1.htm
+2023Q3,29,,https://www.sec.gov/Archives/edgar/data/789019/000095017023054848/msft-ex99_1.htm
+2023Q4,30,,https://www.sec.gov/Archives/edgar/data/789019/000095017024008809/msft-ex99_1.htm
+2024Q1,31,,https://www.sec.gov/Archives/edgar/data/789019/000095017024048268/msft-ex99_1.htm
+2024Q2,29,,https://www.sec.gov/Archives/edgar/data/789019/000095017024087835/msft-ex99_1.htm
+2024Q3,33,re-defined Azure metric vs recast base (FY25 basis) from this quarter,https://www.sec.gov/Archives/edgar/data/789019/000095017024118955/msft-ex99_1.htm
+2024Q4,31,,https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-ex99_1.htm
+2025Q1,33,,https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-ex99_1.htm
+2025Q2,39,,https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-ex99_1.htm
+2025Q3,40,,https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_1.htm
+2025Q4,39,,https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm
+2026Q1,40,,https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm

@@ -1,0 +1,113 @@
+quarter,provider,revenue_musd,operating_income_musd,note,source_url
+2016Q1,AWS,2566,604,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872417000049/amzn-20170331xex991.htm
+2016Q2,AWS,2886,718,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872417000098/amzn-20170630xex991.htm
+2016Q3,AWS,3231,861,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872417000131/amzn-20170930xex991.htm
+2016Q4,AWS,3536,926,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872418000002/amzn-20171231xex991.htm
+2017Q1,AWS,3661,890,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872417000049/amzn-20170331xex991.htm
+2017Q2,AWS,4100,916,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872417000098/amzn-20170630xex991.htm
+2017Q3,AWS,4584,1171,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872417000131/amzn-20170930xex991.htm
+2017Q4,AWS,5113,1354,pre-ASC606 as originally reported,https://www.sec.gov/Archives/edgar/data/1018724/000101872418000002/amzn-20171231xex991.htm
+2018Q1,AWS,5442,1400,,https://www.sec.gov/Archives/edgar/data/1018724/000101872419000041/amzn-2019331xex991.htm
+2018Q2,AWS,6105,1642,,https://www.sec.gov/Archives/edgar/data/1018724/000101872419000069/amzn-2019630xex991.htm
+2018Q3,AWS,6679,2077,,https://www.sec.gov/Archives/edgar/data/1018724/000101872419000087/amzn-2019930xex991.htm
+2018Q4,AWS,7430,2177,,https://www.sec.gov/Archives/edgar/data/1018724/000101872420000002/amzn-20191231xex991.htm
+2019Q1,AWS,7696,2223,,https://www.sec.gov/Archives/edgar/data/1018724/000101872419000041/amzn-2019331xex991.htm
+2019Q2,AWS,8381,2121,,https://www.sec.gov/Archives/edgar/data/1018724/000101872419000069/amzn-2019630xex991.htm
+2019Q3,AWS,8995,2261,,https://www.sec.gov/Archives/edgar/data/1018724/000101872419000087/amzn-2019930xex991.htm
+2019Q4,AWS,9954,2596,,https://www.sec.gov/Archives/edgar/data/1018724/000101872420000002/amzn-20191231xex991.htm
+2020Q1,AWS,10219,3075,,https://www.sec.gov/Archives/edgar/data/1018724/000101872421000008/amzn-20210331xex991.htm
+2020Q2,AWS,10808,3357,,https://www.sec.gov/Archives/edgar/data/1018724/000101872421000018/amzn-20210630xex991.htm
+2020Q3,AWS,11601,3535,,https://www.sec.gov/Archives/edgar/data/1018724/000101872421000026/amzn-20210930xex991.htm
+2020Q4,AWS,12742,3564,,https://www.sec.gov/Archives/edgar/data/1018724/000101872422000002/amzn-20211231xex991.htm
+2021Q1,AWS,13503,4163,,https://www.sec.gov/Archives/edgar/data/1018724/000101872421000008/amzn-20210331xex991.htm
+2021Q2,AWS,14809,4193,,https://www.sec.gov/Archives/edgar/data/1018724/000101872421000018/amzn-20210630xex991.htm
+2021Q3,AWS,16110,4883,,https://www.sec.gov/Archives/edgar/data/1018724/000101872421000026/amzn-20210930xex991.htm
+2021Q4,AWS,17780,5293,,https://www.sec.gov/Archives/edgar/data/1018724/000101872422000002/amzn-20211231xex991.htm
+2022Q1,AWS,18441,6518,,https://www.sec.gov/Archives/edgar/data/1018724/000101872423000006/amzn-20230331xex991.htm
+2022Q2,AWS,19739,5715,,https://www.sec.gov/Archives/edgar/data/1018724/000101872423000010/amzn-20230630xex991.htm
+2022Q3,AWS,20538,5403,,https://www.sec.gov/Archives/edgar/data/1018724/000101872423000016/amzn-20230930xex991.htm
+2022Q4,AWS,21378,5205,,https://www.sec.gov/Archives/edgar/data/1018724/000101872424000006/amzn-20231231xex991.htm
+2023Q1,AWS,21354,5123,,https://www.sec.gov/Archives/edgar/data/1018724/000101872423000006/amzn-20230331xex991.htm
+2023Q2,AWS,22140,5365,,https://www.sec.gov/Archives/edgar/data/1018724/000101872423000010/amzn-20230630xex991.htm
+2023Q3,AWS,23059,6976,,https://www.sec.gov/Archives/edgar/data/1018724/000101872423000016/amzn-20230930xex991.htm
+2023Q4,AWS,24204,7167,,https://www.sec.gov/Archives/edgar/data/1018724/000101872424000006/amzn-20231231xex991.htm
+2024Q1,AWS,25037,9421,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000034/amzn-20250331xex991.htm
+2024Q2,AWS,26281,9334,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000084/amzn-20250630xex991.htm
+2024Q3,AWS,27452,10447,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm
+2024Q4,AWS,28786,10632,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm
+2025Q1,AWS,29267,11547,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000034/amzn-20250331xex991.htm
+2025Q2,AWS,30873,10160,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000084/amzn-20250630xex991.htm
+2025Q3,AWS,33006,11434,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm
+2025Q4,AWS,35579,12465,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm
+2026Q1,AWS,37587,14161,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm
+2016Q1,Azure,6096,2188,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312516550250/d177964dex991.htm
+2016Q2,Azure,6711,2190,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312516651176/d232602dex991.htm
+2016Q3,Azure,6382,2058,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312516742793/d274148dex991.htm
+2016Q4,Azure,6861,2398,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312517019726/d338385dex991.htm
+2017Q1,Azure,6763,2181,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312517142963/d373233dex991.htm
+2017Q2,Azure,7434,2501,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312517232047/d425932dex991.htm
+2017Q3,Azure,6922,2137,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312517321202/d483053dex991.htm
+2017Q4,Azure,7795,2832,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312518027377/d468387dex991.htm
+2018Q1,Azure,7896,2654,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312518134732/d576671dex991.htm
+2018Q2,Azure,9606,3901,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312518221458/d501766dex991.htm
+2018Q3,Azure,8567,2931,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312518306365/d640048dex991.htm
+2018Q4,Azure,9378,3279,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312519022553/d699806dex991.htm
+2019Q1,Azure,9649,3208,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312519117108/d661527dex991.htm
+2019Q2,Azure,11391,4502,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312519196501/d777737dex991.htm
+2019Q3,Azure,10845,3889,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312519272562/d823675dex991.htm
+2019Q4,Azure,11869,4531,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312520018383/d875975dex991.htm
+2020Q1,Azure,12281,4560,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312520126089/d844377dex991.htm
+2020Q2,Azure,13371,5344,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312520197109/d941281dex991.htm
+2020Q3,Azure,12986,5422,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312520278410/d10535dex991.htm
+2020Q4,Azure,14601,6492,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312521017683/d65802dex991.htm
+2021Q1,Azure,15118,6425,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312521134213/d179564dex991.htm
+2021Q2,Azure,17375,7787,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312521225746/d200100dex991.htm
+2021Q3,Azure,16964,7562,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312521307941/d239488dex991.htm
+2021Q4,Azure,18327,8197,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312522017041/d299919dex991.htm
+2022Q1,Azure,19051,8281,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312522120207/d328712dex991.htm
+2022Q2,Azure,20909,8681,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312522202034/d372382dex991.htm
+2022Q3,Azure,20325,8978,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312522268356/d361432dex991.htm
+2022Q4,Azure,21508,8904,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312523014230/d406070dex991.htm
+2023Q1,Azure,22081,9476,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000119312523115280/d321368dex991.htm
+2023Q2,Azure,23993,10526,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000095017023034400/msft-ex99_1.htm
+2023Q3,Azure,24259,11751,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000095017023054848/msft-ex99_1.htm
+2023Q4,Azure,25880,12461,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000095017024008809/msft-ex99_1.htm
+2024Q1,Azure,26708,12513,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000095017024048268/msft-ex99_1.htm
+2024Q2,Azure,28515,12859,Intelligent Cloud segment,https://www.sec.gov/Archives/edgar/data/789019/000095017024087835/msft-ex99_1.htm
+2024Q3,Azure,24092,10503,Intelligent Cloud segment; SEGMENT RE-DEFINED from this quarter (FY25 basis) - not comparable to earlier rows,https://www.sec.gov/Archives/edgar/data/789019/000095017024118955/msft-ex99_1.htm
+2024Q4,Azure,25544,10851,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-ex99_1.htm
+2025Q1,Azure,26751,11095,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-ex99_1.htm
+2025Q2,Azure,29878,12140,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-ex99_1.htm
+2025Q3,Azure,30897,13391,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_1.htm
+2025Q4,Azure,32907,13873,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm
+2026Q1,Azure,34681,13753,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm
+2018Q4,GCP,1709,,Google Cloud segment; Q1-Q3 2018 never disclosed,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000004/googexhibit991q42019.htm
+2019Q1,GCP,1825,,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000018/googexhibit991q12020.htm
+2019Q2,GCP,2100,,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000031/googexhibit991q22020.htm
+2019Q3,GCP,2379,,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000046/googexhibit991q320.htm
+2019Q4,GCP,2614,-1194,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204421000006/googexhibit991q420.htm
+2020Q1,GCP,2777,-1730,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204421000018/googexhibit991q12021.htm
+2020Q2,GCP,3007,-1426,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204421000041/googexhibit991q22021.htm
+2020Q3,GCP,3444,-1208,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204421000054/googexhibit991q32021.htm
+2020Q4,GCP,3831,-1243,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204422000015/googexhibit991q42021.htm
+2021Q1,GCP,4047,-974,Google Cloud segment; OI as originally reported (pre-Apr-2023 recast),https://www.sec.gov/Archives/edgar/data/1652044/000165204422000025/googexhibit991q12022.htm
+2021Q2,GCP,4628,-591,Google Cloud segment; OI as originally reported (pre-Apr-2023 recast),https://www.sec.gov/Archives/edgar/data/1652044/000165204422000068/googexhibit991q22022.htm
+2021Q3,GCP,4990,-644,Google Cloud segment; OI as originally reported (pre-Apr-2023 recast),https://www.sec.gov/Archives/edgar/data/1652044/000165204422000085/googexhibit991q32022.htm
+2021Q4,GCP,5541,-890,Google Cloud segment; OI as originally reported (pre-Apr-2023 recast),https://www.sec.gov/Archives/edgar/data/1652044/000165204423000013/googexhibit991q42022.htm
+2022Q1,GCP,5821,-706,Google Cloud segment; OI recast Apr 2023 (DeepMind moved out of segments),https://www.sec.gov/Archives/edgar/data/1652044/000165204423000041/googexhibit991q12023.htm
+2022Q2,GCP,6276,-590,Google Cloud segment; OI recast Apr 2023,https://www.sec.gov/Archives/edgar/data/1652044/000165204423000067/googexhibit991q22023.htm
+2022Q3,GCP,6868,-440,Google Cloud segment; OI recast Apr 2023,https://www.sec.gov/Archives/edgar/data/1652044/000165204423000088/googexhibit991q32023.htm
+2022Q4,GCP,7315,-186,Google Cloud segment; OI recast Apr 2023,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000014/googexhibit991q42023.htm
+2023Q1,GCP,7454,191,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm
+2023Q2,GCP,8031,395,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm
+2023Q3,GCP,8411,266,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204424000115/googexhibit991q32024.htm
+2023Q4,GCP,9192,864,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm
+2024Q1,GCP,9574,900,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000040/googexhibit991q12025.htm
+2024Q2,GCP,10347,1172,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm
+2024Q3,GCP,11353,1947,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm
+2024Q4,GCP,11955,2093,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm
+2025Q1,GCP,12260,2177,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm
+2025Q2,GCP,13624,2826,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm
+2025Q3,GCP,15157,3594,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm
+2025Q4,GCP,17664,5313,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm
+2026Q1,GCP,20028,6598,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm

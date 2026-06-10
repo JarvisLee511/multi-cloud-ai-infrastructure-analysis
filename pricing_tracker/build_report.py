@@ -235,6 +235,7 @@ def build(history: pd.DataFrame) -> None:
  body{{font-family:'Segoe UI',system-ui,sans-serif;margin:0;background:#f6f8fa;color:#1f2328}}
  .wrap{{max-width:1100px;margin:0 auto;padding:32px 20px 64px}}
  h1{{margin-bottom:4px}} .byline{{color:#57606a;margin-top:0}}
+ nav{{margin:10px 0 0}} nav a{{color:#0969da;margin-right:18px;font-weight:600;text-decoration:none}}
  .cards{{display:flex;gap:16px;flex-wrap:wrap;margin:24px 0}}
  .card{{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:16px 22px;flex:1;min-width:200px}}
  .card h3{{margin:0 0 6px}} .card p{{margin:2px 0;color:#57606a;font-size:14px}}
@@ -248,6 +249,7 @@ def build(history: pd.DataFrame) -> None:
 <h1>AI Cloud GPU Pricing Tracker</h1>
 <p class="byline">AWS · Azure · GCP — refreshed weekly by an automated pipeline (GitHub Actions).
 Latest snapshot: <b>{snapshot_date}</b> · {n_snapshots} weekly snapshot(s) collected since 2026-06-10.</p>
+<nav><a href="index.html">Live GPU Pricing Tracker</a><a href="market.html">Market History 2016–2026 →</a></nav>
 {kpi_cards(latest)}
 {"".join(f"<div class='chart'>{c}</div>" for c in charts_html)}
 <div class="note"><b>Methodology & comparability.</b>
