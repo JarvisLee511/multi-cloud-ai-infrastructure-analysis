@@ -28,6 +28,7 @@ jobs:
         run: python run_all.py
 
       - name: Commit snapshot and report
+        if: always()   # commit whatever fetched OK even when validation flags the run red
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

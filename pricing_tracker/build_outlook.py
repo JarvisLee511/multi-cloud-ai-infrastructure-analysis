@@ -108,6 +108,41 @@ def crossover_quarter(fits: dict) -> str | None:
     return f"{year}Q{q}"
 
 
+def backtest(df: pd.DataFrame, window: int = 8, folds: int = 6) -> str:
+    """Rolling-origin backtest of the log-linear forecaster vs a naive
+    (last-value) baseline, on the quarters we already know the answer to.
+    Azure is excluded: only 7 FY25-basis quarters exist — too short."""
+    rows = []
+    for provider in ("AWS", "GCP"):
+        d = (df[df["provider"] == provider].dropna(subset=["revenue_musd"])
+             .sort_values("t").reset_index(drop=True))
+        for h in (1, 4):
+            err_model, err_naive = [], []
+            for k in range(folds):
+                end = len(d) - h - k
+                train = d.iloc[end - window:end]
+                actual = d.loc[end - 1 + h, "revenue_musd"]
+                slope, intercept = np.polyfit(
+                    train["t"], np.log(train["revenue_musd"]), 1)
+                pred = np.exp(intercept + slope * (train["t"].iloc[-1] + h))
+                naive = train["revenue_musd"].iloc[-1]
+                err_model.append(abs(pred - actual) / actual)
+                err_naive.append(abs(naive - actual) / actual)
+            rows.append({
+                "provider": "Google Cloud" if provider == "GCP" else provider,
+                "h": f"{h} quarter{'s' if h > 1 else ''} ahead",
+                "model": np.mean(err_model) * 100,
+                "naive": np.mean(err_naive) * 100,
+            })
+    body = "".join(
+        f"<tr><td>{r['provider']}</td><td>{r['h']}</td>"
+        f"<td><b>{r['model']:.1f}%</b></td><td>{r['naive']:.1f}%</td></tr>"
+        for r in rows)
+    return ("<table class='tbl'><tr><th>Provider</th><th>Horizon</th>"
+            "<th>Log-linear MAPE</th><th>Naive (last value) MAPE</th></tr>"
+            + body + "</table>")
+
+
 def momentum_index() -> tuple[pd.DataFrame, str]:
     prices = pd.read_csv(CONSOLIDATED_CSV)
     latest = prices[prices["snapshot_date"] == prices["snapshot_date"].max()]
@@ -167,6 +202,48 @@ def momentum_index() -> tuple[pd.DataFrame, str]:
     return score, table
 
 
+def buyers_guide() -> str:
+    """The 'so what' — data-driven guidance for a GPU-compute buyer,
+    every claim computed from the latest snapshot."""
+    prices = pd.read_csv(CONSOLIDATED_CSV)
+    latest = prices[prices["snapshot_date"] == prices["snapshot_date"].max()]
+    od = latest[(latest["price_type"] == "ondemand")
+                & latest["price_usd_per_gpu_hour"].notna()]
+    h100 = od[od["gpu_model"] == "H100"].groupby("provider")["price_usd_per_gpu_hour"].min()
+    cheapest = h100.idxmin()
+
+    sp = latest[latest["price_usd_per_gpu_hour"].notna()]
+    pair = (sp[sp["price_type"] == "ondemand"].merge(
+        sp[sp["price_type"] == "spot"],
+        on=["provider", "region", "sku", "gpu_model"], suffixes=("_od", "_sp")))
+    pair = pair[pair["price_usd_hour_od"] > 0]
+    pair["disc"] = 1 - pair["price_usd_hour_sp"] / pair["price_usd_hour_od"]
+    disc = pair.groupby("provider")["disc"].median()
+    best_spot = disc.idxmax()
+
+    regions = od.groupby("provider")["region"].nunique()
+    widest = regions.idxmax()
+
+    return f"""
+<h2>If you are buying GPU compute today</h2>
+<div class="why"><ul>
+<li><b>Bursty training, price-sensitive:</b> {cheapest} has the lowest H100 list floor
+(${h100[cheapest]:,.2f}/GPU-hr{', GPU-only SKU — add host-VM cost' if cheapest == 'GCP' else ''});
+combine with {best_spot}'s spot/preemptible tier, which carries the deepest median discount
+({disc[best_spot]:.0%}) if your jobs checkpoint well.</li>
+<li><b>Latency / data-residency constrained:</b> {widest} offers GPU compute in the most
+regions ({regions[widest]}) — the widest footprint for compliance-bound workloads
+(see the <a href="regional.html">regional deep-dive</a> for the China exception).</li>
+<li><b>Negotiating leverage:</b> regional price dispersion is real — the same GPU lists at
+materially different prices across regions (tracker, dispersion chart). If your workload is
+region-flexible, quote the cheapest region's floor in negotiations; list prices are ceilings,
+not floors, at committed volume.</li>
+</ul></div>
+<p class="small">Generated from the latest weekly snapshot — every number above recomputes
+automatically as prices move.</p>
+"""
+
+
 def pulse(df: pd.DataFrame, fits: dict) -> str:
     prices = pd.read_csv(CONSOLIDATED_CSV)
     snaps = sorted(prices["snapshot_date"].unique())
@@ -218,6 +295,8 @@ CSS = """
  .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:12px 16px;font-size:14px}
  .pulse{background:#fff;border:1px solid #d0d7de;border-left:5px solid #1a7f37;border-radius:10px;padding:8px 22px;margin:20px 0}
  .pulse li{margin:10px 0;font-size:15px}
+ .why{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:6px 22px;margin:20px 0}
+ .why li{margin:10px 0;font-size:15px}
  .tbl{border-collapse:collapse;background:#fff;border:1px solid #d0d7de;font-size:14px;margin:16px 0}
  .tbl th,.tbl td{border:1px solid #d0d7de;padding:7px 12px;text-align:left}
  .tbl th{background:#f6f8fa}
@@ -234,6 +313,8 @@ def build() -> None:
     _, index_table = momentum_index()
     pulse_html = pulse(df, fits)
     cross = crossover_quarter(fits)
+    backtest_table = backtest(df)
+    guide_html = buyers_guide()
 
     built = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     html = f"""<!DOCTYPE html>
@@ -243,10 +324,11 @@ def build() -> None:
 <style>{CSS}</style></head><body><div class="wrap">
 <h1>Outlook &amp; Market Pulse</h1>
 <p class="byline">Forecast, the AI Momentum Index, and an auto-generated brief that refreshes
-with every weekly pipeline run.</p>
+with every weekly pipeline run. Written for a cloud procurement / strategy stakeholder.</p>
 {NAV}
 <h2>Market Pulse <span class="small">(auto-generated {built})</span></h2>
 <div class="pulse">{pulse_html}</div>
+{guide_html}
 <h2>Revenue outlook</h2>
 <div class="chart">{chart}</div>
 <div class="note"><b>Assumptions, stated plainly.</b> Log-linear extrapolation of the last
@@ -254,6 +336,14 @@ with every weekly pipeline run.</p>
 the growth gap, not for betting. Azure is fit only on FY25-basis quarters (the segment was
 re-defined 2024Q3) and is a segment proxy, not Azure alone.
 {f"On these trends Google Cloud's quarterly revenue would cross AWS's around <b>{cross}</b>." if cross else ""}</div>
+<h3>How good is this forecaster? (rolling-origin backtest)</h3>
+<p>Before trusting any extrapolation, test it on quarters we already know the answer to:
+re-fit the model at six past origins and score out-of-sample errors against a naive
+last-value baseline.</p>
+{backtest_table}
+<p class="small">MAPE = mean absolute percentage error across 6 rolling origins.
+The model needs to beat naive convincingly at 4 quarters out to justify the fan chart above;
+1-quarter-ahead is nearly unbeatable by anything (revenue is highly persistent).</p>
 <h2>AI Momentum Index</h2>
 <p>A documented composite built only from this project's own datasets — weekly GPU pricing
 snapshots, SEC-filed capex, and segment revenue. Each component is normalized to the best
