@@ -249,7 +249,7 @@ def build(history: pd.DataFrame) -> None:
 <h1>AI Cloud GPU Pricing Tracker</h1>
 <p class="byline">AWS · Azure · GCP — refreshed weekly by an automated pipeline (GitHub Actions).
 Latest snapshot: <b>{snapshot_date}</b> · {n_snapshots} weekly snapshot(s) collected since 2026-06-10.</p>
-<nav><a href="index.html">Live GPU Pricing</a><a href="market.html">Market History</a><a href="regional.html">Regional Deep-Dive</a><a href="analysis.html">Event Study &amp; Experiments</a></nav>
+<nav><a href="index.html">Live GPU Pricing</a><a href="market.html">Market History</a><a href="regional.html">Regional Deep-Dive</a><a href="analysis.html">Event Study &amp; Experiments</a><a href="outlook.html">Outlook &amp; Pulse</a></nav>
 {kpi_cards(latest)}
 {"".join(f"<div class='chart'>{c}</div>" for c in charts_html)}
 <div class="note"><b>Methodology & comparability.</b>

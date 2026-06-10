@@ -33,7 +33,8 @@ PRE_WINDOW = ("2021Q1", "2022Q4")
 NAV = ('<nav><a href="index.html">Live GPU Pricing</a>'
        '<a href="market.html">Market History</a>'
        '<a href="regional.html">Regional Deep-Dive</a>'
-       '<a href="analysis.html">Event Study &amp; Experiments</a></nav>')
+       '<a href="analysis.html">Event Study &amp; Experiments</a>'
+       '<a href="outlook.html">Outlook &amp; Pulse</a></nav>')
 
 
 def _fin() -> pd.DataFrame:

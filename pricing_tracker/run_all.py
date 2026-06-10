@@ -35,7 +35,7 @@ def main() -> None:
     build_report.build(history)
 
     for module_name in ("build_market_report", "build_regional_report",
-                        "build_analysis_report"):
+                        "build_analysis_report", "build_outlook"):
         try:
             __import__(module_name).build()
         except FileNotFoundError as exc:
