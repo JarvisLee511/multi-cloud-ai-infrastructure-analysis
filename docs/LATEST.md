@@ -1,4 +1,4 @@
-# GPU pricing snapshot — 2026-06-29
+# GPU pricing snapshot — 2026-07-06
 
 5,368 price points · 200 regions · 1063 SKUs across AWS / Azure / GCP.
 
@@ -6,7 +6,7 @@ Cheapest on-demand **USD per GPU-hour** (across all regions):
 
 | GPU | AWS | Azure | GCP |
 |---|---|---|---|
-| B200 | $14.24 | — | $4.49 |
+| B200 | $14.24 | — | $4.72 |
 | H200 | $7.91 | $10.60 | $4.58 |
 | H100 | $6.88 | $6.98 | $4.20 |
 | MI300X | — | $6.00 | — |
