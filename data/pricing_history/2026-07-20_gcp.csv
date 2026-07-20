@@ -1,0 +1,981 @@
+snapshot_date,provider,region,sku,gpu_model,gpu_count,price_type,price_usd_hour,price_usd_per_gpu_hour,source
+2026-07-20,GCP,africa-south1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Johannesburg,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Johannesburg,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,H200 141GB GPU attached to DWS Defined Duration VMs running in Johannesburg,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Johannesburg,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Johannesburg,H100,1.0,spot,1.3832,1.3832,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia H100 80GB GPU running in Johannesburg,H100,1.0,ondemand,12.81389,12.81389,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Johannesburg,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Johannesburg,L4,1.0,spot,0.0731,0.0731,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia L4 GPU running in Johannesburg,L4,1.0,ondemand,0.7325326,0.7325326,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Johannesburg,A100-80GB,1.0,spot,1.4702,1.4702,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla A100 80GB GPU running in Johannesburg,A100-80GB,1.0,ondemand,5.137929,5.137929,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Johannesburg,A100,1.0,spot,0.521,0.521,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla A100 GPU running in Johannesburg,A100,1.0,ondemand,3.837552,3.837552,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Johannesburg,P100,1.0,spot,0.1867,0.1867,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla P100 GPU running in Johannesburg,P100,1.0,ondemand,1.90968,1.90968,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Johannesburg,P4,1.0,spot,0.1032,0.1032,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla P4 GPU running in Johannesburg,P4,1.0,ondemand,0.7848,0.7848,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Johannesburg,T4,1.0,ondemand,0.4578,0.4578,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Johannesburg,T4,1.0,spot,0.0502,0.0502,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla T4 GPU running in Johannesburg,T4,1.0,ondemand,0.4578,0.4578,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Johannesburg,V100,1.0,spot,0.3373,0.3373,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Nvidia Tesla V100 GPU running in Johannesburg,V100,1.0,ondemand,3.24384,3.24384,Cloud Billing Catalog API
+2026-07-20,GCP,africa-south1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Johannesburg,B200,1.0,spot,2.9141,2.9141,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Taiwan,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Taiwan,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,H200 141GB GPU attached to DWS Defined Duration VMs running in Taiwan,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Taiwan,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Taiwan,H100,1.0,spot,5.3145,5.3145,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia H100 80GB GPU running in Taiwan,H100,1.0,ondemand,11.34343,11.34343,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Taiwan,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Taiwan,L4,1.0,ondemand,0.6484706,0.6484706,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Taiwan,L4,1.0,spot,0.3065,0.3065,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia L4 GPU running in Taiwan,L4,1.0,ondemand,0.6484706,0.6484706,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Taiwan,A100-80GB,1.0,spot,0.4786,0.4786,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla A100 80GB GPU running in Taiwan,A100-80GB,1.0,ondemand,4.548324,4.548324,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in APAC,A100,1.0,spot,0.3437,0.3437,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla A100 GPU running in APAC,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Taiwan,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in APAC,P100,1.0,spot,0.1584,0.1584,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla P100 GPU running in APAC,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Taiwan,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in APAC,T4,1.0,spot,0.183,0.183,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla T4 GPU running in APAC,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla V100 GPU attached to DWS Defined Duration VMs running in Taiwan,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in APAC,V100,1.0,spot,0.5342,0.5342,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Nvidia Tesla V100 GPU running in APAC,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Taiwan,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Hong Kong,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Hong Kong,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,H200 141GB GPU attached to DWS Defined Duration VMs running in Hong Kong,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Hong Kong,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Hong Kong,H100,1.0,spot,1.4754,1.4754,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia H100 80GB GPU running in Hong Kong,H100,1.0,ondemand,13.70439,13.70439,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Hong Kong,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Hong Kong,L4,1.0,spot,0.0778,0.0778,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia L4 GPU running in Hong Kong,L4,1.0,ondemand,0.7834403,0.7834403,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Hong Kong,A100-80GB,1.0,spot,1.9837,1.9837,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla A100 80GB GPU running in Hong Kong,A100-80GB,1.0,ondemand,5.494991,5.494991,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Hong Kong,A100,1.0,spot,0.3322,0.3322,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla A100 GPU running in Hong Kong,A100,1.0,ondemand,3.688341526,3.688341526,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Hong Kong,T4,1.0,ondemand,0.44,0.44,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Hong Kong,T4,1.0,spot,0.1951,0.1951,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Nvidia Tesla T4 GPU running in Hong Kong,T4,1.0,ondemand,0.44,0.44,Cloud Billing Catalog API
+2026-07-20,GCP,asia-east2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Hong Kong,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Tokyo,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Tokyo,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,H200 141GB GPU attached to DWS Defined Duration VMs running in Tokyo,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Tokyo,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Tokyo,H100,1.0,spot,2.868,2.868,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia H100 80GB GPU running in Tokyo,H100,1.0,ondemand,14.204998,14.204998,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Tokyo,H100,1.0,spot,3.344,3.344,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia H100 80GB Mega GPU running in Tokyo,H100,1.0,ondemand,13.28412,13.28412,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Tokyo,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Tokyo,L4,1.0,ondemand,0.7192037,0.7192037,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Tokyo,L4,1.0,spot,0.4315,0.4315,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia L4 GPU running in Tokyo,L4,1.0,ondemand,0.7192037,0.7192037,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Tokyo,A100-80GB,1.0,spot,1.8211,1.8211,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla A100 80GB GPU running in Tokyo,A100-80GB,1.0,ondemand,5.04444,5.04444,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Tokyo,A100,1.0,ondemand,1.705858,1.705858,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Japan,A100,1.0,spot,1.8609,1.8609,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla A100 GPU running in Japan,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Tokyo,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Japan,T4,1.0,spot,0.1582,0.1582,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Nvidia Tesla T4 GPU running in Japan,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Tokyo,B200,1.0,spot,5.3924,5.3924,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Osaka,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Osaka,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,H200 141GB GPU attached to DWS Defined Duration VMs running in Osaka,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Osaka,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Osaka,H100,1.0,spot,1.1429,1.1429,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia H100 80GB GPU running in Osaka,H100,1.0,ondemand,12.580729999999999,12.580729999999999,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Osaka,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Osaka,L4,1.0,spot,0.0718,0.0718,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia L4 GPU running in Osaka,L4,1.0,ondemand,0.7192037,0.7192037,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Osaka,A100-80GB,1.0,spot,0.6697,0.6697,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla A100 80GB GPU running in Osaka,A100-80GB,1.0,ondemand,5.04444,5.04444,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Osaka,A100,1.0,spot,0.2817,0.2817,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla A100 GPU running in Osaka,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Osaka,P100,1.0,spot,0.144,0.144,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla P100 GPU running in Osaka,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Osaka,P4,1.0,spot,0.0717,0.0717,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla P4 GPU running in Osaka,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Osaka,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Osaka,T4,1.0,spot,0.0366,0.0366,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla T4 GPU running in Osaka,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Osaka,V100,1.0,spot,0.74,0.74,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Osaka,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Seoul,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Seoul,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,H200 141GB GPU attached to DWS Defined Duration VMs running in Seoul,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Seoul,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Seoul,H100,1.0,spot,4.0166,4.0166,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia H100 80GB GPU running in Seoul,H100,1.0,ondemand,12.580729999999999,12.580729999999999,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Seoul,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Seoul,L4,1.0,ondemand,0.7192037,0.7192037,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia L4 GPU attached to Spot Preemptible VMs running in Seoul,L4,1.0,spot,0.2146,0.2146,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia L4 GPU running in Seoul,L4,1.0,ondemand,0.7192037,0.7192037,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Seoul,A100-80GB,1.0,spot,0.6697,0.6697,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla A100 80GB GPU running in Seoul,A100-80GB,1.0,ondemand,5.04444,5.04444,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Seoul,A100,1.0,ondemand,1.705858,1.705858,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Seoul,A100,1.0,spot,1.6478000000000002,1.6478000000000002,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla A100 GPU running in Seoul,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Seoul,P100,1.0,spot,0.3881,0.3881,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla P100 GPU running in Seoul,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Seoul,P4,1.0,spot,0.0717,0.0717,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla P4 GPU running in Seoul,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Seoul,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Seoul,T4,1.0,spot,0.1933,0.1933,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla T4 GPU running in Seoul,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Seoul,V100,1.0,spot,0.74,0.74,Cloud Billing Catalog API
+2026-07-20,GCP,asia-northeast3,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Seoul,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Mumbai,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Mumbai,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,H200 141GB GPU attached to DWS Defined Duration VMs running in Mumbai,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,H200 141GB GPU attached to Spot Preemptible VMs running in Mumbai,H200,1.0,spot,5.5732,5.5732,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,H200 141GB GPU running in Mumbai,H200,1.0,ondemand,11.17409,11.17409,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,H100,1.0,spot,4.1741,4.1741,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia H100 80GB GPU running in Mumbai,H100,1.0,ondemand,10.18841,10.18841,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mumbai,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Mumbai,L4,1.0,ondemand,0.5824418,0.5824418,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Mumbai,L4,1.0,spot,0.2571,0.2571,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia L4 GPU running in Mumbai,L4,1.0,ondemand,0.582975726,0.582975726,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Mumbai,A100-80GB,1.0,spot,0.6264,0.6264,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla A100 80GB GPU running in Mumbai,A100-80GB,1.0,ondemand,4.718017,4.718017,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Mumbai,A100,1.0,spot,0.4871,0.4871,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla A100 GPU running in Mumbai,A100,1.0,ondemand,3.436863684,3.436863684,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Mumbai,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Mumbai,T4,1.0,spot,0.158,0.158,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Nvidia Tesla T4 GPU running in Mumbai,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Mumbai,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Delhi,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Delhi,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,H200 141GB GPU attached to DWS Defined Duration VMs running in Delhi,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Delhi,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Delhi,H100,1.0,spot,3.4329,3.4329,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia H100 80GB GPU running in Delhi,H100,1.0,ondemand,11.76664,11.76664,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Delhi,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Delhi,L4,1.0,spot,0.1797,0.1797,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia L4 GPU running in Delhi,L4,1.0,ondemand,0.6726643,0.6726643,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Delhi,A100-80GB,1.0,spot,0.4965,0.4965,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla A100 80GB GPU running in Delhi,A100-80GB,1.0,ondemand,4.718017,4.718017,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Delhi,A100,1.0,spot,0.3504,0.3504,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla A100 GPU running in Delhi,A100,1.0,ondemand,3.5206896,3.5206896,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Delhi,P100,1.0,spot,0.1713,0.1713,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla P100 GPU running in Delhi,P100,1.0,ondemand,1.75,1.75,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Delhi,P4,1.0,spot,0.086,0.086,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla P4 GPU running in Delhi,P4,1.0,ondemand,0.72,0.72,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Delhi,T4,1.0,ondemand,0.420385,0.420385,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Delhi,T4,1.0,spot,0.0439,0.0439,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla T4 GPU running in Delhi,T4,1.0,ondemand,0.42,0.42,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Delhi,V100,1.0,spot,0.74,0.74,Cloud Billing Catalog API
+2026-07-20,GCP,asia-south2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Delhi,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Singapore,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,A4 Nvidia B200 (1 gpu slice) running in Singapore,B200,1.0,ondemand,19.332,19.332,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Singapore,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,H200 141GB GPU attached to DWS Defined Duration VMs running in Singapore,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Singapore,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Singapore,H100,1.0,spot,5.7068,5.7068,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia H100 80GB GPU running in Singapore,H100,1.0,ondemand,12.735516,12.735516,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Singapore,H100,1.0,spot,6.0134,6.0134,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia H100 80GB Mega GPU running in Singapore,H100,1.0,ondemand,13.44756,13.44756,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Singapore,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Singapore,L4,1.0,ondemand,0.6909216,0.6909216,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Singapore,L4,1.0,spot,0.4146,0.4146,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia L4 GPU running in Singapore,L4,1.0,ondemand,0.6909216,0.6909216,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Singapore,A100-80GB,1.0,ondemand,2.277654,2.277654,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Singapore,A100-80GB,1.0,spot,2.4139,2.4139,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla A100 80GB GPU running in Singapore,A100-80GB,1.0,ondemand,4.846072,4.846072,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Singapore,A100,1.0,ondemand,1.705858,1.705858,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Singapore,A100,1.0,spot,1.8609,1.8609,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla A100 GPU running in Singapore,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Singapore,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Singapore,P4,1.0,spot,0.0708,0.0708,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla P4 GPU running in Singapore,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Singapore,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Singapore,T4,1.0,spot,0.1032,0.1032,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Nvidia Tesla T4 GPU running in Singapore,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Singapore,B200,1.0,spot,4.9021,4.9021,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Jakarta,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Jakarta,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,H200 141GB GPU attached to DWS Defined Duration VMs running in Jakarta,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Jakarta,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Jakarta,H100,1.0,spot,1.3245,1.3245,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia H100 80GB GPU running in Jakarta,H100,1.0,ondemand,13.17342,13.17342,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Jakarta,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Jakarta,L4,1.0,spot,0.0749,0.0749,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia L4 GPU running in Jakarta,L4,1.0,ondemand,0.7530861,0.7530861,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Jakarta,A100-80GB,1.0,spot,0.5561,0.5561,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla A100 80GB GPU running in Jakarta,A100-80GB,1.0,ondemand,5.282089,5.282089,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Jakarta,A100,1.0,spot,0.4279,0.4279,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla A100 GPU running in Jakarta,A100,1.0,ondemand,3.380700262,3.380700262,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Jakarta,P100,1.0,spot,0.423,0.423,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla P100 GPU running in Jakarta,P100,1.0,ondemand,1.744,1.744,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Jakarta,P4,1.0,spot,0.0781,0.0781,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla P4 GPU running in Jakarta,P4,1.0,ondemand,0.7085,0.7085,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Jakarta,T4,1.0,ondemand,0.4033,0.4033,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Jakarta,T4,1.0,spot,0.1163,0.1163,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla T4 GPU running in Jakarta,T4,1.0,ondemand,0.4033,0.4033,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Jakarta,V100,1.0,spot,0.8066,0.8066,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Jakarta,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast3,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Bangkok,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast3,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Bangkok,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,asia-southeast3,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Bangkok,T4,1.0,ondemand,0.42,0.42,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Sydney,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Sydney,H100,1.0,spot,3.0665,3.0665,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia H100 80GB GPU running in Sydney,H100,1.0,ondemand,12.24569,12.24569,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Sydney,H100,1.0,spot,4.1642,4.1642,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia H100 80GB Mega GPU running in Sydney,H100,1.0,ondemand,12.93034,12.93034,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Sydney,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Sydney,L4,1.0,spot,0.0792,0.0792,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia L4 GPU running in Sydney,L4,1.0,ondemand,0.699803785,0.699803785,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Sydney,A100-80GB,1.0,spot,0.5869,0.5869,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla A100 80GB GPU running in Sydney,A100-80GB,1.0,ondemand,5.57591,5.57591,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Sydney,A100,1.0,spot,0.3344,0.3344,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla A100 GPU running in Sydney,A100,1.0,ondemand,3.688341526,3.688341526,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Sydney,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Sydney,P100,1.0,spot,0.2086,0.2086,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla P100 GPU running in Sydney,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Sydney,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Sydney,P4,1.0,spot,0.0585,0.0585,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla P4 GPU running in Sydney,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Sydney,T4,1.0,ondemand,0.4375,0.4375,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Sydney,T4,1.0,spot,0.189,0.189,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast1,Nvidia Tesla T4 GPU running in Sydney,T4,1.0,ondemand,0.44,0.44,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Melbourne,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Melbourne,H100,1.0,spot,1.156,1.156,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia H100 80GB GPU running in Melbourne,H100,1.0,ondemand,12.73552,12.73552,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Melbourne,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Melbourne,L4,1.0,spot,0.0923,0.0923,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia L4 GPU running in Melbourne,L4,1.0,ondemand,0.727795936,0.727795936,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Melbourne,A100-80GB,1.0,spot,0.7404,0.7404,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla A100 80GB GPU running in Melbourne,A100-80GB,1.0,ondemand,5.57591,5.57591,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Melbourne,A100,1.0,spot,0.4148,0.4148,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla A100 GPU running in Melbourne,A100,1.0,ondemand,4.16614936,4.16614936,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Melbourne,P100,1.0,spot,0.2028,0.2028,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla P100 GPU running in Melbourne,P100,1.0,ondemand,2.0732,2.0732,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Melbourne,P4,1.0,spot,0.1019,0.1019,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla P4 GPU running in Melbourne,P4,1.0,ondemand,0.852,0.852,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Melbourne,T4,1.0,ondemand,0.497,0.497,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Melbourne,T4,1.0,spot,0.0519,0.0519,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla T4 GPU running in Melbourne,T4,1.0,ondemand,0.497,0.497,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Melbourne,V100,1.0,spot,0.3489,0.3489,Cloud Billing Catalog API
+2026-07-20,GCP,australia-southeast2,Nvidia Tesla V100 GPU running in Melbourne,V100,1.0,ondemand,3.5216,3.5216,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Warsaw,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Warsaw,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,H200 141GB GPU attached to DWS Defined Duration VMs running in Warsaw,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Warsaw,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Warsaw,H100,1.0,spot,1.2742,1.2742,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia H100 80GB GPU running in Warsaw,H100,1.0,ondemand,12.62188,12.62188,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Warsaw,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Warsaw,L4,1.0,spot,0.0764,0.0764,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia L4 GPU running in Warsaw,L4,1.0,ondemand,0.7215558,0.7215558,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Warsaw,A100-80GB,1.0,spot,0.672,0.672,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla A100 80GB GPU running in Warsaw,A100-80GB,1.0,ondemand,5.060938,5.060938,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Warsaw,A100,1.0,spot,0.3099,0.3099,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla A100 GPU running in Warsaw,A100,1.0,ondemand,3.436863684,3.436863684,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Warsaw,P100,1.0,spot,0.144,0.144,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla P100 GPU running in Warsaw,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Warsaw,P4,1.0,spot,0.0717,0.0717,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla P4 GPU running in Warsaw,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Warsaw,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Warsaw,T4,1.0,spot,0.1894,0.1894,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla T4 GPU running in Warsaw,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Warsaw,V100,1.0,spot,0.74,0.74,Cloud Billing Catalog API
+2026-07-20,GCP,europe-central2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Warsaw,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Finland,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Finland,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,H200 141GB GPU attached to DWS Defined Duration VMs running in Finland,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Finland,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Finland,H100,1.0,spot,1.0898,1.0898,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia H100 80GB GPU running in Finland,H100,1.0,ondemand,10.78698,10.78698,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Finland,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Finland,L4,1.0,spot,0.0612,0.0612,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia L4 GPU running in Finland,L4,1.0,ondemand,0.6166603,0.6166603,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Finland,A100-80GB,1.0,spot,0.5743,0.5743,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia Tesla A100 80GB GPU running in Finland,A100-80GB,1.0,ondemand,4.325209,4.325209,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Finland,A100,1.0,spot,0.2653,0.2653,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia Tesla A100 GPU running in Finland,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Finland,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Finland,B200,1.0,spot,4.943,4.943,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Stockholm,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Stockholm,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-north2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Stockholm,T4,1.0,ondemand,0.385,0.385,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Madrid,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Madrid,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,H200 141GB GPU attached to DWS Defined Duration VMs running in Madrid,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Madrid,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Madrid,H100,1.0,spot,1.0501,1.0501,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia H100 80GB GPU running in Madrid,H100,1.0,ondemand,11.55993,11.55993,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Madrid,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Madrid,L4,1.0,spot,0.1125,0.1125,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia L4 GPU running in Madrid,L4,1.0,ondemand,0.6608475,0.6608475,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Madrid,A100-80GB,1.0,spot,1.3264,1.3264,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla A100 80GB GPU running in Madrid,A100-80GB,1.0,ondemand,4.635134,4.635134,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Madrid,A100,1.0,spot,0.3434,0.3434,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla A100 GPU running in Madrid,A100,1.0,ondemand,3.462011,3.462011,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Madrid,P100,1.0,spot,0.4579,0.4579,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla P100 GPU running in Madrid,P100,1.0,ondemand,1.7227999999999999,1.7227999999999999,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Madrid,P4,1.0,spot,0.0845,0.0845,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla P4 GPU running in Madrid,P4,1.0,ondemand,0.708,0.708,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Madrid,T4,1.0,ondemand,0.413,0.413,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Madrid,T4,1.0,spot,0.0432,0.0432,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla T4 GPU running in Madrid,T4,1.0,ondemand,0.413,0.413,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Madrid,V100,1.0,spot,0.2898,0.2898,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Nvidia Tesla V100 GPU running in Madrid,V100,1.0,ondemand,2.9264,2.9264,Cloud Billing Catalog API
+2026-07-20,GCP,europe-southwest1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Madrid,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Belgium,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Belgium,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,H200 141GB GPU attached to DWS Defined Duration VMs running in Belgium,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,H200 141GB GPU attached to Spot Preemptible VMs running in Belgium,H200,1.0,spot,5.624,5.624,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,H200 141GB GPU running in Belgium,H200,1.0,ondemand,10.25316,10.25316,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Belgium,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Belgium,H100,1.0,spot,4.2066,4.2066,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia H100 80GB GPU running in Belgium,H100,1.0,ondemand,10.78698,10.78698,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Belgium,H100,1.0,spot,4.4614,4.4614,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia H100 80GB Mega GPU running in Belgium,H100,1.0,ondemand,11.39008,11.39008,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Belgium,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Belgium,L4,1.0,ondemand,0.6166603,0.6166603,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Belgium,L4,1.0,spot,0.2832,0.2832,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia L4 GPU running in Belgium,L4,1.0,ondemand,0.6166603,0.6166603,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Belgium,A100-80GB,1.0,spot,0.5743,0.5743,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla A100 80GB GPU running in Belgium,A100-80GB,1.0,ondemand,4.325209,4.325209,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in EMEA,A100,1.0,spot,0.7224,0.7224,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla A100 GPU running in EMEA,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Belgium,P100,1.0,ondemand,1.607606,1.607606,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in EMEA,P100,1.0,spot,0.1598,0.1598,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla P100 GPU running in EMEA,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Belgium,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in EMEA,T4,1.0,spot,0.1396,0.1396,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Nvidia Tesla T4 GPU running in EMEA,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Belgium,B200,1.0,spot,2.4469,2.4469,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Berlin,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Berlin,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,H200 141GB GPU attached to DWS Defined Duration VMs running in Berlin,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Berlin,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Berlin,H100,1.0,spot,1.6221,1.6221,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia H100 80GB GPU running in Berlin,H100,1.0,ondemand,15.08669,15.08669,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Berlin,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia L4 GPU attached to Spot Preemptible VMs running in Berlin,L4,1.0,spot,0.1119,0.1119,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia L4 GPU running in Berlin,L4,1.0,ondemand,0.862462,0.862462,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Berlin,A100-80GB,1.0,spot,2.1838,2.1838,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla A100 80GB GPU running in Berlin,A100-80GB,1.0,ondemand,6.049243,6.049243,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Berlin,A100,1.0,spot,0.7683,0.7683,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla A100 GPU running in Berlin,A100,1.0,ondemand,4.518218,4.518218,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Berlin,P100,1.0,spot,0.5976,0.5976,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla P100 GPU running in Berlin,P100,1.0,ondemand,2.2484,2.2484,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Berlin,P4,1.0,spot,0.1214,0.1214,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla P4 GPU running in Berlin,P4,1.0,ondemand,0.924,0.924,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Berlin,T4,1.0,ondemand,0.539,0.539,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Berlin,T4,1.0,spot,0.0591,0.0591,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla T4 GPU running in Berlin,T4,1.0,ondemand,0.539,0.539,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Berlin,V100,1.0,spot,0.3972,0.3972,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Nvidia Tesla V100 GPU running in Berlin,V100,1.0,ondemand,3.8192,3.8192,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west10,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Berlin,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Turin,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Turin,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,H200 141GB GPU attached to DWS Defined Duration VMs running in Turin,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Turin,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Turin,H100,1.0,spot,1.1374,1.1374,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia H100 80GB GPU running in Turin,H100,1.0,ondemand,12.63755,12.63755,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Turin,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia L4 GPU attached to Spot Preemptible VMs running in Turin,L4,1.0,spot,0.072,0.072,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia L4 GPU running in Turin,L4,1.0,ondemand,0.7224519,0.7224519,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Turin,A100-80GB,1.0,spot,1.8293,1.8293,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla A100 80GB GPU running in Turin,A100-80GB,1.0,ondemand,5.067223,5.067223,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Turin,A100,1.0,spot,0.3776,0.3776,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla A100 GPU running in Turin,A100,1.0,ondemand,3.784741,3.784741,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Turin,P100,1.0,spot,0.1841,0.1841,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla P100 GPU running in Turin,P100,1.0,ondemand,1.8834,1.8834,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Turin,P4,1.0,spot,0.0925,0.0925,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla P4 GPU running in Turin,P4,1.0,ondemand,0.774,0.774,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Turin,T4,1.0,ondemand,0.4515,0.4515,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Turin,T4,1.0,spot,0.0471,0.0471,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla T4 GPU running in Turin,T4,1.0,ondemand,0.4515,0.4515,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Turin,V100,1.0,spot,0.3168,0.3168,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Nvidia Tesla V100 GPU running in Turin,V100,1.0,ondemand,3.1992,3.1992,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west12,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Turin,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in London,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in London,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,H200 141GB GPU attached to DWS Defined Duration VMs running in London,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in London,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in London,H100,1.0,spot,1.1275,1.1275,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia H100 80GB GPU running in London,H100,1.0,ondemand,11.16807,11.16807,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in London,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia L4 GPU attached to DWS Defined Duration VMs running in London,L4,1.0,ondemand,0.6384459,0.6384459,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia L4 GPU attached to Spot Preemptible VMs running in London,L4,1.0,spot,0.3826,0.3826,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia L4 GPU running in London,L4,1.0,ondemand,0.637653962,0.637653962,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in London,A100-80GB,1.0,spot,0.672,0.672,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla A100 80GB GPU running in London,A100-80GB,1.0,ondemand,5.060938,5.060938,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in London,A100,1.0,spot,0.3099,0.3099,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla A100 GPU running in London,A100,1.0,ondemand,3.436863684,3.436863684,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in London,T4,1.0,ondemand,0.399,0.399,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in London,T4,1.0,spot,0.1222,0.1222,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Nvidia Tesla T4 GPU running in London,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in London,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Frankfurt,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Frankfurt,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,H200 141GB GPU attached to DWS Defined Duration VMs running in Frankfurt,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Frankfurt,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Frankfurt,H100,1.0,spot,4.7272,4.7272,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia H100 80GB GPU running in Frankfurt,H100,1.0,ondemand,11.55993,11.55993,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Frankfurt,H100,1.0,spot,5.994,5.994,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia H100 80GB Mega GPU running in Frankfurt,H100,1.0,ondemand,12.20625,12.20625,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Frankfurt,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Frankfurt,L4,1.0,ondemand,0.6608475,0.6608475,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia L4 GPU attached to Spot Preemptible VMs running in Frankfurt,L4,1.0,spot,0.396,0.396,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia L4 GPU running in Frankfurt,L4,1.0,ondemand,0.660027786,0.660027786,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Frankfurt,A100-80GB,1.0,spot,0.672,0.672,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla A100 80GB GPU running in Frankfurt,A100-80GB,1.0,ondemand,5.060938,5.060938,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Frankfurt,A100,1.0,spot,0.454,0.454,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla A100 GPU running in Frankfurt,A100,1.0,ondemand,3.436863684,3.436863684,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Frankfurt,T4,1.0,ondemand,0.413,0.413,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Frankfurt,T4,1.0,spot,0.1714,0.1714,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Nvidia Tesla T4 GPU running in Frankfurt,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west3,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Frankfurt,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Netherlands,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,A4 Nvidia B200 (1 gpu slice) running in Netherlands,B200,1.0,ondemand,17.721,17.721,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Netherlands,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,H200 141GB GPU attached to DWS Defined Duration VMs running in Netherlands,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,H200 141GB GPU attached to Spot Preemptible VMs running in Netherlands,H200,1.0,spot,5.9189,5.9189,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Netherlands,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Netherlands,H100,1.0,spot,4.9787,4.9787,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia H100 80GB GPU running in Netherlands,H100,1.0,ondemand,12.735516,12.735516,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Netherlands,H100,1.0,spot,5.2443,5.2443,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia H100 80GB Mega GPU running in Netherlands,H100,1.0,ondemand,13.44756,13.44756,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Netherlands,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Netherlands,L4,1.0,ondemand,0.5880423,0.5880423,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia L4 GPU attached to Spot Preemptible VMs running in Netherlands,L4,1.0,spot,0.3089,0.3089,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia L4 GPU running in Netherlands,L4,1.0,ondemand,0.588630286,0.588630286,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Netherlands,A100-80GB,1.0,ondemand,2.032848,2.032848,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Netherlands,A100-80GB,1.0,spot,2.373,2.373,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla A100 80GB GPU running in Netherlands,A100-80GB,1.0,ondemand,4.325209,4.325209,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Netherlands,A100,1.0,ondemand,1.6136490000000001,1.6136490000000001,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Netherlands,A100,1.0,spot,1.3251,1.3251,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla A100 GPU running in Netherlands,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Netherlands,P100,1.0,ondemand,1.533,1.533,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Netherlands,P100,1.0,spot,0.144,0.144,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla P100 GPU running in Netherlands,P100,1.0,ondemand,1.6,1.6,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Netherlands,P4,1.0,ondemand,0.63,0.63,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Netherlands,P4,1.0,spot,0.2344,0.2344,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla P4 GPU running in Netherlands,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Netherlands,T4,1.0,ondemand,0.3675,0.3675,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Netherlands,T4,1.0,spot,0.1895,0.1895,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla T4 GPU running in Netherlands,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla V100 GPU attached to DWS Defined Duration VMs running in Netherlands,V100,1.0,ondemand,2.604,2.604,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Netherlands,V100,1.0,spot,0.7942,0.7942,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Nvidia Tesla V100 GPU running in Netherlands,V100,1.0,ondemand,2.55,2.55,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west4,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Netherlands,B200,1.0,spot,4.4722,4.4722,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Galaxy Frankfurt,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Galaxy Frankfurt,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,H200 141GB GPU attached to DWS Defined Duration VMs running in Galaxy Frankfurt,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Frankfurt West,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Frankfurt West,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Frankfurt West,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west5,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Galaxy Frankfurt,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Zurich,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Zurich,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,H200 141GB GPU attached to DWS Defined Duration VMs running in Zurich,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Zurich,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Zurich,H100,1.0,spot,1.2442,1.2442,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia H100 80GB GPU running in Zurich,H100,1.0,ondemand,13.70439,13.70439,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Zurich,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Zurich,L4,1.0,ondemand,0.7834403,0.7834403,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia L4 GPU attached to Spot Preemptible VMs running in Zurich,L4,1.0,spot,0.4537,0.4537,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia L4 GPU running in Zurich,L4,1.0,ondemand,0.7834403,0.7834403,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Zurich,A100-80GB,1.0,spot,0.7297,0.7297,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla A100 80GB GPU running in Zurich,A100-80GB,1.0,ondemand,5.494991,5.494991,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Zurich,A100,1.0,spot,0.3398,0.3398,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla A100 GPU running in Zurich,A100,1.0,ondemand,3.7721674419999998,3.7721674419999998,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Zurich,P100,1.0,spot,0.1856,0.1856,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla P100 GPU running in Zurich,P100,1.0,ondemand,2.044,2.044,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Zurich,P4,1.0,spot,0.2535,0.2535,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla P4 GPU running in Zurich,P4,1.0,ondemand,0.84,0.84,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Zurich,T4,1.0,ondemand,0.45,0.45,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Zurich,T4,1.0,spot,0.0993,0.0993,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla T4 GPU running in Zurich,T4,1.0,ondemand,0.45,0.45,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Zurich,V100,1.0,spot,0.3193,0.3193,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Nvidia Tesla V100 GPU running in Zurich,V100,1.0,ondemand,3.472,3.472,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west6,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Zurich,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Milan,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Milan,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,H200 141GB GPU attached to DWS Defined Duration VMs running in Milan,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Milan,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Milan,H100,1.0,spot,1.8485,1.8485,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia H100 80GB GPU running in Milan,H100,1.0,ondemand,11.364,11.364,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Milan,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia L4 GPU attached to Spot Preemptible VMs running in Milan,L4,1.0,spot,0.0754,0.0754,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia L4 GPU running in Milan,L4,1.0,ondemand,0.6496467,0.6496467,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Milan,A100-80GB,1.0,spot,0.605,0.605,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla A100 80GB GPU running in Milan,A100-80GB,1.0,ondemand,4.556573,4.556573,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Milan,A100,1.0,spot,0.3388,0.3388,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla A100 GPU running in Milan,A100,1.0,ondemand,3.403333,3.403333,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Milan,P100,1.0,spot,0.4502,0.4502,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla P100 GPU running in Milan,P100,1.0,ondemand,1.6936,1.6936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Milan,P4,1.0,spot,0.0831,0.0831,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla P4 GPU running in Milan,P4,1.0,ondemand,0.696,0.696,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Milan,T4,1.0,ondemand,0.406,0.406,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Milan,T4,1.0,spot,0.0424,0.0424,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla T4 GPU running in Milan,T4,1.0,ondemand,0.406,0.406,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Milan,V100,1.0,spot,0.285,0.285,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Nvidia Tesla V100 GPU running in Milan,V100,1.0,ondemand,2.8768000000000002,2.8768000000000002,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west8,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Milan,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Paris,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Paris,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,H200 141GB GPU attached to DWS Defined Duration VMs running in Paris,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Paris,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Paris,H100,1.0,spot,2.5652,2.5652,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia H100 80GB GPU running in Paris,H100,1.0,ondemand,11.364,11.364,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Paris,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia L4 GPU attached to Spot Preemptible VMs running in Paris,L4,1.0,spot,0.1105,0.1105,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia L4 GPU running in Paris,L4,1.0,ondemand,0.6496467,0.6496467,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Paris,A100-80GB,1.0,spot,0.605,0.605,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla A100 80GB GPU running in Paris,A100-80GB,1.0,ondemand,4.556573,4.556573,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Paris,A100,1.0,spot,0.3388,0.3388,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla A100 GPU running in Paris,A100,1.0,ondemand,3.403333,3.403333,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Paris,P100,1.0,spot,0.4502,0.4502,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla P100 GPU running in Paris,P100,1.0,ondemand,1.6936,1.6936,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Paris,P4,1.0,spot,0.0831,0.0831,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla P4 GPU running in Paris,P4,1.0,ondemand,0.696,0.696,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Paris,T4,1.0,ondemand,0.406,0.406,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Paris,T4,1.0,spot,0.0424,0.0424,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla T4 GPU running in Paris,T4,1.0,ondemand,0.406,0.406,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Paris,V100,1.0,spot,0.285,0.285,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Nvidia Tesla V100 GPU running in Paris,V100,1.0,ondemand,2.8768000000000002,2.8768000000000002,Cloud Billing Catalog API
+2026-07-20,GCP,europe-west9,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Paris,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Doha,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Doha,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,H200 141GB GPU attached to DWS Defined Duration VMs running in Doha,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Doha,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Doha,H100,1.0,spot,1.0813,1.0813,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia H100 80GB GPU running in Doha,H100,1.0,ondemand,11.90281,11.90281,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Doha,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Doha,L4,1.0,spot,0.1158,0.1158,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia L4 GPU running in Doha,L4,1.0,ondemand,0.6804489,0.6804489,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Doha,A100-80GB,1.0,spot,0.6337,0.6337,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla A100 80GB GPU running in Doha,A100-80GB,1.0,ondemand,4.772617,4.772617,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Doha,A100,1.0,spot,0.4842,0.4842,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla A100 GPU running in Doha,A100,1.0,ondemand,3.564698,3.564698,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Doha,P100,1.0,spot,0.4715,0.4715,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla P100 GPU running in Doha,P100,1.0,ondemand,1.7739,1.7739,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Doha,P4,1.0,spot,0.0871,0.0871,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla P4 GPU running in Doha,P4,1.0,ondemand,0.729,0.729,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Doha,T4,1.0,ondemand,0.42525,0.42525,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Doha,T4,1.0,spot,0.0444,0.0444,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla T4 GPU running in Doha,T4,1.0,ondemand,0.42525,0.42525,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Doha,V100,1.0,spot,0.2984,0.2984,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Nvidia Tesla V100 GPU running in Doha,V100,1.0,ondemand,3.0132,3.0132,Cloud Billing Catalog API
+2026-07-20,GCP,me-central1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Doha,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Dammam,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Dammam,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,H200 141GB GPU attached to DWS Defined Duration VMs running in Dammam,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Dammam,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Dammam,H100,1.0,spot,1.5802,1.5802,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia H100 80GB GPU running in Dammam,H100,1.0,ondemand,15.674479999999999,15.674479999999999,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Dammam,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Dammam,L4,1.0,ondemand,0.8960644,0.8960644,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Dammam,L4,1.0,spot,0.4655,0.4655,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia L4 GPU running in Dammam,L4,1.0,ondemand,0.8960644,0.8960644,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Dammam,A100-80GB,1.0,spot,2.2689,2.2689,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla A100 80GB GPU running in Dammam,A100-80GB,1.0,ondemand,6.284928,6.284928,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Dammam,A100,1.0,spot,1.2709,1.2709,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla A100 GPU running in Dammam,A100,1.0,ondemand,4.694253,4.694253,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Dammam,P100,1.0,spot,0.2284,0.2284,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla P100 GPU running in Dammam,P100,1.0,ondemand,2.336,2.336,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Dammam,P4,1.0,spot,0.1262,0.1262,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla P4 GPU running in Dammam,P4,1.0,ondemand,0.96,0.96,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Dammam,T4,1.0,ondemand,0.56,0.56,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Dammam,T4,1.0,spot,0.1668,0.1668,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla T4 GPU running in Dammam,T4,1.0,ondemand,0.56,0.56,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Dammam,V100,1.0,spot,0.4126,0.4126,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Nvidia Tesla V100 GPU running in Dammam,V100,1.0,ondemand,3.968,3.968,Cloud Billing Catalog API
+2026-07-20,GCP,me-central2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Dammam,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in TelAviv,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in TelAviv,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,H200 141GB GPU attached to DWS Defined Duration VMs running in TelAviv,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Israel,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Israel,H100,1.0,spot,1.1569,1.1569,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia H100 80GB GPU running in Israel,H100,1.0,ondemand,10.77621,10.77621,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Israel,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Israel,L4,1.0,spot,0.0714,0.0714,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia L4 GPU running in Israel,L4,1.0,ondemand,0.6160443,0.6160443,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Israel,A100-80GB,1.0,spot,1.5598999999999998,1.5598999999999998,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla A100 80GB GPU running in Israel,A100-80GB,1.0,ondemand,4.320888,4.320888,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Israel,A100,1.0,ondemand,1.775014,1.775014,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Israel,A100,1.0,spot,1.9364,1.9364,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla A100 GPU running in Israel,A100,1.0,ondemand,3.227299,3.227299,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Israel,P100,1.0,spot,0.4269,0.4269,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla P100 GPU running in Israel,P100,1.0,ondemand,1.6059999999999999,1.6059999999999999,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Israel,P4,1.0,spot,0.0788,0.0788,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla P4 GPU running in Israel,P4,1.0,ondemand,0.66,0.66,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Israel,T4,1.0,ondemand,0.385,0.385,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Israel,T4,1.0,spot,0.1124,0.1124,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla T4 GPU running in Israel,T4,1.0,ondemand,0.385,0.385,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Israel,V100,1.0,spot,0.2701,0.2701,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Nvidia Tesla V100 GPU running in Israel,V100,1.0,ondemand,2.7279999999999998,2.7279999999999998,Cloud Billing Catalog API
+2026-07-20,GCP,me-west1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in TelAviv,B200,1.0,spot,2.6694,2.6694,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Montreal,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Montreal,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,H200 141GB GPU attached to DWS Defined Duration VMs running in Montreal,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Montreal,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Montreal,H100,1.0,spot,0.9799,0.9799,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia H100 80GB GPU running in Montreal,H100,1.0,ondemand,10.78698,10.78698,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Montreal,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Montreal,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Montreal,L4,1.0,spot,0.3252,0.3252,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia L4 GPU running in Montreal,L4,1.0,ondemand,0.6166603,0.6166603,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Montreal,A100-80GB,1.0,spot,1.2377,1.2377,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla A100 80GB GPU running in Montreal,A100-80GB,1.0,ondemand,4.325209,4.325209,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Montreal,A100,1.0,spot,0.2805,0.2805,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla A100 GPU running in Montreal,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Montreal,P4,1.0,ondemand,0.66066,0.66066,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Montreal,P4,1.0,spot,0.0644,0.0644,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla P4 GPU running in Montreal,P4,1.0,ondemand,0.65,0.65,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Montreal,T4,1.0,ondemand,0.385385,0.385385,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Montreal,T4,1.0,spot,0.1355,0.1355,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla T4 GPU running in Montreal,T4,1.0,ondemand,0.385,0.385,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Montreal,V100,1.0,spot,0.74,0.74,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Montreal,B200,1.0,spot,2.4469,2.4469,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Toronto,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Toronto,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,H200 141GB GPU attached to DWS Defined Duration VMs running in Toronto,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Toronto,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Toronto,H100,1.0,spot,2.2423,2.2423,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia H100 80GB GPU running in Toronto,H100,1.0,ondemand,10.78698,10.78698,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Toronto,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Toronto,L4,1.0,ondemand,0.6166603,0.6166603,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Toronto,L4,1.0,spot,0.3316,0.3316,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia L4 GPU running in Toronto,L4,1.0,ondemand,0.6166603,0.6166603,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Toronto,A100-80GB,1.0,spot,1.5614,1.5614,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia Tesla A100 80GB GPU running in Toronto,A100-80GB,1.0,ondemand,4.325209,4.325209,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Toronto,T4,1.0,ondemand,0.385385,0.385385,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-northeast2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Toronto,B200,1.0,spot,2.4469,2.4469,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-south1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Mexico,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-south1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Mexico,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,northamerica-south1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Mexico,T4,1.0,ondemand,0.3815,0.3815,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Sao Paulo,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Sao Paulo,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,H200 141GB GPU attached to DWS Defined Duration VMs running in Sao Paulo,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Sao Paulo,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Sao Paulo,H100,1.0,spot,1.4131,1.4131,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia H100 80GB GPU running in Sao Paulo,H100,1.0,ondemand,15.55594,15.55594,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Sao Paulo,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Sao Paulo,L4,1.0,spot,0.1032,0.1032,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia L4 GPU running in Sao Paulo,L4,1.0,ondemand,0.8892879,0.8892879,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Sao Paulo,A100-80GB,1.0,spot,0.6564,0.6564,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla A100 80GB GPU running in Sao Paulo,A100-80GB,1.0,ondemand,6.237398,6.237398,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Sao Paulo,A100,1.0,spot,0.3626,0.3626,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla A100 GPU running in Sao Paulo,A100,1.0,ondemand,4.023645284,4.023645284,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Sao Paulo,T4,1.0,ondemand,0.48,0.48,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Sao Paulo,T4,1.0,spot,0.2514,0.2514,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Nvidia Tesla T4 GPU running in Sao Paulo,T4,1.0,ondemand,0.48,0.48,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-east1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Sao Paulo,B200,1.0,spot,3.5369,3.5369,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Santiago,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Santiago,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,H200 141GB GPU attached to DWS Defined Duration VMs running in Santiago,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Santiago,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Santiago,H100,1.0,spot,1.2707,1.2707,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia H100 80GB GPU running in Santiago,H100,1.0,ondemand,14.00907,14.00907,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Santiago,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Santiago,L4,1.0,spot,0.0798,0.0798,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia L4 GPU running in Santiago,L4,1.0,ondemand,0.8008575,0.8008575,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Santiago,A100-80GB,1.0,spot,2.0279,2.0279,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla A100 80GB GPU running in Santiago,A100-80GB,1.0,ondemand,5.617154,5.617154,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Santiago,A100,1.0,spot,0.7137,0.7137,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla A100 GPU running in Santiago,A100,1.0,ondemand,4.19548844,4.19548844,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Santiago,P100,1.0,spot,0.2042,0.2042,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla P100 GPU running in Santiago,P100,1.0,ondemand,2.0878,2.0878,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Santiago,P4,1.0,spot,0.2787,0.2787,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla P4 GPU running in Santiago,P4,1.0,ondemand,0.858,0.858,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Santiago,T4,1.0,ondemand,0.5005,0.5005,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Santiago,T4,1.0,spot,0.0522,0.0522,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla T4 GPU running in Santiago,T4,1.0,ondemand,0.5005,0.5005,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Santiago,V100,1.0,spot,0.3511,0.3511,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Nvidia Tesla V100 GPU running in Santiago,V100,1.0,ondemand,3.5464,3.5464,Cloud Billing Catalog API
+2026-07-20,GCP,southamerica-west1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Santiago,B200,1.0,spot,3.1812,3.1812,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,A4 Nvidia B200 (1 gpu slice) running in Americas,B200,1.0,ondemand,16.11,16.11,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,H200 141GB GPU attached to DWS Defined Duration VMs running in Americas,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,H200 141GB GPU attached to Spot Preemptible VMs running in Americas,H200,1.0,spot,5.1215,5.1215,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,H200 141GB GPU running in Americas,H200,1.0,ondemand,9.31174,9.31174,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas,H100,1.0,spot,5.6057,5.6057,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia H100 80GB GPU running in Americas,H100,1.0,ondemand,9.796550569,9.796550569,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas,H100,1.0,spot,5.9114,5.9114,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia H100 80GB Plus GPU running in Americas,H100,1.0,ondemand,10.344275712,10.344275712,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas,L4,1.0,spot,0.3148,0.3148,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia L4 GPU running in Americas,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas,A100-80GB,1.0,ondemand,1.846198,1.846198,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas,A100-80GB,1.0,spot,2.1604,2.1604,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla A100 80GB GPU running in Americas,A100-80GB,1.0,ondemand,3.92808,3.92808,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas,A100,1.0,ondemand,1.6136490000000001,1.6136490000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas,A100,1.0,spot,1.5399,1.5399,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla A100 GPU running in Americas,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Americas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Americas,P100,1.0,spot,0.6868,0.6868,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla P100 GPU running in Americas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Americas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Americas,P4,1.0,spot,0.1983,0.1983,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla P4 GPU running in Americas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Americas,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Americas,T4,1.0,spot,0.1819,0.1819,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla T4 GPU running in Americas,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla V100 GPU attached to DWS Defined Duration VMs running in Americas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Americas,V100,1.0,spot,1.2955,1.2955,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Nvidia Tesla V100 GPU running in Americas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-central1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas,B200,1.0,ondemand,4.9542,4.9542,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,A4 Nvidia B200 (1 gpu slice) running in Americas,B200,1.0,ondemand,16.11,16.11,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,H200 141GB GPU attached to DWS Defined Duration VMs running in Americas,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,H200 141GB GPU attached to Spot Preemptible VMs running in Americas,H200,1.0,spot,5.1215,5.1215,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,H200 141GB GPU running in Americas,H200,1.0,ondemand,9.31174,9.31174,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas,H100,1.0,spot,5.6057,5.6057,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia H100 80GB GPU running in Americas,H100,1.0,ondemand,9.796550569,9.796550569,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas,H100,1.0,spot,5.9114,5.9114,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia H100 80GB Plus GPU running in Americas,H100,1.0,ondemand,10.344275712,10.344275712,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas,L4,1.0,spot,0.3148,0.3148,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia L4 GPU running in Americas,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas,A100-80GB,1.0,ondemand,1.846198,1.846198,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas,A100-80GB,1.0,spot,2.1604,2.1604,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla A100 80GB GPU running in Americas,A100-80GB,1.0,ondemand,3.92808,3.92808,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas,A100,1.0,ondemand,1.6136490000000001,1.6136490000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas,A100,1.0,spot,1.5399,1.5399,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla A100 GPU running in Americas,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Americas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Americas,P100,1.0,spot,0.6868,0.6868,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla P100 GPU running in Americas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Americas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Americas,P4,1.0,spot,0.1983,0.1983,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla P4 GPU running in Americas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Americas,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Americas,T4,1.0,spot,0.1819,0.1819,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla T4 GPU running in Americas,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla V100 GPU attached to DWS Defined Duration VMs running in Americas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Americas,V100,1.0,spot,1.2955,1.2955,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Nvidia Tesla V100 GPU running in Americas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-east1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas,B200,1.0,ondemand,4.9542,4.9542,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Northern Virginia,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Northern Virginia,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,H200 141GB GPU attached to DWS Defined Duration VMs running in Northern Virginia,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,H200 141GB GPU attached to Spot Preemptible VMs running in Northern Virginia,H200,1.0,spot,4.6844,4.6844,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,H200 141GB GPU running in Northern Virginia,H200,1.0,ondemand,9.31174,9.31174,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Virginia,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Virginia,H100,1.0,spot,4.0027,4.0027,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia H100 80GB GPU running in Virginia,H100,1.0,ondemand,9.796551000000001,9.796551000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Virginia,H100,1.0,spot,2.372,2.372,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia H100 80GB Mega GPU running in Virginia,H100,1.0,ondemand,10.34428,10.34428,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Virginia,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Virginia,L4,1.0,ondemand,0.5600402,0.5600402,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia L4 GPU attached to Spot Preemptible VMs running in Virginia,L4,1.0,spot,0.2461,0.2461,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia L4 GPU running in Virginia,L4,1.0,ondemand,0.55820646,0.55820646,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Virginia,A100-80GB,1.0,ondemand,2.079373,2.079373,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Virginia,A100-80GB,1.0,spot,1.5971,1.5971,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla A100 80GB GPU running in Virginia,A100-80GB,1.0,ondemand,4.424197,4.424197,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Virginia,A100,1.0,spot,1.8609,1.8609,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla A100 GPU running in Virginia,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Virginia,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Virginia,P4,1.0,spot,0.1413,0.1413,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla P4 GPU running in Virginia,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Virginia,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Virginia,T4,1.0,spot,0.1701,0.1701,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Nvidia Tesla T4 GPU running in Virginia,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,us-east4,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Northern Virginia,B200,1.0,spot,4.0758,4.0758,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Columbus,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Columbus,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,H200 141GB GPU attached to DWS Defined Duration VMs running in Columbus,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Columbus,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Columbus,H100,1.0,spot,4.1139,4.1139,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia H100 80GB GPU running in Columbus,H100,1.0,ondemand,11.03385,11.03385,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Columbus,H100,1.0,spot,3.8545,3.8545,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia H100 80GB Mega GPU running in Columbus,H100,1.0,ondemand,10.34428,10.34428,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Columbus,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia L4 GPU attached to Spot Preemptible VMs running in Columbus,L4,1.0,spot,0.0631,0.0631,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia L4 GPU running in Columbus,L4,1.0,ondemand,0.6307733,0.6307733,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Columbus,A100-80GB,1.0,ondemand,2.079373,2.079373,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Columbus,A100-80GB,1.0,spot,1.3159,1.3159,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla A100 80GB GPU running in Columbus,A100-80GB,1.0,ondemand,4.424197,4.424197,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Columbus,A100,1.0,spot,1.167,1.167,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla A100 GPU running in Columbus,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Columbus,P100,1.0,spot,0.1427,0.1427,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla P100 GPU running in Columbus,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Columbus,P4,1.0,spot,0.0717,0.0717,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla P4 GPU running in Columbus,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Columbus,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Columbus,T4,1.0,spot,0.0366,0.0366,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla T4 GPU running in Columbus,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Columbus,V100,1.0,spot,0.2456,0.2456,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Nvidia Tesla V100 GPU running in Columbus,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-east5,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Columbus,B200,1.0,spot,2.2245,2.2245,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Alabama,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Alabama,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Alabama,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Alabama,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Alabama,L4,1.0,ondemand,0.5600402,0.5600402,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Alabama,A100-80GB,1.0,ondemand,1.846198,1.846198,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Alabama,A100,1.0,ondemand,1.6136490000000001,1.6136490000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Alabama,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Alabama,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Alabama,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Nvidia Tesla V100 GPU attached to DWS Defined Duration VMs running in Alabama,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-east7,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Alabama,B200,1.0,spot,8.4174,8.4174,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Dallas,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Dallas,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,H200 141GB GPU attached to DWS Defined Duration VMs running in Dallas,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,H200 141GB GPU attached to Spot Preemptible VMs running in Dallas,H200,1.0,spot,5.7175,5.7175,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Dallas,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Dallas,H100,1.0,spot,2.8988,2.8988,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia H100 80GB GPU running in Dallas,H100,1.0,ondemand,11.55993,11.55993,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Dallas,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Dallas,L4,1.0,spot,0.1123,0.1123,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia L4 GPU running in Dallas,L4,1.0,ondemand,0.6608475,0.6608475,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Dallas,A100-80GB,1.0,spot,0.6153,0.6153,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla A100 80GB GPU running in Dallas,A100-80GB,1.0,ondemand,4.635134,4.635134,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Dallas,A100,1.0,spot,0.3434,0.3434,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla A100 GPU running in Dallas,A100,1.0,ondemand,3.462011,3.462011,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Dallas,P100,1.0,spot,0.1684,0.1684,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla P100 GPU running in Dallas,P100,1.0,ondemand,1.7227999999999999,1.7227999999999999,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Dallas,P4,1.0,spot,0.23,0.23,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla P4 GPU running in Dallas,P4,1.0,ondemand,0.708,0.708,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Dallas,T4,1.0,ondemand,0.413,0.413,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Dallas,T4,1.0,spot,0.0432,0.0432,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla T4 GPU running in Dallas,T4,1.0,ondemand,0.413,0.413,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Dallas,V100,1.0,spot,0.2898,0.2898,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Nvidia Tesla V100 GPU running in Dallas,V100,1.0,ondemand,2.9264,2.9264,Cloud Billing Catalog API
+2026-07-20,GCP,us-south1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Dallas,B200,1.0,spot,4.4936,4.4936,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Americas,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,A4 Nvidia B200 (1 gpu slice) running in Americas,B200,1.0,ondemand,16.11,16.11,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Americas,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,H200 141GB GPU attached to DWS Defined Duration VMs running in Americas,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,H200 141GB GPU attached to Spot Preemptible VMs running in Americas,H200,1.0,spot,5.1215,5.1215,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,H200 141GB GPU running in Americas,H200,1.0,ondemand,9.31174,9.31174,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Americas,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Americas,H100,1.0,spot,5.6057,5.6057,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia H100 80GB GPU running in Americas,H100,1.0,ondemand,9.796550569,9.796550569,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia H100 80GB Plus GPU attached to Spot Preemptible VMs running in Americas,H100,1.0,spot,5.9114,5.9114,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia H100 80GB Plus GPU running in Americas,H100,1.0,ondemand,10.344275712,10.344275712,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Americas,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Americas,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia L4 GPU attached to Spot Preemptible VMs running in Americas,L4,1.0,spot,0.3148,0.3148,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia L4 GPU running in Americas,L4,1.0,ondemand,0.560040239,0.560040239,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla A100 80GB GPU attached to DWS Defined Duration VMs running in Americas,A100-80GB,1.0,ondemand,1.846198,1.846198,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Americas,A100-80GB,1.0,spot,2.1604,2.1604,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla A100 80GB GPU running in Americas,A100-80GB,1.0,ondemand,3.92808,3.92808,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Americas,A100,1.0,ondemand,1.6136490000000001,1.6136490000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Americas,A100,1.0,spot,1.5399,1.5399,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla A100 GPU running in Americas,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla P100 GPU attached to DWS Defined Duration VMs running in Americas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Americas,P100,1.0,spot,0.6868,0.6868,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla P100 GPU running in Americas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Americas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Americas,P4,1.0,spot,0.1983,0.1983,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla P4 GPU running in Americas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Americas,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Americas,T4,1.0,spot,0.1819,0.1819,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla T4 GPU running in Americas,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla V100 GPU attached to DWS Defined Duration VMs running in Americas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Americas,V100,1.0,spot,1.2955,1.2955,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Nvidia Tesla V100 GPU running in Americas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-west1,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Americas,B200,1.0,ondemand,4.9542,4.9542,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Los Angeles,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Los Angeles,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,H200 141GB GPU attached to DWS Defined Duration VMs running in Los Angeles,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Los Angeles,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Los Angeles,H100,1.0,spot,1.1862,1.1862,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia H100 80GB GPU running in Los Angeles,H100,1.0,ondemand,11.77643,11.77643,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Los Angeles,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia L4 GPU attached to Spot Preemptible VMs running in Los Angeles,L4,1.0,spot,0.0671,0.0671,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia L4 GPU running in Los Angeles,L4,1.0,ondemand,0.6732244,0.6732244,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Los Angeles,A100-80GB,1.0,spot,0.6271,0.6271,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla A100 80GB GPU running in Los Angeles,A100-80GB,1.0,ondemand,4.721945,4.721945,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Los Angeles,A100,1.0,spot,0.3093,0.3093,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla A100 GPU running in Los Angeles,A100,1.0,ondemand,3.436863684,3.436863684,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla P4 GPU attached to DWS Defined Duration VMs running in Los Angeles,P4,1.0,ondemand,0.72126,0.72126,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Los Angeles,P4,1.0,spot,0.0675,0.0675,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla P4 GPU running in Los Angeles,P4,1.0,ondemand,0.72,0.72,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Los Angeles,T4,1.0,ondemand,0.420735,0.420735,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Los Angeles,T4,1.0,spot,0.148,0.148,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Nvidia Tesla T4 GPU running in Los Angeles,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,us-west2,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Los Angeles,B200,1.0,spot,4.2592,4.2592,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Salt Lake City,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Salt Lake City,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,H200 141GB GPU attached to DWS Defined Duration VMs running in Salt Lake City,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Salt Lake City,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Salt Lake City,H100,1.0,spot,1.2490999999999999,1.2490999999999999,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia H100 80GB GPU running in Salt Lake City,H100,1.0,ondemand,11.77643,11.77643,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Salt Lake City,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia L4 GPU attached to Spot Preemptible VMs running in Salt Lake City,L4,1.0,spot,0.0671,0.0671,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia L4 GPU running in Salt Lake City,L4,1.0,ondemand,0.6732244,0.6732244,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Salt Lake City,A100-80GB,1.0,spot,0.6271,0.6271,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla A100 80GB GPU running in Salt Lake City,A100-80GB,1.0,ondemand,4.721945,4.721945,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Salt Lake City,A100,1.0,ondemand,1.890275,1.890275,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Salt Lake City,A100,1.0,spot,2.0621,2.0621,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla A100 GPU running in Salt Lake City,A100,1.0,ondemand,3.436863684,3.436863684,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Salt Lake City,P100,1.0,spot,0.4657,0.4657,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla P100 GPU running in Salt Lake City,P100,1.0,ondemand,1.752,1.752,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Salt Lake City,P4,1.0,spot,0.086,0.086,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla P4 GPU running in Salt Lake City,P4,1.0,ondemand,0.72,0.72,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Salt Lake City,T4,1.0,ondemand,0.420735,0.420735,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Salt Lake City,T4,1.0,spot,0.1012,0.1012,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla T4 GPU running in Salt Lake City,T4,1.0,ondemand,0.41,0.41,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Salt Lake City,V100,1.0,spot,0.2949,0.2949,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Nvidia Tesla V100 GPU running in Salt Lake City,V100,1.0,ondemand,2.976,2.976,Cloud Billing Catalog API
+2026-07-20,GCP,us-west3,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Salt Lake City,B200,1.0,spot,4.7076,4.7076,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Las Vegas,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Las Vegas,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,H200 141GB GPU attached to DWS Defined Duration VMs running in Las Vegas,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Las Vegas,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Las Vegas,H100,1.0,spot,4.1139,4.1139,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia H100 80GB GPU running in Las Vegas,H100,1.0,ondemand,11.03385,11.03385,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia H100 80GB Mega GPU attached to Spot Preemptible VMs running in Las Vegas,H100,1.0,spot,2.3118,2.3118,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia H100 80GB Mega GPU running in Las Vegas,H100,1.0,ondemand,11.65076,11.65076,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Las Vegas,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia L4 GPU attached to DWS Defined Duration VMs running in Las Vegas,L4,1.0,ondemand,0.6307733,0.6307733,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia L4 GPU attached to Spot Preemptible VMs running in Las Vegas,L4,1.0,spot,0.3664,0.3664,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia L4 GPU running in Las Vegas,L4,1.0,ondemand,0.6307733,0.6307733,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Las Vegas,A100-80GB,1.0,spot,0.5873,0.5873,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla A100 80GB GPU running in Las Vegas,A100-80GB,1.0,ondemand,4.424197,4.424197,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla A100 GPU attached to DWS Defined Duration VMs running in Las Vegas,A100,1.0,ondemand,1.705858,1.705858,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Las Vegas,A100,1.0,spot,1.4323000000000001,1.4323000000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla A100 GPU running in Las Vegas,A100,1.0,ondemand,3.101559926,3.101559926,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Las Vegas,P100,1.0,spot,0.1427,0.1427,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla P100 GPU running in Las Vegas,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Las Vegas,P4,1.0,spot,0.0717,0.0717,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla P4 GPU running in Las Vegas,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Las Vegas,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Las Vegas,T4,1.0,spot,0.1453,0.1453,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla T4 GPU running in Las Vegas,T4,1.0,ondemand,0.37,0.37,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Las Vegas,V100,1.0,spot,0.2456,0.2456,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Nvidia Tesla V100 GPU running in Las Vegas,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-west4,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Las Vegas,B200,1.0,spot,2.2245,2.2245,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,A4 Nvidia B200 (1 gpu slice) attached to DWS Defined Duration VMs running in Phoenix,B200,1.0,ondemand,8.055,8.055,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,DWS Calendar Mode A4 Nvidia B200 (1 gpu slice) in Phoenix,B200,1.0,ondemand,11.277,11.277,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,H200 141GB GPU attached to DWS Defined Duration VMs running in Phoenix,H200,1.0,ondemand,4.575323,4.575323,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia H100 80GB GPU attached to DWS Defined Duration VMs running in Phoenix,H100,1.0,ondemand,4.200761,4.200761,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia H100 80GB GPU attached to Spot Preemptible VMs running in Phoenix,H100,1.0,spot,2.7664,2.7664,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia H100 80GB GPU running in Phoenix,H100,1.0,ondemand,9.796551000000001,9.796551000000001,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia H100 Mega 80GB GPU attached to DWS Defined Duration VMs running in Phoenix,H100,1.0,ondemand,4.423936,4.423936,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia L4 GPU attached to Spot Preemptible VMs running in Phoenix,L4,1.0,spot,0.114,0.114,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia L4 GPU running in Phoenix,L4,1.0,ondemand,0.5600402,0.5600402,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla A100 80GB GPU attached to Spot Preemptible VMs running in Phoenix,A100-80GB,1.0,spot,1.418,1.418,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla A100 80GB GPU running in Phoenix,A100-80GB,1.0,ondemand,3.92808,3.92808,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla A100 GPU attached to Spot Preemptible VMs running in Phoenix,A100,1.0,spot,0.592,0.592,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla A100 GPU running in Phoenix,A100,1.0,ondemand,2.9339079999999997,2.9339079999999997,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla P100 GPU attached to Spot Preemptible VMs running in Phoenix,P100,1.0,spot,0.2974,0.2974,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla P100 GPU running in Phoenix,P100,1.0,ondemand,1.46,1.46,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla P4 GPU attached to Spot Preemptible VMs running in Phoenix,P4,1.0,spot,0.1222,0.1222,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla P4 GPU running in Phoenix,P4,1.0,ondemand,0.6,0.6,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla T4 GPU attached to DWS Defined Duration VMs running in Phoenix,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla T4 GPU attached to Spot Preemptible VMs running in Phoenix,T4,1.0,spot,0.0712,0.0712,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla T4 GPU running in Phoenix,T4,1.0,ondemand,0.35,0.35,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla V100 GPU attached to Spot Preemptible VMs running in Phoenix,V100,1.0,spot,0.8065,0.8065,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Nvidia Tesla V100 GPU running in Phoenix,V100,1.0,ondemand,2.48,2.48,Cloud Billing Catalog API
+2026-07-20,GCP,us-west8,Spot Preemptible A4 Nvidia B200 (1 gpu slice) running in Phoenix,B200,1.0,spot,8.055,8.055,Cloud Billing Catalog API
