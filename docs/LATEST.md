@@ -1,4 +1,4 @@
-# GPU pricing snapshot — 2026-07-20
+# GPU pricing snapshot — 2026-07-27
 
 5,118 price points · 200 regions · 1053 SKUs across AWS / Azure / GCP.
 
