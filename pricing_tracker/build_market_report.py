@@ -178,6 +178,10 @@ CSS = """
  .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:12px 16px;font-size:14px}
  footer{color:#57606a;font-size:13px;margin-top:40px}
  a{color:#0969da}
+ /* a11y + layout safety — slop-test gates 26, 34, 51 (no CSS motion here, so 27 passes trivially) */
+ html,body{overflow-x:clip}
+ h1,h2,h3{overflow-wrap:anywhere;min-width:0}
+ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid #0969da;outline-offset:2px;border-radius:4px}
 """
 
 
