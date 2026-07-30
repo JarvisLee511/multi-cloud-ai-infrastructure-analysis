@@ -23,9 +23,10 @@ import plotly.graph_objects as go
 
 import ab_experiment
 from common import DOCS_DIR, REPO_ROOT
+import theme
 
 MARKET_DIR = REPO_ROOT / "data" / "market_history"
-COLORS = {"AWS": "#FF9900", "Azure": "#0078D4", "GCP": "#34A853"}
+COLORS = theme.PROVIDER
 PARENT_COLORS = {"Amazon": "#FF9900", "Microsoft": "#0078D4", "Alphabet": "#34A853"}
 CHATGPT = pd.Timestamp("2022-11-30")
 PRE_WINDOW = ("2021Q1", "2022Q4")
@@ -205,25 +206,6 @@ Code: <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-ana
 """
 
 
-CSS = """
- body{font-family:'Segoe UI',system-ui,sans-serif;margin:0;background:#f6f8fa;color:#1f2328}
- .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 64px}
- h1{margin-bottom:4px} h2{margin-top:36px} .byline{color:#57606a;margin-top:0}
- nav{margin:10px 0 0} nav a{color:#0969da;margin-right:18px;font-weight:600;text-decoration:none}
- .chart{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:8px;margin:20px 0}
- .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:12px 16px;font-size:14px}
- .sim{background:#d1242f;color:#fff;font-size:12px;padding:2px 8px;border-radius:6px;vertical-align:middle}
- .tbl{border-collapse:collapse;background:#fff;border:1px solid #d0d7de;border-radius:10px;font-size:14px}
- .tbl th,.tbl td{border:1px solid #d0d7de;padding:7px 12px;text-align:left}
- .tbl th{background:#f6f8fa}
- .small{font-size:13px;color:#57606a}
- footer{color:#57606a;font-size:13px;margin-top:40px}
- a{color:#0969da}
- /* a11y + layout safety — slop-test gates 26, 34, 51 (no CSS motion here, so 27 passes trivially) */
- html,body{overflow-x:clip}
- h1,h2,h3{overflow-wrap:anywhere;min-width:0}
- a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid #0969da;outline-offset:2px;border-radius:4px}
-"""
 
 
 def build() -> None:
@@ -239,16 +221,7 @@ def build() -> None:
         include_js = False
 
     built = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    html = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Event Study & Experiments — Cloud Market Analysis</title>
-<style>{CSS}</style></head><body><div class="wrap">
-<h1>Did ChatGPT bend the cloud revenue curve?</h1>
-<p class="byline">Interrupted time-series around the ChatGPT launch, the capex supercycle,
-and a designed A/B experiment.</p>
-{NAV}
-<h2>The growth-rate event view</h2>
+    body = f"""<h2>The growth-rate event view</h2>
 <p>Growth decelerated INTO the AI era first — enterprises were cutting cloud bills through 2023 —
 and then bent back up as AI workloads scaled:
 AWS bottomed at <b>{gs['AWS']['trough']:.0f}%</b> YoY in {gs['AWS']['trough_q']} and is back to
@@ -276,10 +249,18 @@ time-series — a descriptive deviation-from-trend, the honest observational cou
 <div class="chart">{charts[3]}</div>
 <p class="small">Firm-wide capex from SEC XBRL (not cloud-segment-only; excludes finance-lease
 additions — see the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis/blob/main/data/market_history/README.md">data README</a>).</p>
-{ab_section()}
-<footer>Part of the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis">Multi-Cloud AI Infrastructure Market Analysis</a> project
-· Che-Wei (Jarvis) Lee · built {built}</footer>
-</div></body></html>"""
+{ab_section()}"""
+
+    html = theme.page(
+        slug='analysis.html',
+        title='Did ChatGPT bend the cloud revenue curve? An event study',
+        description='An interrupted time-series on cloud revenue around the ChatGPT launch with two counterfactuals, the capex supercycle from SEC XBRL, and a fully designed A/B experiment on clearly-labelled simulated data.',
+        kicker='Event study',
+        headline='Did ChatGPT bend the revenue curve?',
+        standfirst='The narrative says AI re-accelerated the cloud. An interrupted time-series with two counterfactuals is a way to check that claim instead of repeating it — and the two counterfactuals disagree.',
+        byline='Interrupted time-series on SEC filing data',
+        body=body,
+    )
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "analysis.html").write_text(html, encoding="utf-8")
     print(f"analysis report -> {DOCS_DIR / 'analysis.html'}")

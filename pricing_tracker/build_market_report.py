@@ -16,11 +16,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from common import DOCS_DIR, REPO_ROOT
+import theme
 
 MARKET_DIR = REPO_ROOT / "data" / "market_history"
-COLORS = {"AWS": "#FF9900", "Azure": "#0078D4", "GCP": "#34A853"}
-LABELS = {"AWS": "AWS", "Azure": "Azure (Intelligent Cloud segment)",
-          "GCP": "Google Cloud"}
+COLORS = theme.PROVIDER
+LABELS = theme.PROVIDER_LABEL
 MSFT_BREAK = pd.Timestamp("2024-07-01")  # FY25 segment re-definition
 EVENTS = [
     (pd.Timestamp("2020-03-01"), "COVID-19"),
@@ -158,31 +158,12 @@ def kpis(df: pd.DataFrame) -> str:
         yoy = (f"{(rev / prior['revenue_musd'].iloc[0] - 1) * 100:+.0f}% YoY"
                if not prior.empty else "")
         cards.append(
-            f"<div class='card'><h3 style='color:{COLORS[provider]}'>{LABELS[provider]}</h3>"
+            f"<div><h3 class='is-{provider.lower()}'>{LABELS[provider]}</h3>"
             f"<p class='big'>${rev / 1000:,.1f}B</p>"
             f"<p class='sub'>{latest_q} revenue · {yoy}</p></div>")
-    return "<div class='cards'>" + "".join(cards) + "</div>"
+    return "<div class='figures'>" + "".join(cards) + "</div>"
 
 
-CSS = """
- body{font-family:'Segoe UI',system-ui,sans-serif;margin:0;background:#f6f8fa;color:#1f2328}
- .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 64px}
- h1{margin-bottom:4px} .byline{color:#57606a;margin-top:0}
- nav{margin:10px 0 0} nav a{color:#0969da;margin-right:18px;font-weight:600;text-decoration:none}
- .cards{display:flex;gap:16px;flex-wrap:wrap;margin:24px 0}
- .card{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:16px 22px;flex:1;min-width:200px}
- .card h3{margin:0 0 6px;font-size:15px} .card p{margin:2px 0;color:#57606a;font-size:14px}
- .card .big{font-size:30px;font-weight:700;color:#1f2328;margin-top:8px}
- .card .sub{font-size:12px}
- .chart{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:8px;margin:20px 0}
- .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:12px 16px;font-size:14px}
- footer{color:#57606a;font-size:13px;margin-top:40px}
- a{color:#0969da}
- /* a11y + layout safety — slop-test gates 26, 34, 51 (no CSS motion here, so 27 passes trivially) */
- html,body{overflow-x:clip}
- h1,h2,h3{overflow-wrap:anywhere;min-width:0}
- a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid #0969da;outline-offset:2px;border-radius:4px}
-"""
 
 
 def build() -> None:
@@ -192,36 +173,33 @@ def build() -> None:
     if share is not None:
         figs.insert(0, share)
 
-    charts_html, include_js = [], "cdn"
-    for fig in figs:
-        charts_html.append(fig.to_html(full_html=False, include_plotlyjs=include_js))
-        include_js = False
+    body = kpis(df) + theme.render(figs) + f"""
+<p class="caption"><b>What is and is not comparable here.</b>
+AWS is a clean reportable segment, unchanged since 2015.
+<b>The Azure lines are Microsoft's Intelligent Cloud segment</b> — Microsoft has never disclosed
+quarterly absolute Azure revenue, so the growth chart uses Microsoft's own disclosed
+&ldquo;Azure and other cloud services&rdquo; YoY rate instead, and the dashed portion marks the
+FY25 segment re-definition at 2024Q3, which is not comparable with the solid line.
+Google Cloud includes Workspace; quarterly disclosure begins 2018Q4 and operating income 2019Q4,
+with the Apr-2023 recast applied to 2022. Market share, where shown, is an analyst estimate from
+Synergy and Canalys press releases rather than a filing.
+<a href="{theme.REPO}/blob/main/data/market_history/README.md">Every row in the dataset carries
+its own source URL</a>.</p>"""
 
-    built = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    html = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cloud Market History 2016–2026 — AWS · Azure · GCP</title>
-<style>{CSS}</style></head><body><div class="wrap">
-<h1>Cloud Market History, 2016–2026</h1>
-<p class="byline">Ten years of the cloud wars, compiled quarter-by-quarter from SEC filings
-(every row in the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis/tree/main/data/market_history">dataset</a> carries its source URL).</p>
-<nav><a href="index.html">Live GPU Pricing</a><a href="market.html">Market History</a><a href="regional.html">Regional Deep-Dive</a><a href="analysis.html">Event Study &amp; Experiments</a><a href="outlook.html">Outlook &amp; Pulse</a></nav>
-{kpis(df)}
-{"".join(f"<div class='chart'>{c}</div>" for c in charts_html)}
-<div class="note"><b>Comparability.</b>
-AWS is a clean reportable segment (unchanged since 2015).
-<b>Azure lines show Microsoft's Intelligent Cloud segment</b> — Microsoft has never
-disclosed quarterly absolute Azure revenue; the growth chart uses Microsoft's own
-disclosed "Azure and other cloud services" YoY rate instead. The dashed portion marks the
-FY25 segment re-definition (2024Q3) — not comparable with the solid line.
-Google Cloud includes Workspace; quarterly disclosure starts 2018Q4, operating income 2019Q4
-(Apr-2023 recast applied to 2022). Market share, where shown, is an analyst estimate
-(Synergy/Canalys press releases), not a filing. Full caveats:
-<a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis/blob/main/data/market_history/README.md">data README</a>.</div>
-<footer>Part of the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis">Multi-Cloud AI Infrastructure Market Analysis</a> project
-· Che-Wei (Jarvis) Lee · built {built}</footer>
-</div></body></html>"""
+    html = theme.page(
+        slug="market.html",
+        title="Cloud Market History 2016–2026 — AWS, Azure and Google Cloud",
+        description=("Ten years of cloud revenue, growth and operating margin compiled quarter "
+                     "by quarter from SEC filings, with every comparability caveat stated on the "
+                     "chart it applies to."),
+        kicker="Market history",
+        headline="Ten years of the cloud wars, quarter by quarter",
+        standfirst=("Compiled row by row from the filings themselves rather than from a vendor "
+                    "deck. Where a number is an analyst estimate or a re-defined segment, the "
+                    "chart says so."),
+        byline="From SEC filings and analyst press releases",
+        body=body,
+    )
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "market.html").write_text(html, encoding="utf-8")

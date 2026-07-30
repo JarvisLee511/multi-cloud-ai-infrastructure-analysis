@@ -21,9 +21,10 @@ import pandas as pd
 import plotly.graph_objects as go
 
 from common import CONSOLIDATED_CSV, DOCS_DIR, REPO_ROOT
+import theme
 
 MARKET_DIR = REPO_ROOT / "data" / "market_history"
-COLORS = {"AWS": "#FF9900", "Azure": "#0078D4", "GCP": "#34A853"}
+COLORS = theme.PROVIDER
 LABELS = {"AWS": "AWS", "Azure": "Azure (Intelligent Cloud, FY25 basis)",
           "GCP": "Google Cloud"}
 HORIZON = 12
@@ -286,28 +287,6 @@ the AI buildout is still accelerating, not peaking.</li>
 </ul>"""
 
 
-CSS = """
- body{font-family:'Segoe UI',system-ui,sans-serif;margin:0;background:#f6f8fa;color:#1f2328}
- .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 64px}
- h1{margin-bottom:4px} h2{margin-top:36px} .byline{color:#57606a;margin-top:0}
- nav{margin:10px 0 0} nav a{color:#0969da;margin-right:18px;font-weight:600;text-decoration:none}
- .chart{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:8px;margin:20px 0}
- .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:12px 16px;font-size:14px}
- .pulse{background:#fff;border:1px solid #d0d7de;border-left:5px solid #1a7f37;border-radius:10px;padding:8px 22px;margin:20px 0}
- .pulse li{margin:10px 0;font-size:15px}
- .why{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:6px 22px;margin:20px 0}
- .why li{margin:10px 0;font-size:15px}
- .tbl{border-collapse:collapse;background:#fff;border:1px solid #d0d7de;font-size:14px;margin:16px 0}
- .tbl th,.tbl td{border:1px solid #d0d7de;padding:7px 12px;text-align:left}
- .tbl th{background:#f6f8fa}
- .small{font-size:12px;color:#57606a}
- footer{color:#57606a;font-size:13px;margin-top:40px}
- a{color:#0969da}
- /* a11y + layout safety — slop-test gates 26, 34, 51 (no CSS motion here, so 27 passes trivially) */
- html,body{overflow-x:clip}
- h1,h2,h3{overflow-wrap:anywhere;min-width:0}
- a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid #0969da;outline-offset:2px;border-radius:4px}
-"""
 
 
 def build() -> None:
@@ -321,16 +300,7 @@ def build() -> None:
     guide_html = buyers_guide()
 
     built = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    html = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Outlook & Market Pulse — Cloud Market Analysis</title>
-<style>{CSS}</style></head><body><div class="wrap">
-<h1>Outlook &amp; Market Pulse</h1>
-<p class="byline">Forecast, the AI Momentum Index, and an auto-generated brief that refreshes
-with every weekly pipeline run. Written for a cloud procurement / strategy stakeholder.</p>
-{NAV}
-<h2>Market Pulse <span class="small">(auto-generated {built})</span></h2>
+    body = f"""<h2>Market Pulse <span class="small">(auto-generated {built})</span></h2>
 <div class="pulse">{pulse_html}</div>
 {guide_html}
 <h2>Revenue outlook</h2>
@@ -357,10 +327,18 @@ Frontier set: {", ".join(sorted(FRONTIER))}.</p>
 <div class="note">Index-design caveats: components correlate (capex buys frontier regions),
 the price component inherits the bundling wedge (GCP's per-GPU SKUs exclude the host VM),
 and breadth counts SKU variety, not installed capacity. Weights are judgment calls — the
-table shows raw values so you can re-weight.</div>
-<footer>Part of the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis">Multi-Cloud AI Infrastructure Market Analysis</a> project
-· Che-Wei (Jarvis) Lee · built {built}</footer>
-</div></body></html>"""
+table shows raw values so you can re-weight.</div>"""
+
+    html = theme.page(
+        slug='outlook.html',
+        title='Cloud Outlook and Pulse — a twelve-quarter forecast with its assumptions',
+        description="A twelve-quarter revenue forecast with its assumptions stated and backtested, an AI momentum index built from this project's own datasets, and a market brief regenerated on every weekly run.",
+        kicker='Outlook',
+        headline='Twelve quarters ahead, with the assumptions on the page',
+        standfirst='A forecast is worth exactly what its assumptions are worth, so they are printed beside the lines they produce and scored against a naive baseline on quarters we already know the answer to.',
+        byline='Forecast, backtest and momentum index, rebuilt weekly',
+        body=body,
+    )
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "outlook.html").write_text(html, encoding="utf-8")
     print(f"outlook report -> {DOCS_DIR / 'outlook.html'}")

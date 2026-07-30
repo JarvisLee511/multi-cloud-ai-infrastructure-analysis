@@ -17,9 +17,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from common import DOCS_DIR, REPO_ROOT
+import theme
 
 REG_DIR = REPO_ROOT / "data" / "regional"
-COLORS = {"AWS": "#FF9900", "Azure": "#0078D4", "GCP": "#34A853"}
+COLORS = theme.PROVIDER
 CN_COLORS = {"Alibaba Cloud": "#FF6A00", "Huawei Cloud": "#C7000B",
              "Tencent Cloud": "#0052D9", "Baidu AI Cloud": "#2932E1",
              "Others (incl. AWS & Azure)": "#8b949e"}
@@ -126,22 +127,6 @@ def fig_europe(analyst: pd.DataFrame):
     return fig
 
 
-CSS = """
- body{font-family:'Segoe UI',system-ui,sans-serif;margin:0;background:#f6f8fa;color:#1f2328}
- .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 64px}
- h1{margin-bottom:4px} h2{margin-top:36px} .byline{color:#57606a;margin-top:0}
- nav{margin:10px 0 0} nav a{color:#0969da;margin-right:18px;font-weight:600;text-decoration:none}
- .chart{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:8px;margin:20px 0}
- .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:12px 16px;font-size:14px}
- .why{background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:6px 22px;margin:20px 0}
- .why li{margin:10px 0;font-size:15px}
- footer{color:#57606a;font-size:13px;margin-top:40px}
- a{color:#0969da}
- /* a11y + layout safety — slop-test gates 26, 34, 51 (no CSS motion here, so 27 passes trivially) */
- html,body{overflow-x:clip}
- h1,h2,h3{overflow-wrap:anywhere;min-width:0}
- a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid #0969da;outline-offset:2px;border-radius:4px}
-"""
 
 WHY = """
 <h2>Why the map looks like this</h2>
@@ -185,18 +170,7 @@ def build() -> None:
         include_js = False
 
     built = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    html = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Regional Deep-Dive — Who Wins Where, and Why</title>
-<style>{CSS}</style></head><body><div class="wrap">
-<h1>Who wins where, and why</h1>
-<p class="byline">Regional cloud market structure from three independent lenses: developer
-adoption (Stack Overflow survey microdata), analyst regional share series (Canalys, IDC, Synergy
-press releases), and infrastructure footprint (see the
-<a href="index.html">live tracker map</a>).</p>
-{NAV}
-<h2>Lens 1 — developer adoption by region</h2>
+    body = f"""<h2>Lens 1 — developer adoption by region</h2>
 <div class="chart">{charts[0]}</div>
 <div class="chart">{charts[1]}</div>
 <div class="note"><b>What this measures.</b> Share of survey respondents who report having worked
@@ -208,10 +182,18 @@ countries with ≥100 respondents only.</div>
 <h2>Lens 2 — the two markets that break the pattern</h2>
 <div class="chart">{charts[2]}</div>
 <div class="chart">{charts[3]}</div>
-{WHY}
-<footer>Part of the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis">Multi-Cloud AI Infrastructure Market Analysis</a> project
-· Che-Wei (Jarvis) Lee · built {built}</footer>
-</div></body></html>"""
+{WHY}"""
+
+    html = theme.page(
+        slug='regional.html',
+        title='Cloud Regional Deep-Dive — who wins where, and why',
+        description="Developer adoption by country from Stack Overflow survey microdata, the structure of the China market, and Europe's local-provider decline.",
+        kicker='Regional',
+        headline='The global market is three different markets',
+        standfirst='Worldwide share looks settled until it is split by geography. Then China turns out to have almost none of the same names on the board, and Europe turns out to have been losing its own.',
+        byline='From Stack Overflow survey microdata, Canalys, IDC and Synergy',
+        body=body,
+    )
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "regional.html").write_text(html, encoding="utf-8")
     print(f"regional report -> {DOCS_DIR / 'regional.html'}")
