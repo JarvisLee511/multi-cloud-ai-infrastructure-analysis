@@ -1,21 +1,38 @@
 # Multi-Cloud AI Infrastructure Market Analysis
 
-> Head-to-head market intelligence on **AWS vs. Azure vs. GCP** — from 2M+ scraped records to three interactive Tableau dashboards.
+> Head-to-head market intelligence on **AWS vs. Azure vs. GCP** — a weekly automated
+> GPU price tracker, ten years of market history rebuilt from filings, and five live
+> analysis pages.
 
-`Python` · `BeautifulSoup` · `pandas` · `Tableau` · web scraping · data cleaning · BI dashboards
+`Python` · `pandas` · `Plotly` · `SQLite` · `Tableau` · `GitHub Actions` · public APIs · web scraping · BI dashboards
 
 **Che-Wei Lee** — M.S. in Data Analytics Engineering, Northeastern University
 
 ## Highlights
 
-- **Scraped and cleaned 2M+ records** from AWS, Azure, and GCP into a tidy 12K-row dataset — 134 regions, 9 service types, 17+ accelerator types.
-- **Benchmarked all three clouds** on service ecosystems, AI products, GPU pricing, and 6 quarters of market share.
-- **Key result:** AWS leads the ecosystem, Azure has the broadest global reach, and GCP is the fastest grower — market share up from **11% → 15%**.
-- **Shipped 3 interactive Tableau dashboards and 9 charts** that turn a complex market into a clear, comparable story.
+- **A live longitudinal dataset, not a one-off pull.** A weekly GitHub Actions run
+  snapshots GPU/accelerator list prices from all three clouds' public APIs —
+  **47,123 price points across 27 snapshots** since 2026-06-10, and still growing.
+- **Ten years of market share, revenue, growth and operating margin** compiled
+  quarter-by-quarter from SEC filings and analyst releases, with a source URL on
+  every data point.
+- **Five interactive pages** — pricing tracker, market history, regional deep-dive,
+  event study, and forecast — all generated from the repository's own data.
+- **Benchmarked the three clouds** on service ecosystems (460 native services,
+  17 AI services), global footprint (134 regions), GPU availability and pricing.
+- **Key result:** AWS leads the ecosystem, Azure has the broadest global reach, and
+  GCP is the fastest grower — market share up from **11% → 15%**.
+- Plus a **SQLite star schema** and 8 window-function analyses over the tracker data,
+  and three Tableau dashboards from the original study.
 
 ## Overview
 
-Compares the three major public clouds across **service ecosystems, AI offerings, GPU/accelerator infrastructure, global region footprint, and market share**. Data is scraped, cleaned, and standardized in Python, then visualized in Tableau. Full write-up: **`Project_Report.pdf`**.
+Compares the three major public clouds across **service ecosystems, AI offerings,
+GPU/accelerator infrastructure, global region footprint, and market share**. The
+original study scraped and cleaned provider documentation into an analysis-ready
+dataset (`cleaned_data/`, ~9.8K rows) and visualised it in Tableau; the project then
+grew a live pipeline that keeps collecting. Full write-up of the original study:
+**`Project_Report.pdf`**.
 
 ---
 
@@ -66,11 +83,35 @@ py sql/build_db.py          # builds data/cloud_market.db
 ```
 multi-cloud-ai-infrastructure-analysis/
 ├── README.md                ← this file
-├── Project_Report.pdf       ← full 16-page written report (findings & discussion)
+├── Project_Report.pdf       ← full 16-page written report on the original study
 ├── Tableau.twb              ← Tableau workbook (the three dashboards)
-├── notebooks/               ← data-collection, cleaning & analysis notebooks (01–13)
-├── images/                  ← exported Tableau dashboards + data-collection screenshot
-└── cleaned_data/            ← cleaned, analysis-ready CSV outputs (see data dictionary)
+│
+├── pricing_tracker/         ← the live pipeline
+│   ├── fetch_aws.py / fetch_azure.py / fetch_gcp.py
+│   ├── build_report.py      ← the pricing dashboard (docs/index.html)
+│   ├── build_market_report.py / build_regional_report.py
+│   ├── build_analysis_report.py / build_outlook.py
+│   ├── ab_experiment.py     ← the designed A/B experiment (simulated data, labelled)
+│   ├── theme.py             ← shared design system for all five pages
+│   ├── common.py            ← shared IO + region/GPU enrichment
+│   └── run_all.py           ← what the weekly workflow calls
+│
+├── docs/                    ← the five published pages (GitHub Pages)
+│   ├── index.html           ← GPU pricing tracker
+│   ├── market.html          ← market history 2016–2026
+│   ├── regional.html        ← regional deep-dive
+│   ├── analysis.html        ← event study + experiments
+│   ├── outlook.html         ← forecast + AI Momentum Index
+│   └── LATEST.md            ← latest numbers, refreshed each run
+│
+├── sql/                     ← SQLite star schema + 8 analysis queries
+├── data/
+│   ├── pricing_history/     ← weekly GPU price snapshots (the longitudinal set)
+│   └── market_history/      ← quarterly financials, every row sourced
+├── notebooks/               ← the original study: collection → cleaning → analysis (01–13)
+├── cleaned_data/            ← analysis-ready CSV outputs (see data dictionary)
+├── msft_data/ · secdata/    ← raw filings pulled for the market-history series
+└── images/                  ← exported Tableau dashboards + collection screenshot
 ```
 
 ---
