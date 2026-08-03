@@ -12,7 +12,7 @@
 
 - **A live longitudinal dataset, not a one-off pull.** A weekly GitHub Actions run
   snapshots GPU/accelerator list prices from all three clouds' public APIs —
-  **47,123 price points across 27 snapshots** since 2026-06-10, and still growing.
+  **47,123 price points across 9 weekly runs** since 2026-06-10, and still growing.
 - **Ten years of market share, revenue, growth and operating margin** compiled
   quarter-by-quarter from SEC filings and analyst releases, with a source URL on
   every data point.
