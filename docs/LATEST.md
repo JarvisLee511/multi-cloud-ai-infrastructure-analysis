@@ -1,6 +1,6 @@
-# GPU pricing snapshot — 2026-10-12
+# GPU pricing snapshot — 2026-10-19
 
-5,223 price points · 200 regions · 1053 SKUs across AWS / Azure / GCP.
+5,241 price points · 200 regions · 1053 SKUs across AWS / Azure / GCP.
 
 Cheapest on-demand **USD per GPU-hour** (across all regions):
 
