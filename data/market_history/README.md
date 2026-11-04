@@ -2,22 +2,24 @@
 
 Quarterly cloud-segment financials compiled **row-by-row from SEC EDGAR earnings
 releases** (8-K Exhibit 99.1). Every row carries its `source_url`. Compiled
-2026-06-10.
+2026-06-10; extended through 2026Q3 on 2026-11-04.
 
 ## Files
 
 | File | Contents |
 |---|---|
 | `quarterly_financials.csv` | quarter × provider: revenue & operating income, USD millions |
-| `azure_yoy_growth.csv` | Microsoft's disclosed "Azure (and other cloud services)" YoY growth %, the only Azure-specific revenue metric Microsoft publishes |
+| `azure_yoy_growth.csv` | Microsoft's disclosed Azure YoY growth % ("Azure and other cloud services" until FY26, "Azure" from FY27) |
+| `azure_revenue.csv` | Azure revenue itself, USD millions: disclosed from FY27 (2026Q3) and restated by Microsoft back to 2024Q3 in its 2026-09-02 segment-restatement 8-K. Not spliced onto the Intelligent Cloud rows |
+| `forecast_vintage_2026Q1.csv` | the outlook page's revenue forecast as fitted on quarters through 2026Q1, frozen before 2026Q2–Q3 were added so it can be scored |
 | `market_share.csv` | analyst-firm (Synergy/Canalys) worldwide IaaS/PaaS market-share estimates, by quarter (compiled from public press releases) |
-| `quarterly_capex.csv` | FIRM-WIDE quarterly capital expenditures for Amazon / Microsoft / Alphabet, from SEC EDGAR XBRL (`PaymentsToAcquireProductiveAssets` for Amazon gross basis from 2017, `PaymentsToAcquirePropertyPlantAndEquipment` for Microsoft/Alphabet). Caveats: company-wide (not cloud-segment) capex; excludes finance-lease additions (material for Amazon 2017-2020 and Microsoft's datacenter leases); Amazon 2016 quarters are net-of-incentives as originally filed. De-cumulated YTD→quarter, tied to 10-K annual totals. |
+| `quarterly_capex.csv` | FIRM-WIDE quarterly capital expenditures for Amazon / Microsoft / Alphabet, from SEC EDGAR XBRL (`PaymentsToAcquireProductiveAssets` for Amazon gross basis from 2017, `PaymentsToAcquirePropertyPlantAndEquipment` for Microsoft/Alphabet). Caveats: company-wide (not cloud-segment) capex; excludes finance-lease additions (material for Amazon 2017-2020 and Microsoft's datacenter leases); Amazon 2016 quarters are net-of-incentives as originally filed. De-cumulated YTD→quarter, tied to 10-K annual totals. 2026Q2–Q3 are read from the earnings-release cash-flow statements (the same line items; every overlapping quarter matched the XBRL values). |
 
 ## Comparability caveats — read before charting
 
 1. **The three "providers" are not the same kind of thing.**
    - **AWS** = a clean reportable segment, unchanged definition since 2015. The gold standard of the three series.
-   - **Azure** rows = Microsoft's **Intelligent Cloud segment** (Azure + server products + enterprise services). Microsoft has *never* disclosed quarterly absolute Azure revenue; the only Azure-specific metric is the YoY growth % (see `azure_yoy_growth.csv`). Treat Intelligent Cloud as an upper bound / proxy.
+   - **Azure** rows = Microsoft's **Intelligent Cloud segment** (Azure + server products + enterprise services). Until fiscal 2027 Microsoft did not disclose quarterly absolute Azure revenue, so Intelligent Cloud was the best available proxy (an upper bound). **The segment ends at 2026Q2:** Microsoft re-organized its segments for FY27 (into Agents and Infra / Devices and Consumer) and began disclosing Azure revenue itself, restated back to 2024Q3 (`azure_revenue.csv`). The two are different scopes and are charted as separate lines.
    - **GCP** = Google Cloud segment (GCP + Workspace).
 2. **Microsoft segment re-definition at 2024Q3 (FY25 Q1).** EMS & Power BI per-user revenue moved out of Intelligent Cloud; some Search advertising moved in. Rows from 2024Q3 are NOT comparable with earlier rows (the overlap quarter was recast 24,259 → 20,013). Charts must show a break.
 3. **Google Cloud history limits.** Quarterly revenue starts 2018Q4 (Q1–Q3 2018 never disclosed; FY2017 = $4,056M annual only). Operating income starts 2019Q4. The Apr-2023 recast (DeepMind moved out of segments) restated 2022 OI; 2021 quarterly OI is as-originally-reported — a small series seam.

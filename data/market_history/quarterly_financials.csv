@@ -40,6 +40,8 @@ quarter,provider,revenue_musd,operating_income_musd,note,source_url
 2025Q3,AWS,33006,11434,,https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm
 2025Q4,AWS,35579,12465,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm
 2026Q1,AWS,37587,14161,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm
+2026Q2,AWS,42232,16621,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm
+2026Q3,AWS,45984,17773,,https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm
 2016Q1,Azure,6096,2188,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312516550250/d177964dex991.htm
 2016Q2,Azure,6711,2190,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312516651176/d232602dex991.htm
 2016Q3,Azure,6382,2058,Intelligent Cloud segment; pre-ASC606,https://www.sec.gov/Archives/edgar/data/789019/000119312516742793/d274148dex991.htm
@@ -81,6 +83,7 @@ quarter,provider,revenue_musd,operating_income_musd,note,source_url
 2025Q3,Azure,30897,13391,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_1.htm
 2025Q4,Azure,32907,13873,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm
 2026Q1,Azure,34681,13753,Intelligent Cloud segment; FY25 basis,https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm
+2026Q2,Azure,39306,15955,Intelligent Cloud segment; FY25 basis; last quarter before Microsoft's FY27 re-segmentation,https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm
 2018Q4,GCP,1709,,Google Cloud segment; Q1-Q3 2018 never disclosed,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000004/googexhibit991q42019.htm
 2019Q1,GCP,1825,,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000018/googexhibit991q12020.htm
 2019Q2,GCP,2100,,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204420000031/googexhibit991q22020.htm
@@ -111,3 +114,5 @@ quarter,provider,revenue_musd,operating_income_musd,note,source_url
 2025Q3,GCP,15157,3594,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm
 2025Q4,GCP,17664,5313,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm
 2026Q1,GCP,20028,6598,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm
+2026Q2,GCP,24768,8814,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+2026Q3,GCP,30709,11121,Google Cloud segment,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm

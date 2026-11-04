@@ -167,7 +167,7 @@ def fig_capex():
     fig.update_layout(
         title=(f"The capex supercycle — combined quarterly capex hit "
                f"${total_now/1000:,.0f}B in {cap.iloc[-1]['quarter']} "
-               "(firm-wide, from SEC XBRL)"),
+               "(firm-wide, from SEC filings)"),
         yaxis_title="capex $M / quarter (stacked)", height=460,
         legend=dict(orientation="h", y=1.12), hovermode="x unified")
     return fig
@@ -186,7 +186,7 @@ def ab_section() -> str:
 widget to the pricing page lifts trial sign-ups vs the static price list.
 Real experiment data is proprietary, so outcomes here are <b>simulated</b> (numpy,
 fixed seed) — the point is the design discipline, not the numbers.</p>
-<table class="tbl">
+<div class="table-wrap"><table class="tbl">
 <tr><th>Design</th><th>Value</th></tr>
 <tr><td>Hypothesis</td><td>price-comparison widget raises sign-up conversion (baseline 4.0%)</td></tr>
 <tr><td>Minimum detectable effect</td><td>+0.5pp (α=0.05 two-sided, power 0.80)</td></tr>
@@ -198,7 +198,7 @@ fixed seed) — the point is the design discipline, not the numbers.</p>
 <tr><td>Lift</td><td>{r['lift_pp']:+.2f}pp (95% CI {r['ci_pp'][0]:+.2f} to {r['ci_pp'][1]:+.2f}pp)</td></tr>
 <tr><td>Two-proportion z-test</td><td>z={r['z']:.2f}, p={r['p_value']:.4f}</td></tr>
 <tr><td>Decision</td><td>{decision}</td></tr>
-</table>
+</table></div>
 <p class="small">Caveats handled in the design: novelty effects argue for running the full
 pre-committed duration even after early significance; the SRM check guards against broken
 randomization; conversion is a binomial metric so no variance-reduction (CUPED) was needed.
@@ -247,14 +247,15 @@ mid-post-period (its own disclosed growth metric is used instead). This is an in
 time-series — a descriptive deviation-from-trend, the honest observational cousin of an A/B test.</div>
 <h2>The capex supercycle</h2>
 <div class="chart">{charts[3]}</div>
-<p class="small">Firm-wide capex from SEC XBRL (not cloud-segment-only; excludes finance-lease
+<p class="small">Firm-wide capex from SEC filings (XBRL through 2026Q1, the earnings-release cash-flow
+statement after; the same line items. Not cloud-segment-only; excludes finance-lease
 additions — see the <a href="https://github.com/JarvisLee511/multi-cloud-ai-infrastructure-analysis/blob/main/data/market_history/README.md">data README</a>).</p>
 {ab_section()}"""
 
     html = theme.page(
         slug='analysis.html',
         title='Did ChatGPT bend the cloud revenue curve? An event study',
-        description='An interrupted time-series on cloud revenue around the ChatGPT launch with two counterfactuals, the capex supercycle from SEC XBRL, and a fully designed A/B experiment on clearly-labelled simulated data.',
+        description='An interrupted time-series on cloud revenue around the ChatGPT launch with two counterfactuals, the capex supercycle from SEC filings, and a fully designed A/B experiment on clearly-labelled simulated data.',
         kicker='Event study',
         headline='Did ChatGPT bend the revenue curve?',
         standfirst='The narrative says AI re-accelerated the cloud. An interrupted time-series with two counterfactuals is a way to check that claim instead of repeating it — and the two counterfactuals disagree.',

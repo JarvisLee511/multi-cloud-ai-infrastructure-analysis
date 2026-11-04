@@ -22,8 +22,12 @@
 - **Benchmarked the three clouds** on service ecosystems (460 native services,
   17 AI services), global footprint (134 regions), GPU availability and pricing.
 - **Key result:** AWS leads the ecosystem, Azure has the broadest global reach, and
-  GCP is the fastest grower — market share up from **11% in 2024 Q1 to 14% in 2026 Q1**
+  GCP is the fastest grower — market share up from **11% in 2024 Q1 to 16% in 2026 Q3**
   (Synergy Research, source-cited in [`data/market_history/`](data/market_history/)).
+- **Scored its own forecast.** The June forecast was frozen before new quarters arrived and
+  scored on 2026 Q2–Q3: it beat a naive last-value forecast in 5 of 5 checks, yet every actual
+  landed above its 95% band, because cloud growth accelerated past its own trend (Google Cloud
+  +103% YoY, AWS +39%, Azure +48% in 2026 Q3).
 - **Caught and corrected its own headline bug.** For five months the tracker counted
   Google's discounted Dynamic Workload Scheduler prices as on-demand, which made Google look
   like the cheapest H100 cloud ($4.20/GPU-hr). Like for like it is the most expensive
@@ -239,13 +243,13 @@ NVIDIA GPUs, Google TPUs, and provider-specific AI chips.
 - **NVIDIA GPUs** dominate across all providers; **H100 / A100** are the most widely available.
 - **GCP** differentiates with proprietary **TPUs** (v5e, v5p, v6e); **AWS** with custom silicon (**Trainium**, **Inferentia**).
 
-### Market-share snapshot (2024 Q4 → 2026 Q1)
+### Market-share snapshot (2024 Q4 → 2026 Q3)
 
-| Provider | Regions | AI Services | Market Share (2026 Q1) | Trend |
+| Provider | Regions | AI Services | Market Share (2026 Q3) | Trend |
 |---|---|---|---|---|
-| **AWS**   | 34 | 6 | 28% | gradual decline (30% → 28%) |
-| **Azure** | 57 | 4 | 21% | stable (~21%) |
-| **GCP**   | 43 | 7 | 14% | fastest growth (12% → 14%) |
+| **AWS**   | 34 | 6 | 26% | gradual decline (30% → 26%) |
+| **Azure** | 57 | 4 | 19% | roughly stable (21% → 19%) |
+| **GCP**   | 43 | 7 | 16% | fastest growth (12% → 16%) |
 
 Market shares are Synergy Research's quarterly estimates (source URL per row in
 `data/market_history/market_share.csv`).

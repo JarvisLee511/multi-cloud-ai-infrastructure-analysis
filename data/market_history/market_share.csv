@@ -72,3 +72,9 @@ quarter,firm,provider,share_pct,market_size_busd,source_url
 2026Q1,Synergy,AWS,28,128.6,https://www.srgresearch.com/articles/cloud-market-annual-revenue-run-rate-topped-half-a-trillion-dollars-in-q1-as-growth-surge-continues
 2026Q1,Synergy,Azure,21,128.6,https://www.srgresearch.com/articles/cloud-market-annual-revenue-run-rate-topped-half-a-trillion-dollars-in-q1-as-growth-surge-continues
 2026Q1,Synergy,GCP,14,128.6,https://www.srgresearch.com/articles/cloud-market-annual-revenue-run-rate-topped-half-a-trillion-dollars-in-q1-as-growth-surge-continues
+2026Q2,Synergy,AWS,28,143.4,https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years
+2026Q2,Synergy,Azure,20,143.4,https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years
+2026Q2,Synergy,GCP,15,143.4,https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years
+2026Q3,Synergy,AWS,26,167.7,https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-revenues-reach-168-billion
+2026Q3,Synergy,Azure,19,167.7,https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-revenues-reach-168-billion
+2026Q3,Synergy,GCP,16,167.7,https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-revenues-reach-168-billion

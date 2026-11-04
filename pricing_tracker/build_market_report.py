@@ -1,10 +1,11 @@
 """Build docs/market.html — ten years of cloud market history (2016–2026).
 
 Sources: data/market_history/*.csv (SEC filings row-by-row + analyst press
-releases). The chart annotations carry the comparability caveats: Azure rows are
-Microsoft's Intelligent Cloud segment (a proxy — Azure-only revenue is never
-disclosed), and that segment was re-defined at 2024Q3, so the series shows an
-explicit break there.
+releases). The chart annotations carry the comparability caveats: Azure rows in
+quarterly_financials.csv are Microsoft's Intelligent Cloud segment (a proxy),
+re-defined at 2024Q3 and discontinued after 2026Q2. From fiscal 2027 Microsoft
+discloses Azure revenue itself, restated back to 2024Q3 (azure_revenue.csv); that
+is drawn as its own line rather than spliced onto the segment.
 """
 from __future__ import annotations
 
@@ -32,6 +33,13 @@ def _load() -> pd.DataFrame:
     df = pd.read_csv(MARKET_DIR / "quarterly_financials.csv")
     df["date"] = pd.PeriodIndex(df["quarter"], freq="Q").to_timestamp()
     return df.sort_values(["provider", "date"])
+
+
+def _azure_revenue() -> pd.DataFrame:
+    """Azure alone, as Microsoft has disclosed it since fiscal 2027 (restated to 2024Q3)."""
+    az = pd.read_csv(MARKET_DIR / "azure_revenue.csv")
+    az["date"] = pd.PeriodIndex(az["quarter"], freq="Q").to_timestamp()
+    return az.sort_values("date")
 
 
 def _add_events(fig, df_max_y=None):
@@ -69,6 +77,12 @@ def fig_revenue(df: pd.DataFrame):
         d = df[(df["provider"] == provider) & df["revenue_musd"].notna()]
         _provider_traces(fig, d, "revenue_musd", provider,
                          "%{x|%Y Q%q}: $%{y:,.0f}M<extra></extra>")
+    az = _azure_revenue()
+    fig.add_trace(go.Scatter(
+        x=az["date"], y=az["azure_revenue_musd"], name="Azure alone (disclosed from FY27)",
+        legendgroup="Azure", mode="lines+markers",
+        line=dict(color=COLORS["Azure"], dash="dot", width=2), marker=dict(size=5),
+        hovertemplate="%{x|%Y Q%q}: $%{y:,.0f}M (Azure alone)<extra></extra>"))
     fig.update_layout(
         title="Quarterly cloud revenue, 2016–2026 (USD millions, from SEC filings)",
         yaxis_title="revenue, $M / quarter", height=520,
@@ -90,7 +104,7 @@ def fig_growth(df: pd.DataFrame):
     az["date"] = pd.PeriodIndex(az["quarter"], freq="Q").to_timestamp()
     fig.add_trace(go.Scatter(
         x=az["date"], y=az["azure_yoy_growth_pct"],
-        name="Azure & other cloud services (as disclosed by Microsoft)",
+        name="Azure (growth as disclosed by Microsoft)",
         mode="lines", line=dict(color=COLORS["Azure"], width=2.5),
         hovertemplate="%{x|%Y Q%q}: %{y:.0f}%<extra></extra>"))
     fig.update_layout(
@@ -148,8 +162,12 @@ def fig_share():
 def kpis(df: pd.DataFrame) -> str:
     latest_q = df["quarter"].max()
     cards = []
+    az = _azure_revenue().rename(columns={"azure_revenue_musd": "revenue_musd"})
     for provider in ("AWS", "Azure", "GCP"):
         d = df[df["provider"] == provider].sort_values("date")
+        label = LABELS[provider]
+        if provider == "Azure" and d[d["quarter"] == latest_q].empty:
+            d, label = az, "Azure"  # the segment ended in 2026Q2; Azure alone is disclosed now
         now = d[d["quarter"] == latest_q]
         if now.empty:
             continue
@@ -158,7 +176,7 @@ def kpis(df: pd.DataFrame) -> str:
         yoy = (f"{(rev / prior['revenue_musd'].iloc[0] - 1) * 100:+.0f}% YoY"
                if not prior.empty else "")
         cards.append(
-            f"<div><h3 class='is-{provider.lower()}'>{LABELS[provider]}</h3>"
+            f"<div><h3 class='is-{provider.lower()}'>{label}</h3>"
             f"<p class='big'>${rev / 1000:,.1f}B</p>"
             f"<p class='sub'>{latest_q} revenue · {yoy}</p></div>")
     return "<div class='figures'>" + "".join(cards) + "</div>"
@@ -176,10 +194,13 @@ def build() -> None:
     body = kpis(df) + theme.render(figs) + f"""
 <p class="caption"><b>What is and is not comparable here.</b>
 AWS is a clean reportable segment, unchanged since 2015.
-<b>The Azure lines are Microsoft's Intelligent Cloud segment</b> — Microsoft has never disclosed
-quarterly absolute Azure revenue, so the growth chart uses Microsoft's own disclosed
-&ldquo;Azure and other cloud services&rdquo; YoY rate instead, and the dashed portion marks the
-FY25 segment re-definition at 2024Q3, which is not comparable with the solid line.
+<b>The solid and dashed Azure lines are Microsoft's Intelligent Cloud segment</b>, a proxy that
+also holds server products and enterprise services: the dashed portion marks the FY25
+re-definition at 2024Q3, which is not comparable with the solid line, and the segment ends in
+2026Q2, after which Microsoft re-organized its segments. From fiscal 2027 Microsoft discloses
+<b>Azure revenue itself</b>, restated back to 2024Q3: that is the dotted line, kept separate
+rather than spliced onto the segment. The growth chart uses Microsoft's own disclosed Azure
+growth rate throughout.
 Google Cloud includes Workspace; quarterly disclosure begins 2018Q4 and operating income 2019Q4,
 with the Apr-2023 recast applied to 2022. Market share, where shown, is an analyst estimate from
 Synergy and Canalys press releases rather than a filing.
