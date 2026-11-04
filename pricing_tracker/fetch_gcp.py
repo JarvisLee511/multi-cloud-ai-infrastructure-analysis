@@ -1,9 +1,10 @@
 """Fetch GCP GPU pricing from the Cloud Billing Catalog API.
 
 GCP bills GPUs as separate per-GPU-hour SKUs attached to VMs, so gpu_count is 1
-and the price IS the per-GPU price. Auth: set GCP_API_KEY (a plain API key with
-the Cloud Billing API enabled), or fall back to `gcloud auth print-access-token`
-for local runs.
+and the price IS the per-GPU price. Dynamic Workload Scheduler (DWS) SKUs are kept
+under their own price types, not as on-demand (see labels.gcp_price_type).
+Auth: set GCP_API_KEY (a plain API key with the Cloud Billing API enabled), or fall
+back to `gcloud auth print-access-token` for local runs.
 """
 from __future__ import annotations
 
@@ -14,6 +15,7 @@ import subprocess
 import requests
 
 from common import finalize
+from labels import gcp_price_type
 
 COMPUTE_SERVICE = "services/6F81-5844-456A"  # Compute Engine
 API = f"https://cloudbilling.googleapis.com/v1/{COMPUTE_SERVICE}/skus"
@@ -32,9 +34,6 @@ MODEL_PATTERNS = [
     (re.compile(r"P4", re.I), "P4"),
     (re.compile(r"K80", re.I), "K80"),
 ]
-
-USAGE_TYPE_MAP = {"OnDemand": "ondemand", "Preemptible": "spot"}
-
 
 def _auth():
     """Return (params, headers) for the Billing API."""
@@ -86,10 +85,10 @@ def fetch():
             cat = sku.get("category") or {}
             if cat.get("resourceGroup") != "GPU":
                 continue
-            price_type = USAGE_TYPE_MAP.get(cat.get("usageType"))
+            desc = sku.get("description", "")
+            price_type = gcp_price_type(desc, cat.get("usageType"))
             if price_type is None:
                 continue  # skip commitments / reservations
-            desc = sku.get("description", "")
             if "Sole Tenancy" in desc or "Reserved" in desc:
                 continue
             model = normalize_model(desc)

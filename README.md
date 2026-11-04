@@ -12,7 +12,8 @@
 
 - **A live longitudinal dataset, not a one-off pull.** A weekly GitHub Actions run
   snapshots GPU/accelerator list prices from all three clouds' public APIs —
-  **47,123 price points across 9 weekly runs** since 2026-06-10, and still growing.
+  **114,748 price points across 22 weekly snapshots** (2026-06-10 to 2026-11-02), and
+  still growing.
 - **Ten years of market share, revenue, growth and operating margin** compiled
   quarter-by-quarter from SEC filings and analyst releases, with a source URL on
   every data point.
@@ -21,7 +22,14 @@
 - **Benchmarked the three clouds** on service ecosystems (460 native services,
   17 AI services), global footprint (134 regions), GPU availability and pricing.
 - **Key result:** AWS leads the ecosystem, Azure has the broadest global reach, and
-  GCP is the fastest grower — market share up from **11% → 15%**.
+  GCP is the fastest grower — market share up from **11% in 2024 Q1 to 14% in 2026 Q1**
+  (Synergy Research, source-cited in [`data/market_history/`](data/market_history/)).
+- **Caught and corrected its own headline bug.** For five months the tracker counted
+  Google's discounted Dynamic Workload Scheduler prices as on-demand, which made Google look
+  like the cheapest H100 cloud ($4.20/GPU-hr). Like for like it is the most expensive
+  ($9.80 vs $6.88 at AWS and $6.98 at Azure). Labels are now re-derived from SKU text for
+  the whole history, and new validation gates fail the weekly run if it happens again
+  (see [Data quality and corrections](#data-quality-and-corrections)).
 - Plus a **SQLite star schema** and 8 window-function analyses over the tracker data,
   and three Tableau dashboards from the original study.
 
@@ -53,6 +61,24 @@ An automated pipeline (GitHub Actions, weekly) snapshots **GPU/accelerator list 
 Each weekly run appends ~5,000+ price points (≈200 regions; H100 / H200 / B200 / A100 / MI300X and more) to a growing longitudinal dataset in [`data/pricing_history/`](data/pricing_history/) — tracking the AI-compute price war as it happens. Collection started **2026-06-10**. The report includes a **world map of every GPU-equipped cloud region** (dot size = SKU breadth, hover = cheapest H100/A100) plus per-continent distribution, price floors, spot discounts, and the accumulating price-history series.
 
 Code: [`pricing_tracker/`](pricing_tracker/) · Workflow: [`.github/workflows/pricing-tracker.yml`](.github/workflows/pricing-tracker.yml)
+
+### Data quality and corrections
+
+Raw snapshots in `data/pricing_history/` are kept exactly as collected. Price types, model
+names and GPU counts are re-derived from the SKU text every time the history is consolidated
+([`pricing_tracker/labels.py`](pricing_tracker/labels.py)), so a labelling fix reaches every
+week without editing raw files. Problems found and fixed in a November 2026 audit:
+
+| Problem | Effect | Fix |
+|---|---|---|
+| Google's Dynamic Workload Scheduler (DWS) SKUs report usageType `OnDemand` but are discounted capacity you queue for or book | 6,958 rows counted as on-demand; Google looked cheapest for H100 ($4.20), H200 and B200 | separate price types `dws_duration` / `dws_calendar`; a gate fails the run if a DWS or Spot SKU is ever labelled on-demand |
+| 66 Google B200 rows say "Spot Preemptible" with usageType `OnDemand` | spot prices in the on-demand floor | the description wins |
+| Upstream AWS dataset labelled Trainium as "AWS Inferentia", then blanked it, then set GPU = 0 from 2026-07-13 | AWS's own chips dropped out of the tracker for 16 weeks | chips identified from the instance family with per-size chip counts; a gate fails the run when a common model disappears |
+| 690 of 2,204 Azure rows in the latest week (GB200, MI300X, several H100 variants among them) had no GPU count | no per-GPU price, so they were missing from every floor | counts added for 604; the remaining 86 (NC A10 v4, NGads V620, ND40s_v2) have no documented count and stay out of per-GPU comparisons; a gate fails the run if a frontier GPU lacks one |
+| Azure published $0.0005–$0.06 per GPU-hour for A10s in ukwest and T4s in spaincentral (2026-08-03 to 08-17) | 60 false lows in the history | prices under 5% of the week's median for that provider, GPU and price type are excluded from analysis (kept in the raw files) |
+| No snapshot for the week of 2026-10-05 (the scheduled runner never started) | a permanent gap: prices are point-in-time | a Wednesday retry runs whenever Monday's snapshot is missing |
+
+`tests/` covers each of these with the real SKU strings (`python -m pytest tests`).
 
 ### SQL layer
 
@@ -94,6 +120,7 @@ multi-cloud-ai-infrastructure-analysis/
 │   ├── ab_experiment.py     ← the designed A/B experiment (simulated data, labelled)
 │   ├── theme.py             ← shared design system for all five pages
 │   ├── common.py            ← shared IO + region/GPU enrichment
+│   ├── labels.py            ← price types, model names, GPU counts derived from SKU text
 │   └── run_all.py           ← what the weekly workflow calls
 │
 ├── docs/                    ← the five published pages (GitHub Pages)
@@ -179,7 +206,7 @@ A `data_quality_report.csv` tracks row counts, duplicates, and missing-value per
 | `gpu_pricing_summary_clean.csv` | Cross-provider GPU pricing summary |
 | `native_services_clean.csv` / `native_service_summary_clean.csv` | Native service catalog and summary |
 | `ai_services_clean.csv` / `ai_service_summary_clean.csv` | AI services and summary |
-| `market_share_clean.csv` | Quarterly market share (long format) |
+| `market_share_clean.csv` | Quarterly market share (long format), hand-entered for the original study. Superseded by the source-cited `data/market_history/market_share.csv`; where they disagree (GCP 2024 Q4 and 2025 Q4–2026 Q1, AWS 2025 Q1) the sourced series is the one to use |
 | `executive_kpi_table.csv` | Final one-row-per-provider KPI summary |
 | `data_quality_report.csv` | Per-dataset quality metrics (rows, duplicates, missing %) |
 
@@ -218,7 +245,10 @@ NVIDIA GPUs, Google TPUs, and provider-specific AI chips.
 |---|---|---|---|---|
 | **AWS**   | 34 | 6 | 28% | gradual decline (30% → 28%) |
 | **Azure** | 57 | 4 | 21% | stable (~21%) |
-| **GCP**   | 43 | 7 | 15% | fastest growth (11% → 15%) |
+| **GCP**   | 43 | 7 | 14% | fastest growth (12% → 14%) |
+
+Market shares are Synergy Research's quarterly estimates (source URL per row in
+`data/market_history/market_share.csv`).
 
 ---
 
@@ -229,6 +259,9 @@ NVIDIA GPUs, Google TPUs, and provider-specific AI chips.
 ```bash
 pip install pandas numpy requests beautifulsoup4 plotly
 ```
+
+The live tracker pins its own versions: `pip install -r pricing_tracker/requirements.txt`,
+then `python pricing_tracker/run_all.py` (fetch + rebuild) and `python -m pytest tests`.
 
 Open the notebooks in `notebooks/` with Jupyter / VS Code and run a notebook's cells top-to-bottom. Dashboards were built in **Tableau** (`Tableau.twb`) from the exported `cleaned_data/` CSVs.
 

@@ -1,0 +1,5 @@
+# Pinned to the versions the weekly CI run has been using (2026-11). Bump on purpose.
+numpy==2.5.4
+pandas==3.1.0
+plotly==7.1.0
+requests==2.34.2

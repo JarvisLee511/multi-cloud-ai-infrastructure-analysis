@@ -3,6 +3,7 @@ name: Weekly GPU pricing tracker
 on:
   schedule:
     - cron: "0 13 * * 1"   # every Monday 13:00 UTC
+    - cron: "0 13 * * 3"   # Wednesday retry, only if Monday's snapshot never landed
   workflow_dispatch: {}     # allow manual runs from the Actions tab
 
 permissions:
@@ -10,25 +11,43 @@ permissions:
 
 jobs:
   track:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
 
+      # Prices are point-in-time: a missed week can never be collected later. Monday's run
+      # was dropped once (2026-10-05, runner never started), so Wednesday checks for it.
+      - name: Decide whether this run is needed
+        id: gate
+        run: |
+          latest=$(ls data/pricing_history | sort | tail -1 | cut -c1-10)
+          age=$(( ( $(date -u +%s) - $(date -u -d "$latest" +%s) ) / 86400 ))
+          if [ "${{ github.event.schedule }}" = "0 13 * * 3" ] && [ "$age" -lt 6 ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Latest snapshot $latest is $age days old; no retry needed."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v6
+        if: steps.gate.outputs.run == 'true'
         with:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests pandas plotly
+        if: steps.gate.outputs.run == 'true'
+        run: pip install -r pricing_tracker/requirements.txt
 
       - name: Fetch prices and rebuild report
+        if: steps.gate.outputs.run == 'true'
         working-directory: pricing_tracker
         env:
           GCP_API_KEY: ${{ secrets.GCP_API_KEY }}   # optional; GCP is skipped if absent
         run: python run_all.py
 
       - name: Commit snapshot and report
-        if: always()   # commit whatever fetched OK even when validation flags the run red
+        # commit whatever fetched OK even when validation flags the run red
+        if: always() && steps.gate.outputs.run == 'true'
         run: |
           git config user.name "Che-Wei Lee"
           git config user.email "lee.chew@northeastern.edu"

@@ -50,21 +50,10 @@ FONTS = (
 )
 
 CSS = """
-/* Hallmark · macrostructure: Ecosystem Index · knobs: rails=5-named-surfaces with deks,
- *   divider=rail-titled bands, thumbnails=none (there is no imagery to surface, so the rail
- *   carries a one-line dek instead), CTA=none · theme: nyt-the-daily
- *   · nav: rail-of-surfaces (not a link row) · footer: Ft1 with source provenance
- * Hallmark · pre-emit critique: P4 H5 E4 S4 R5 V5
- * Hallmark · contrast: pass (40-41) — computed. Ground is #FCFCFB not NYT's #FFFFFF
- *   (gate 7 bans a pure-white base); secondary text darkened from #666666 to #5F5F5E and the
- *   red from #D0021B to #C00019 for margin on both surfaces.
- * Hallmark · slop: pass (42-45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48)
- *   · responsive: pass (49) · mobile: pass (34, 49, 50-57)
- *
- * Departure from the recipe: nyt-the-daily leans on photojournalism, and this subject has no
- * photography and never will. What is kept is the part that does not need pictures — the
- * three-deck hierarchy, the byline block, serif body at a real reading size, and captions that
- * carry the caveats instead of hiding them in a tooltip.
+/* Newspaper-style layout for five data pages: a three-deck headline hierarchy, a byline
+ * block, serif body at a real reading size, and captions that carry the caveats instead of
+ * hiding them in a tooltip. Ground #FCFCFB rather than pure white; secondary text #5F5F5E and
+ * red #C00019 are darkened for contrast on both surfaces.
  */
 :root {
   --color-ground:  #FCFCFB;

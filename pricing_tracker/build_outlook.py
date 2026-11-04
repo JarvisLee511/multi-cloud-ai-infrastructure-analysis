@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
-from common import CONSOLIDATED_CSV, DOCS_DIR, REPO_ROOT
+from common import DOCS_DIR, REPO_ROOT, load_history
 import theme
 
 MARKET_DIR = REPO_ROOT / "data" / "market_history"
@@ -145,7 +145,7 @@ def backtest(df: pd.DataFrame, window: int = 8, folds: int = 6) -> str:
 
 
 def momentum_index() -> tuple[pd.DataFrame, str]:
-    prices = pd.read_csv(CONSOLIDATED_CSV)
+    prices = load_history()
     latest = prices[prices["snapshot_date"] == prices["snapshot_date"].max()]
     od = latest[(latest["price_type"] == "ondemand")]
 
@@ -206,7 +206,7 @@ def momentum_index() -> tuple[pd.DataFrame, str]:
 def buyers_guide() -> str:
     """The 'so what' — data-driven guidance for a GPU-compute buyer,
     every claim computed from the latest snapshot."""
-    prices = pd.read_csv(CONSOLIDATED_CSV)
+    prices = load_history()
     latest = prices[prices["snapshot_date"] == prices["snapshot_date"].max()]
     od = latest[(latest["price_type"] == "ondemand")
                 & latest["price_usd_per_gpu_hour"].notna()]
@@ -246,7 +246,7 @@ automatically as prices move.</p>
 
 
 def pulse(df: pd.DataFrame, fits: dict) -> str:
-    prices = pd.read_csv(CONSOLIDATED_CSV)
+    prices = load_history()
     snaps = sorted(prices["snapshot_date"].unique())
     latest = prices[prices["snapshot_date"] == snaps[-1]]
     od = latest[(latest["price_type"] == "ondemand")

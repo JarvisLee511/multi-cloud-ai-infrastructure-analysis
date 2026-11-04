@@ -11,6 +11,8 @@ from pathlib import Path
 
 import pandas as pd
 
+import labels
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 HISTORY_DIR = REPO_ROOT / "data" / "pricing_history"
 CONSOLIDATED_CSV = REPO_ROOT / "data" / "gpu_price_history.csv"
@@ -23,7 +25,7 @@ SCHEMA = [
     "sku",             # instance type / ARM SKU / billing SKU description
     "gpu_model",       # normalized accelerator model (H100, A100, T4, ...)
     "gpu_count",       # GPUs per instance (float; fractional for partial GPUs)
-    "price_type",      # ondemand | spot
+    "price_type",      # ondemand | spot | dws_duration | dws_calendar (see labels.py)
     "price_usd_hour",  # instance price per hour, USD
     "price_usd_per_gpu_hour",  # price_usd_hour / gpu_count when known
     "source",          # data source identifier
@@ -57,14 +59,24 @@ def save_snapshot(df: pd.DataFrame, provider: str) -> Path:
 
 
 def consolidate() -> pd.DataFrame:
-    """Rebuild the consolidated long table from all snapshot files."""
+    """Rebuild the consolidated long table from all snapshot files.
+
+    Snapshots stay exactly as collected; labels (price type, model, GPU count) are
+    re-derived from the SKU text on every rebuild, so a labelling fix reaches the whole
+    history (see labels.py)."""
     files = sorted(HISTORY_DIR.glob("*.csv"))
     if not files:
         raise FileNotFoundError(f"no snapshots in {HISTORY_DIR}")
     df = pd.concat([pd.read_csv(f) for f in files], ignore_index=True)
+    df = labels.normalise(df)
     df = df.drop_duplicates(
         subset=["snapshot_date", "provider", "region", "sku", "price_type"]
     )
     CONSOLIDATED_CSV.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(CONSOLIDATED_CSV, index=False)
     return df
+
+
+def load_history() -> pd.DataFrame:
+    """The consolidated history, minus prices that fail the plausibility check."""
+    return labels.plausible(pd.read_csv(CONSOLIDATED_CSV))

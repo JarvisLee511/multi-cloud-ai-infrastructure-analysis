@@ -10,6 +10,7 @@ import re
 import requests
 
 from common import finalize
+from labels import AZURE_GPU_COUNT
 
 API = "https://prices.azure.com/api/retail/prices"
 
@@ -42,24 +43,8 @@ GPU_MODEL_PATTERNS = [
     (re.compile(r"_NV\d+as_v4", re.I), "MI25"),
 ]
 
-# GPUs per instance for the SKUs that matter most for the price index.
-# Fractional values = partitioned GPUs (e.g. NVads A10 v5 sells 1/6 of an A10).
-GPU_COUNT = {
-    "Standard_NC24ads_A100_v4": 1, "Standard_NC48ads_A100_v4": 2,
-    "Standard_NC96ads_A100_v4": 4, "Standard_ND96asr_v4": 8,
-    "Standard_ND96amsr_A100_v4": 8, "Standard_ND96ams_A100_v4": 8,
-    "Standard_NC40ads_H100_v5": 1, "Standard_NC80adis_H100_v5": 2,
-    "Standard_ND96isr_H100_v5": 8, "Standard_ND96is_H100_v5": 8,
-    "Standard_ND96isr_H200_v5": 8, "Standard_ND96is_H200_v5": 8,
-    "Standard_ND96isr_MI300X_v5": 8,
-    "Standard_NC4as_T4_v3": 1, "Standard_NC8as_T4_v3": 1,
-    "Standard_NC16as_T4_v3": 1, "Standard_NC64as_T4_v3": 4,
-    "Standard_NC6s_v3": 1, "Standard_NC12s_v3": 2, "Standard_NC24s_v3": 4,
-    "Standard_NC24rs_v3": 4, "Standard_ND40rs_v2": 8,
-    "Standard_NV6ads_A10_v5": 1 / 6, "Standard_NV12ads_A10_v5": 1 / 3,
-    "Standard_NV18ads_A10_v5": 1 / 2, "Standard_NV36ads_A10_v5": 1,
-    "Standard_NV36adms_A10_v5": 1, "Standard_NV72ads_A10_v5": 2,
-}
+# GPUs per VM live in labels.AZURE_GPU_COUNT (shared with the history re-labelling).
+GPU_COUNT = AZURE_GPU_COUNT
 
 
 def classify_model(arm_sku: str, product: str) -> str | None:

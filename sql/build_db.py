@@ -26,10 +26,10 @@ GPU_VENDOR = {
     "L4": "NVIDIA", "A10": "NVIDIA", "A10G": "NVIDIA", "T4": "NVIDIA",
     "T4G": "NVIDIA", "V100": "NVIDIA", "P100": "NVIDIA", "P40": "NVIDIA",
     "P4": "NVIDIA", "K80": "NVIDIA", "K520": "NVIDIA", "M60": "NVIDIA",
-    "NVIDIA GB202": "NVIDIA", "NVIDIA B300": "NVIDIA",
+    "RTX PRO 6000": "NVIDIA", "RTX PRO 4500": "NVIDIA",
     "MI300X": "AMD", "MI300A": "AMD", "MI25": "AMD", "V620": "AMD", "V520": "AMD",
-    "Gaudi": "Intel (Habana)", "AWS Inferentia": "AWS", "AWS Inferentia2": "AWS",
-    "Qualcomm AI 100 Accelerators": "Qualcomm",
+    "Gaudi": "Intel (Habana)", "Inferentia": "AWS", "Inferentia2": "AWS",
+    "Trainium": "AWS", "Trainium2": "AWS", "Qualcomm AI 100": "Qualcomm",
 }
 
 DDL = """
@@ -69,7 +69,8 @@ CREATE TABLE fact_gpu_price (
     region_id              INTEGER NOT NULL REFERENCES dim_region(region_id),
     gpu_id                 INTEGER NOT NULL REFERENCES dim_gpu(gpu_id),
     sku                    TEXT NOT NULL,
-    price_type             TEXT NOT NULL CHECK (price_type IN ('ondemand','spot')),
+    price_type             TEXT NOT NULL
+                           CHECK (price_type IN ('ondemand','spot','dws_duration','dws_calendar')),
     gpu_count              REAL,
     price_usd_hour         REAL NOT NULL,
     price_usd_per_gpu_hour REAL

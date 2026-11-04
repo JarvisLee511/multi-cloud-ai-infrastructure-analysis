@@ -3,43 +3,22 @@
 Source: https://instances.vantage.sh/instances.json — an open dataset compiled
 from the official AWS Price List API. Used instead of the raw AWS offer files
 because those are multi-GB per region; this mirror is a few dozen MB and keyless.
-On-demand Linux prices per region, plus spot when published.
+On-demand Linux prices per region, plus spot when published. Vantage reports AWS's own
+chips (Trainium, Inferentia) as GPU = 0, so those are counted from the instance family
+(labels.AWS_CUSTOM_SILICON).
 """
 from __future__ import annotations
-
-import re
 
 import requests
 
 from common import finalize
+from labels import aws_accelerators, aws_model
 
 URL = "https://instances.vantage.sh/instances.json"
 
-MODEL_PATTERNS = [
-    (re.compile(r"GB200", re.I), "GB200"),
-    (re.compile(r"B200", re.I), "B200"),
-    (re.compile(r"H200", re.I), "H200"),
-    (re.compile(r"H100", re.I), "H100"),
-    (re.compile(r"A100", re.I), "A100"),
-    (re.compile(r"L40S", re.I), "L40S"),
-    (re.compile(r"\bL4\b", re.I), "L4"),
-    (re.compile(r"A10G", re.I), "A10G"),
-    (re.compile(r"T4G", re.I), "T4G"),
-    (re.compile(r"\bT4\b", re.I), "T4"),
-    (re.compile(r"V100", re.I), "V100"),
-    (re.compile(r"K80", re.I), "K80"),
-    (re.compile(r"M60", re.I), "M60"),
-    (re.compile(r"K520", re.I), "K520"),
-    (re.compile(r"V520", re.I), "V520"),
-    (re.compile(r"Gaudi", re.I), "Gaudi"),
-]
 
-
-def normalize_model(raw: str) -> str:
-    for pattern, model in MODEL_PATTERNS:
-        if pattern.search(raw or ""):
-            return model
-    return (raw or "unknown").strip()
+def normalize_model(instance_type: str, raw: str | None) -> str:
+    return aws_model(instance_type, raw)
 
 
 def _spot_price(linux: dict):
@@ -57,14 +36,16 @@ def fetch():
 
     rows = []
     for inst in instances:
+        itype = inst.get("instance_type", "")
         try:
             gpu_count = float(inst.get("GPU") or 0)
         except (TypeError, ValueError):
-            continue
+            gpu_count = 0.0
+        if gpu_count <= 0:
+            gpu_count = aws_accelerators(itype) or 0.0
         if gpu_count <= 0:
             continue
-        itype = inst.get("instance_type", "")
-        model = normalize_model(inst.get("GPU_model", ""))
+        model = normalize_model(itype, inst.get("GPU_model"))
         for region, by_os in (inst.get("pricing") or {}).items():
             linux = (by_os or {}).get("linux") or {}
             ondemand = linux.get("ondemand")

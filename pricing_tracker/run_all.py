@@ -12,16 +12,21 @@ import build_report
 import fetch_aws
 import fetch_azure
 import fetch_gcp
+import labels
 from common import consolidate, save_snapshot
 
 # Data-validation gates: if any fails, the run exits non-zero so the CI run
 # turns red and we notice — instead of silently committing thin/broken data.
+# The last three gates each exist because the data went wrong that way once
+# without any gate noticing (see labels.py for the details).
 MIN_ROWS = {"AWS": 800, "Azure": 800, "GCP": 300}
 H100_SANE_RANGE = (1.0, 50.0)  # USD per GPU-hour, cheapest on-demand
+VANISH_MIN_ROWS = 10  # a model this common last week should not disappear silently
 
 
 def validate(history) -> list[str]:
-    latest = history[history["snapshot_date"] == history["snapshot_date"].max()]
+    snaps = sorted(history["snapshot_date"].unique())
+    latest = history[history["snapshot_date"] == snaps[-1]]
     problems = []
     for provider, minimum in MIN_ROWS.items():
         n = len(latest[latest["provider"] == provider])
@@ -38,7 +43,39 @@ def validate(history) -> list[str]:
             problems.append(f"cheapest H100 ${floor:,.2f}/GPU-hr is outside sane range")
     if (latest["price_usd_hour"] <= 0).any():
         problems.append("non-positive prices present")
+
+    # A discounted or preemptible Google SKU counted as on-demand (the DWS bug).
+    gcp_od = latest[(latest["provider"] == "GCP") & (latest["price_type"] == "ondemand")]
+    mislabelled = gcp_od[gcp_od["sku"].str.contains("DWS|Spot", regex=True)]
+    if len(mislabelled):
+        problems.append(f"GCP: {len(mislabelled)} DWS/Spot SKUs labelled on-demand")
+
+    # A frontier GPU with no GPU count has no per-GPU price and silently leaves the floors.
+    uncounted = latest[(latest["provider"] == "Azure")
+                       & latest["gpu_model"].isin(labels.FRONTIER_MODELS)
+                       & latest["gpu_count"].isna()]
+    if len(uncounted):
+        problems.append("Azure: no GPU count for " + ", ".join(sorted(uncounted["sku"].unique())))
+
+    # A model that was common last week and is gone now (Trainium/Inferentia, 2026-07-13).
+    if len(snaps) >= 2:
+        prev = history[history["snapshot_date"] == snaps[-2]]
+        before = prev.groupby(["provider", "gpu_model"]).size()
+        now = latest.groupby(["provider", "gpu_model"]).size()
+        gone = [f"{p} {m}" for (p, m), n in before.items()
+                if n >= VANISH_MIN_ROWS and (p, m) not in now.index]
+        if gone:
+            problems.append("models gone since last snapshot: " + ", ".join(gone))
     return problems
+
+
+def warnings(history) -> list[str]:
+    """Worth a look but not a red run: the report already leaves these rows out."""
+    latest_date = history["snapshot_date"].max()
+    flagged = history[labels.implausible(history) & (history["snapshot_date"] == latest_date)]
+    return [f"implausible price excluded: {r.provider} {r.sku} {r.region} "
+            f"${r.price_usd_per_gpu_hour:,.4f}/GPU-hr ({r.price_type})"
+            for r in flagged.itertuples()]
 
 
 def main() -> None:
@@ -67,6 +104,8 @@ def main() -> None:
         except FileNotFoundError as exc:
             print(f"{module_name} skipped (missing data): {exc}", file=sys.stderr)
 
+    for w in warnings(history):
+        print(f"WARNING: {w}", file=sys.stderr)
     problems = validate(history)
     if problems:
         for p in problems:
